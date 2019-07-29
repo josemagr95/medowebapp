@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'MD_default';
+  src: 
+    url('../fonts/md_default_regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/md_default_regular.woff2') format('woff2'),
+    url('../fonts/md_default_regular.woff') format('woff'),
+    url('../fonts/md_default_regular.ttf') format('truetype'),
+    url('../fonts/md_default_regular.svg#MD_default') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MD_default';
+  src: 
+    url('../fonts/md_default_bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/md_default_bold.woff2') format('woff2'),
+    url('../fonts/md_default_bold.woff') format('woff'),
+    url('../fonts/md_default_bold.ttf') format('truetype'),
+    url('../fonts/md_default_bold.svg#MD_default') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MD_default';
+  src: 
+    url('../fonts/md_default_semibold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/md_default_semibold.woff2') format('woff2'),
+    url('../fonts/md_default_semibold.woff') format('woff'),
+    url('../fonts/md_default_semibold.ttf') format('truetype'),
+    url('../fonts/md_default_semibold.svg#MD_default') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MD_default';
+  src: 
+    url('../fonts/md_default_light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/md_default_light.woff2') format('woff2'),
+    url('../fonts/md_default_light.woff') format('woff'),
+    url('../fonts/md_default_light.ttf') format('truetype'),
+    url('../fonts/md_default_light.svg#MD_default') format('svg');
+  font-weight: 300;
+  font-style: normal;
+}

@@ -1,0 +1,222 @@
+/* DESIGNERS */
+
+.team {
+    .team-title {
+        opacity: 0.7;
+        h4 {
+            font-size: 17px;
+            text-transform: capitalize;
+            letter-spacing: 0px;
+            line-height: 20px;
+        }
+        span {
+            font-style: inherit;
+            font-size: 15px;
+            margin-top: 0;
+        }
+    }
+    /*.team-image {
+        img {
+            max-height: 350px;
+            max-width: 315px;
+        }
+    }*/
+}
+
+.header-title {
+    margin-bottom: 65px;
+    span {
+        margin-left: 120px
+    }
+}
+
+
+
+/* INTERNA*/
+
+
+#disenador_profile {
+    p {
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .web {
+        font-weight: 500;
+        font-size: 15px
+    }
+    a.video p {
+        font-weight: 500 !important;
+        padding-left: 10px;
+        margin: 0px;
+        font-size: 14px
+    }
+    .semi-side-title { left: -220px;}
+    .col-padding { padding: 0px 40px}
+
+}
+
+@media (max-width: 1199px) {
+    #disenador_profile .align-items-end {
+        align-items: center !important
+    }
+
+}
+@media (min-width: 768px) {
+    #disenador_profile h2.movil { display: none}
+}
+@media (max-width: 767px) {
+    #disenador_profile {
+        .col-padding {
+            padding: 0px 20px;
+        }
+    }
+     #disenador_profile h2.movil { display: none}
+    #disenador_profile .img-desing { margin-bottom: 20px;}
+}
+
+/* Titulo */
+
+@media (max-width: 991px) {
+    #page-title {
+        display: none
+    }
+    .header-title {
+        margin-bottom: 40px;
+        span {
+            margin-left: 0px
+        }
+        br { display: none !important} 
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    #save_popup .image_wrapper img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #save_popup .gallery_switch {
+        margin-top: 30px !important;
+    }
+    body .featherlight .featherlight-close-icon {
+        right: 30px !important
+    }
+    .popup .button_wrapper .button {
+        margin-bottom: 10px
+    }
+    .popup {
+        width: 100% !important;
+    }
+    .featherlight-content {
+        margin: 0px 20px !important
+    }
+    .popup h4 {
+        margin-bottom: 0px !important
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+/*DISEÑADO POR PERSONAS */
+
+
+.rating div {
+    display: inline;
+    font-size: 15px;
+    color: $cafe;
+}
+
+.order_by {
+    color: $cafe;
+    position: relative; top: 7px;
+    span { cursor: pointer; padding:0px 10px}
+    
+    
+}
+
+
+.gallery {
+    .desings .figure .caption-text.less-m {
+        font-size: 14.6px !important
+    }
+    #portfolio { margin-top: 0px}
+    #portfolio span {
+        font-size: 14px;
+        color: #b1a6a3
+    }
+    strong {
+        font-weight: 700
+    }
+    h2 { line-height: 44px; margin-bottom: 60px;}
+    .desings .portfolio-item.r-padd { padding: 0 20px 20px 0px}
+    form .form-group .col-form-label {
+        font-size: 15px !important;
+    }
+}
+
+
+@media (max-width:991px) { 
+    .gallery h2 { line-height: 40px !important; margin-bottom: 50px;}
+    
+
+}
+
+@media (max-width:767px) {
+    .gallery form .form-group .col-form-label,
+    .gallery form .dropdown-item,
+    .gallery .btn-light,
+    .gallery .order_by span {
+        font-size: 14px !important;
+
+    }
+    .gallery .mb-3, .gallery .my-3 { margin: 0px !important}
+    .gallery .form-group { margin-bottom: 4px}
+    .gallery .order_by { position: relative; left: -4px}
+}
+
+@media (max-width:575px) {
+    .gallery .desings .portfolio-item.r-padd {
+        padding: 0px !important
+    }
+    .gallery h2 { line-height: 36px !important; margin-bottom: 40px;}
+    .gallery form .form-group .col-form-label,
+    .gallery form .dropdown-item,
+    .gallery .btn-light,
+    .gallery .order_by span {
+        font-size: 13px !important;
+
+    }
+    .team-desc { text-align: left !important}
+    #disenador_profile p { font-size: 14px}
+
+}
+
+
+
+
+
+
+/* Ver si borrar */
+
+
+@media (max-width: 991px) {
+    
+    #page-title.ocultar {
+        display: none
+    }
+}
+
+
+

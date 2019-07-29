@@ -1,0 +1,143 @@
+{% extends "new/base2.html" %}
+{% set current_section = "cart" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['Cart'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}{% endblock %}
+{% block description %}{{ T['seo-cart-description'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}{% endblock %}
+
+{% block js %}
+  <script src="{{ STATIC_PATH }}js2/coupons.js"></script>  
+{% endblock %}
+
+{% block main %}
+<div class="clear"></div>
+
+		<!-- Content -->
+		<section id="content">
+
+			<div class="content-wrap">
+
+
+				<input type="hidden" id="cartHtml" value="1"/>
+				<div id="cart" class="container clearfix " style="max-width: 1000px">
+					<div class="table-responsive">
+						<table class="table cart">
+							<thead>
+								<tr>
+									<th class="cart-product-remove">&nbsp;</th>
+									<th class="cart-product-thumbnail">&nbsp;</th>
+									<th class="cart-product-name">{{ T['product'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</th>
+									<th class="cart-product-price">{{ T['price'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</th>
+									<th class="cart-product-quantity">{{ T['quantity'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</th>
+									<th class="cart-product-subtotal">{{ T['total'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</th>
+								</tr>
+							</thead>
+							<tbody class="bodyCart">
+								
+							</tbody>
+
+							</tfoot>
+								<tr class="cart_item">
+									<td colspan="6">
+										<div class="row clearfix">
+											<div id="cupon" class="col-lg-5 col-md-7 nopadding">
+												<div class="row">
+													<div class="col-lg-8 col-7">
+														<input type="text" value="" class="form-control couponCode" id="couponCode" placeholder="{{ T['cupon'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}" />
+													</div>
+													<div class="col-lg-4 col-5">
+														<a href="JavaScript:Void(0);" class="button button-circle button-border button-brown button-small nomargin applyCoupon">{{ T['apply'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+													</div>
+												</div>
+											</div>
+											
+										</div>
+									</td>
+								</tr>
+							</tfood>
+
+						</table>
+
+				
+
+					</div>
+
+					<div id="total" class="row clearfix">
+						<div class="col-lg-5 col-md-5 col-sm-12 clearfix">
+							<h5>{{ T['calculate-shipping'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h5>
+							<form>
+								<div class="col_full form-group">
+									<select class="form-control select-1" id="selectRegion">
+                  </select>
+								</div>
+								<div class="col_full form-group">
+									<select class="form-control select-1" id="selectLocalidad">
+									</select>
+								</div>
+								<!--<a href="#" class="button button-circle button-border button-brown button-small nomargin">Calcular</a>-->
+							</form>
+						</div>
+
+						<div id="subtotal" class="col-lg-7 col-md-7 col-sm-12 clearfix">
+							<h5>{{ T['total'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h5>
+
+							<div class="table-responsive">
+								<table class="table cart">
+									<tbody>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												{{ T['subtotal'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount sumSubTotals">$</span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												{{ T['shipping'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount totalShippingCost"></span>
+											</td>
+                    </tr>
+                    <tr class="cart_item discount">
+											<td class="cart-product-name nameDiscount">
+												{{ T['coupon-discount'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+											</td>
+											<td class="cart-product-name">
+												<span class="amount discountAmount"></span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												{{ T['total'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+											</td>
+
+											<td class="cart-product-name sumSubTotal">
+												<span class="amount lead sumTotal"><strong></strong></span>
+											</td>
+										</tr>
+									</tbody>
+
+								</table>
+
+								<a id="btnCheckout" userId="{{ SESSION.get('id') |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}" href="{{ path_for('checkout', {'lang':LANG}) |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}" class="button button-circle button-brown fleft">
+                  {{ T['finish-detail'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+                </a>
+
+							</div>
+						</div>
+					</div>
+					
+					
+					
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+
+{% endblock %}

@@ -1,0 +1,64 @@
+{% extends "website/base.html" %}
+{% set current_section = "home" %}
+{% set body_class = "impact_header" %}
+
+{% block js %}
+	<script src="{{ STATIC_PATH }}bower_components/jquery.cycle2/index.js"></script>
+	<script src="{{ STATIC_PATH }}bower_components/jquery.cycle2.swipe.min/index.js"></script>
+{% endblock %}
+
+{% block main %}
+  <section class="home_introduction image_header">
+    <div class="wrapper">
+      <div class="text_overlay">{{ T['meet-medo-milan'] | nl2br }} </div>
+      <a href="{{ path_for('collections', {'lang':LANG}) }}" class="start_to_configure">{{ T['start-to-configure'] }}</a>
+    </div> 
+  </section>
+  
+  <section class="video">
+    <div class="wrapper">
+      <iframe class="responsive_embed" src="https://player.vimeo.com/video/211442291?color=2b897f&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>   </div>
+  </section>
+
+  {% if trendPages | length > 0 %}
+  <section class="design_trends">
+    <div class="wrapper">
+      <h2>{{ T['design-trends'] }}</h2>
+      <div class="slideshow">
+        <div class="slideshow_pager"></div>
+
+        {% for trendPage in trendPages %}
+          <ul>
+            {% for trend in trendPage %}
+              <li>
+                {%if trend.url not in ['','http://','https://']%}
+                <a href="{{ trend.url }}" target="_blank">
+                {% endif %}
+                  <img data-src="{{ MEDIA_PATH }}images/designtrends/l-{{ trend.image }}" alt="me·do design trend"/>
+                {%if trend.url not in ['','http://','https://']%}
+                </a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  {% endif %}
+
+  <p class="powered_by">{{ T['by-arauco'] | nl2br }}</p>
+  {#<section class="social_media_profiles">
+    <div class="wrapper">
+      <ul>
+        <li><a href="#" target="_blank"><img src="{{ STATIC_PATH }}img/social/facebook.svg" alt="facebook icon"/></a></li>
+        <li><a href="#" target="_blank"><img src="{{ STATIC_PATH }}img/social/twitter.svg" alt="twitter icon"/></a></li>
+        <li><a href="#" target="_blank"><img src="{{ STATIC_PATH }}img/social/instagram.svg" alt="instagram icon"/></a></li>
+        <li><a href="#" target="_blank"><img src="{{ STATIC_PATH }}img/social/youtube.svg" alt="youtube icon"/></a></li>
+        <li><a href="#" target="_blank"><img src="{{ STATIC_PATH }}img/social/vimeo.svg" alt="vimeo icon"/></a></li>
+        <li><a href="#" target="_blank"><img src="{{ STATIC_PATH }}img/social/pinterest.svg" alt="pinterest icon"/></a></li>
+      </ul>
+    </div>
+  </section> #}
+{% endblock %}
+

@@ -1,0 +1,41 @@
+{% extends "new/base2.html" %}
+{% set current_section = "designers2" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['Contact'] }}{% endblock %}
+{% block description %}{{ T['seo-contact2-description'] }}{% endblock %}
+
+{% block main %}
+		<section id="content" class="content designers">
+			<div class="content-wrap">
+				<div class="container clearfix">
+          <div class="ctr-1200">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="header-title">
+                <h1>{{ T['designers']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }} 
+                  <br> 
+                  <span class="text-reset">{{ T['of-the-world'] }}</span> 
+                </h1>
+                </div>
+              </div>    
+              {% for designer in designers %}
+              <div class="col-lg-4 col-md-6 bottommargin">
+                <div class="team">
+                  <a href="{{ path_for('designer2', {'lang':LANG,'designerId':designer.id}) }}" rel="{{ designer.id }}">
+                  <div class="team-image">
+                    <img src="{{ designer.image }}" alt="{{ designer.name }}">
+                  </div>
+                  </a>  
+                  <div class="team-desc">
+                    <div class="team-title"><h4>{{ designer.name |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h4><span class="text-reset">{{ designer.pais|convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</span></div>
+                  </div>         
+                </div>
+              </div>
+              {% endfor %}					
+            </div>
+          </div>    
+				</div>
+			</div>
+		</section>
+{% endblock %}

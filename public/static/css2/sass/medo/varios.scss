@@ -1,0 +1,168 @@
+#terminos {
+    .faqlist {
+        li a {
+            color: $cafe2;
+            font-size: 18px;
+            line-height: 30px;
+
+        }
+    }
+    .icon-caret-right {
+        color: $cafe
+    }
+    h3 {
+        font-size: 24px;
+        margin-bottom: 16px
+    }
+    .division {
+        border: 1px solid #EEE;
+        margin: 60px 0px
+    }
+    p,
+    li {
+        font-size: 15px;
+        color: $cafe !important;
+        font-weight: 400 !important;
+        margin-bottom: 10px;
+        line-height: 22px !important
+    }
+
+    ul {
+        margin-left: 20px;
+        li {
+            margin-bottom: 4px
+        }
+    }
+
+
+}
+
+
+#login {
+    .toggle {
+        .togglet {
+            font-size: 14px;
+            font-weight: 400;
+            color: #84736c;
+        }
+    }
+    .acctitle,
+    .acctitlec {
+        color: #84736c;
+
+    }
+
+    
+}
+
+
+
+
+.btn-light {
+    background: transparent !important;
+    border: none;
+    color: $cafe;
+    border-bottom: 1px solid $cafe;
+    border-radius: 0px;
+    font-size: 15px;
+    padding: 5px 5px;
+}
+
+
+.btn-light:not(:disabled):not(.disabled):active,
+.btn-light:not(:disabled):not(.disabled).active,
+.show > .btn-light.dropdown-toggle {
+    color: $cafe2
+}
+
+.btn-light:hover {
+    color: $cafe2
+}
+
+.dropdown-menu {
+    border-radius: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown-item {
+    color: $cafe;
+    font-size: 13.4px;
+    font-weight: normal
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: #fff;
+    background-color: $cafe2;
+
+}
+
+.radio_fix1 {
+    margin-bottom: 7px
+}
+
+strong {
+    font-weight: 700
+}
+
+table th {
+    font-weight: 600 !important
+}
+
+
+
+
+#order-detail {
+    table { font-size: 13.6px}
+    h2 { margin-bottom: 50px}
+    h4 { margin-bottom: 20px !important}
+   .order-detail {
+       margin-bottom: 40px;
+    li {
+        line-height: 22px;
+        color: $cafe2;
+        font-size: 14px;
+    }
+} 
+    
+    
+}
+
+
+.top-cart-items center { text-align: left}
+
+
+/* MI PERFFIL */
+.editar-usuario {
+    #portfolio.desings {
+        margin: 0px !important;
+        .designs-content h2 {
+            text-transform: uppercase;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 20px;
+            margin:10px 0px 0px 0px;
+        }
+        .designs-content p { margin-bottom: 0px; font-size: 13px;}
+    }
+
+
+
+
+    padding-left: 40px;
+    .desings .portfolio-item {
+        padding: 0 30px 30px 0px
+    }
+    .table th,
+    .table td {
+        vertical-align: middle !important;
+    }
+    a.button {
+        letter-spacing: 0px !important
+    }
+    .pedido-mensaje {
+        color: $cafe2;
+        margin-bottom: 50px
+    }
+}

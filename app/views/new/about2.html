@@ -1,0 +1,55 @@
+{% extends "new/base2.html" %}
+{% set current_section = "about" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['medo'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}{% endblock %}
+{% block description %}{{ T['seo-home2-description'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}{% endblock %}
+
+{% block main %}
+
+<section id="content" class="content">
+      <div id="about" class="content-wrap">
+              <div class="row clearfix col1">
+                    <div class="col-lg-6 col-md-6 col-padding order-2 order-md-1 img1" style="background: url('{{ I['about-1'] }}') center center no-repeat; background-size: cover;height: 500px"></div>
+                    <div class="col-lg-6 col-md-6 col-padding order-1 order-md-2">
+                            <div class="fix">
+                                <div class="title">
+                                  <h1>
+                                    <small class="text-reset">{{ T['about-medo'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</small> <br> 
+                                    <span class="text-reset">{{ T['designers-of-the-world'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</span>
+                                     <br class="d-none d-lg-block">{{ T['personalized-by-you'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}
+                                  </h1>
+                                </div>
+                                <p class="pl-1">{{ T['community-designers'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</p>
+                            </div>
+                    </div>
+              </div>
+              <div class="container">
+                  <div class="row clearfix personalization ctr-1200 col2">
+                        <div class="col-md-6 m1">
+                            <div class="fix">
+                                <h1>{{ T['love-design'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</h1>
+                                 <p>{{ T['simple-filosophy'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</p>
+                            </div>    
+                        </div>
+                        <div class="col-md-6 m2">
+                              <div class="img2" style="background: url('{{ I['about-2'] }}') center center no-repeat; background-size: cover;height: 400px; width: 100%;"></div>
+                        </div>
+                        <div class="col-md-6 m3 order-2 order-md-1">
+                            <div class="img3" style="background: url('{{ STATIC_PATH |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}imagenes/about/natural.png') center center no-repeat; background-size: cover;"></div>
+                        </div>
+                        <div class="col-md-6 m4 order-1 order-md-2">
+                            <div class="fix">
+                                <h1>{{ T['product'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}<br> 
+                                    <span class="text-reset">{{ T['nature'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</span> 
+                                </h1>
+                                <p>
+                                    {{ T['our-products-renewables'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}
+                                </p>
+                            </div>    
+                        </div>
+                  </div>
+            </div>    
+        </div>
+</section>
+{% endblock %}

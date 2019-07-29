@@ -1,0 +1,47 @@
+{% extends "new/base2.html" %}
+{% set current_section = "terms" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['terms'] }}{% endblock %}
+{% block description %}{{ T['seo-myaccount-description'] }}{% endblock %}
+
+{% block main %}	
+	<div class="clear"></div>
+       
+		<!-- Content-->
+		<section id="content" class="content">
+			<div class="content-wrap">
+				<div class="container clearfix">
+					<div class="ctr-1200 mt-n4">
+						<div class="header-title">
+							<h2>{{ T['terms-conditions'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h2>
+						</div>
+                          
+            <div id="terminos">
+							<ul class="iconlist faqlist">
+                {% for term in Terms %}
+
+								  <li><i class="icon-caret-right"></i><a href="#" data-scrollto="#faq-{{term[0]}}">{{ term[1] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a></li>
+							
+                {% endfor %}
+              </ul>
+
+							<div class="division"></div>
+
+              {% for term in Terms %}
+                <h3 id="faq-{{term[0]}}">{{ term[1] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h3>
+                {{ term[2] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+
+                <div class="divider divider-right"><a href="#" data-scrollto="#faqs-list"><i class="icon-chevron-up"></i></a></div>
+              {% endfor %}
+			
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section>
+
+{% endblock %}

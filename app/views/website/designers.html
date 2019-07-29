@@ -1,0 +1,31 @@
+{% extends "website/base.html" %}
+{% set current_section = "designers" %}
+{% set header_subtitle = T['designers'] %}
+
+{% block title %}{{ T['designers'] | capitalize }} | {{ T['title'] }}{% endblock %}
+
+{% block js %}
+	<script src="{{ STATIC_PATH }}bower_components/jquery.cycle2/index.js"></script>
+	<script src="{{ STATIC_PATH }}bower_components/jquery.cycle2.swipe.min/index.js"></script>
+{% endblock %}
+
+{% block main %}
+  <div class="select_collection">
+    <div class="wrapper">
+      <h3>{{ T['designers-of-tomorrow'] }}</h3>
+      <ul class="collection_list">
+        {% for designer in designers %}
+        <li>
+          <a href="{{ path_for('designer2', {'lang':LANG,'designerId':designer.id}) }}" rel="{{ designer.id }}">
+            <img data-src="{{ designer.image }}" alt="{{ designer.name }}"/>
+            <span>{{ T['designer'] }}</span>
+          </a>
+        </li>
+        {{ designer.name }}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+{% endblock %}
+
+

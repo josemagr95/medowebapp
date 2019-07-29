@@ -1,0 +1,200 @@
+{% extends "new/base2.html" %}
+{% set current_section = "myaccount" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['Contact'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}{% endblock %}
+{% block description %}{{ T['seo-myaccount-description'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}{% endblock %}
+
+{% block main %}	
+<section id="content">
+  <div class="content-wrap">
+    <div class="container clearfix">
+      <div class="row clearfix">
+        <div class="col-lg-3 col-md-12 clearfix">
+          <div class="list-group">
+            <a href="{{ path_for('myaccount', {'lang':LANG}) }}" class="active list-group-item list-group-item-action clearfix"><i class="icon-user21 float-left"></i>{{ T['my-account'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+            <a href="{{ path_for('address', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-envelope2 float-left"></i>{{ T['address'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+            <a href="{{ path_for('myOrders', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-credit-cards float-left"></i> {{ T['buyed-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+            <a href="{{ path_for('myDesigns2', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-line-cog float-left"></i>{{ T['my-saved-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+            <a href="{{ path_for('logout', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-line2-logout float-left"></i>{{ T['logout'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+          </div>
+        </div>
+        
+        <div class="col-lg-9 col-md-12 editar-usuario">
+
+          {% if SESSION.get("success-update-profile") == 1 %}
+          <script>
+              swal({
+                title: "{{ T['ok'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                text: "{{ T['updated-data'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                type:"success",
+                confirmButtonText: "{{ T['close'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                closeOnConfirm: false
+              },
+              function(isConfirm){
+                if(isConfirm){
+                  history.back();
+                }
+            });
+          </script>
+          {{ SESSION.delete("success-update-profile")}}
+          {% endif %}
+
+          {% if SESSION.get("success-update-profile") == "0" %}
+          <script>
+              swal({
+                title: "{{ T['error'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                text: "{{ T['error-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                type:"error",
+                confirmButtonText: "{{ T['close'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                closeOnConfirm: false
+              },
+              function(isConfirm){
+                if(isConfirm){
+                  history.back();
+                }
+            });
+          </script>
+          {{ SESSION.delete("success-update-profile")}}
+          {% endif %}
+
+          {% if SESSION.get("error-update-profile") == "0" %}
+          <script>
+              swal({
+                title: "{{ T['ok'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                text: "{{ T['updated-data'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                type:"success",
+                confirmButtonText: "{{ T['close'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                closeOnConfirm: false
+              },
+              function(isConfirm){
+                if(isConfirm){
+                  history.back();
+                }
+            });
+          </script>
+          {{ SESSION.delete("error-update-profile")}}
+          {% endif %}
+
+          {% if SESSION.get("error-update-profile") == "1" %}
+          <script>
+              swal({
+                title: "{{ T['error'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                text: "{{ T['error-re-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                type:"error",
+                confirmButtonText: "{{ T['close'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}",
+                closeOnConfirm: false
+              },
+              function(isConfirm){
+                if(isConfirm){
+                  history.back();
+                }
+            });
+          </script>
+          {{ SESSION.delete("error-update-profile")}}
+          {% endif %}
+          
+              <h3>{{ T['edit-data'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h3>                 
+
+              <form id="account-form" name="account-form" class="nobottommargin" action="{{ path_for('updateProfile', {'lang':LANG}) }}" method="post">
+
+                <input type="hidden" value="{{ SESSION.get("id") }}" name="userId">
+                <input type="hidden" value="{{ SESSION.get("password") }}" name="userPass">
+                <input type="hidden" value="{{ SESSION.get("image") }}" name="userImage">
+
+                <div class="col_half">
+                  <label for="edit-account-form-name">{{ T['full-name'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}:</label>
+                  {% if SESSION.get("mode") != "direct" %}
+                  <input type="text" id="edit-account-form-name" name="edit-account-form-name" value="{{ SESSION.get("name") }}" class="form-control" readonly/>
+                  {% else %}
+                  <input type="text" id="edit-account-form-name" name="edit-account-form-name" value="{{ SESSION.get("name") }}" class="form-control" />
+                  {% endif %}
+                </div>
+
+                {% if SESSION.get("mode") == "direct" %}
+                <div class="col_half col_last">
+                  <label for="edit-account-form-lname">{{ T['surnames'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}:</label>
+                  <input type="text" id="edit-account-form-lname" name="edit-account-form-lname" value="{{ SESSION.get("surname") }}" class="form-control" />
+                </div>
+                {% endif %}
+
+                <div class="clear"></div>
+
+                <div class="col_half">
+                  <label for="edit-account-form-date">{{ T['birthdate'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}:</label>
+                  <input type="date" id="edit-account-form-date" name="edit-account-form-date" value="{{ SESSION.get("birthday") }}" class="form-control" />
+                </div>
+
+                <div class="col_half col_last">
+                  <label>{{ T['sex']}}</label>
+                  <div class="clear radio_fix1"></div>
+                  <div class="form-check form-check-inline">
+                    {% if SESSION.get("gender") == "male" %}
+                    <input class="form-check-input" type="radio" name="template-contactform-radio" id="template-contactform-radio-label2" value="male" checked>
+                    <label class="form-check-label" for="template-contactform-radio-label2">{{ T['male'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+                    {% else %}
+                    <input class="form-check-input" type="radio" name="template-contactform-radio" id="template-contactform-radio-label2" value="male">
+                    <label class="form-check-label" for="template-contactform-radio-label2">{{ T['male'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+                    {% endif %}
+                  </div>
+                  <div class="form-check form-check-inline">
+                    {% if SESSION.get("gender") == "female" %}
+                    <input class="form-check-input" type="radio" name="template-contactform-radio" id="template-contactform-radio-label3" value="female" checked>
+                    <label class="form-check-label" for="template-contactform-radio-label3">{{ T['female'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+                    {% else %}
+                    <input class="form-check-input" type="radio" name="template-contactform-radio" id="template-contactform-radio-label3" value="female">
+                    <label class="form-check-label" for="template-contactform-radio-label3">{{ T['female'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+                    {% endif %}
+                  </div>
+                </div>
+                  
+                <div class="clear"></div>
+
+                <div class="col_half">
+                  <label for="edit-account-form-email">{{ T['email'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+                  {% if SESSION.get("mode") != "direct" %}
+                  <input type="email" id="edit-account-form-email" name="edit-account-form-email" value="{{ SESSION.get("email") }}" class="form-control" readonly/>
+                  {% else %}
+                  <input type="email" id="edit-account-form-email" name="edit-account-form-email" value="{{ SESSION.get("email") }}" class="form-control" readonly/>
+                  {% endif %}
+                </div>
+                <div class="col_half col_last">
+                  <label for="edit-billing-form-phone">{{ T['phone'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}:</label>
+                  <input type="tel" id="edit-billing-form-phone" name="edit-billing-form-phone" value="{{ SESSION.get("phone") }}" class="form-control" />
+                </div>  
+
+                {% if SESSION.get("mode") == "direct" %}
+                <h3>{{T['change-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</h3>
+                <div class="col_half">
+                  <label for="edit-accountform-actual-pass">{{ T['actual-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}:</label>
+                  <input type="password" id="edit-account-form-actual-pass" name="edit-account-form-actual-pass" value="" class="form-control" />
+                </div>
+  
+                <div class="clear"></div>
+
+                <div class="col_half ">
+                  <label for="edit-account-form-new-pass">{{ T['new-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}:</label>
+                  <input type="password" id="edit-account-form-new-pass" name="edit-account-form-new-pass" value="" class="form-control" />
+                </div>
+
+                <div class="col_half col_last">
+                  <label for="edit-account-form-repeat-pass">{{ T['re-new-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}:</label>
+                  <input type="password" id="edit-account-form-repeat-pass" name="edit-account-form-repeat-pass" value="" class="form-control" />
+                </div>
+                
+                {% endif %}
+                <div class="col_half">
+                    <button type="submit" class="button button-circle button-border button-brown nomargin">{{ T['save'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</button>  
+                  </div>  
+                                    
+              </form>
+                
+            
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

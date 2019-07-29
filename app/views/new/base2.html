@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="{{ LOCALE }}">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>me·do</title>
+
+	<link rel="stylesheet" href="{{ STATIC_PATH }}css2/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/style.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/my-designs.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/swiper.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/animate.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/sass/fonts/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/cart.css">
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css/plugins/sweetalert.css">
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css2/components/select-boxes.css" type="text/css" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}/css2/components/bs-select.css" type="text/css" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% block css %}{% endblock %}
+
+    {% for iso,l in HREFLANG %}
+      {% if iso != LANG %}
+        <link rel="alternate" href="{{ l['url'] }}" hreflang="{{ iso }}" />
+      {% endif %} 
+    {% endfor %}
+
+    <script src="{{ STATIC_PATH }}js2/jquery.js"></script>
+    <script src="{{ STATIC_PATH }}js2/plugins.js"></script>
+    <script src="{{ STATIC_PATH }}js2/components/select-boxes.js"></script>
+    <script src="{{ STATIC_PATH }}js2/components/bs-select.js"></script>
+    
+    
+    
+    
+   
+    <script src="{{ STATIC_PATH }}js/plugins/bootstrap.min.js"></script>
+    <script src="{{ STATIC_PATH }}/js/plugins/sweetalert.min.js"></script>
+    <script src="{{ STATIC_PATH }}js/main.js?v=2-5"></script>
+    <script src="{{ STATIC_PATH }}js/user.js?v=2-2"></script>
+
+    <script src="{{ STATIC_PATH }}js2/cart.js"></script>
+		<script src="{{ STATIC_PATH }}js2/users.js"></script>
+    <script src="{{ STATIC_PATH }}js2/users-facebook.js"></script>
+    <script src="{{ STATIC_PATH }}js2/users-instagram.js"></script>
+    <script src="{{ STATIC_PATH }}js2/order.js"></script>
+
+    {% block js %}{% endblock %}
+</head>
+
+<body class="stretched">
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="clearfix">
+
+    <!-- Header -->
+		<header id="header" class="split-menu static-sticky transparent-header">
+			<div id="header-wrap">
+				<div class="container clearfix">
+					<div class="d-lg-none" id="trigger-menu-overlay" data-toggle="modal" data-target="#overlayModal">
+						<img class="icon-top" src="{{ STATIC_PATH }}imagenes/iconos/burger.png" alt="">
+					</div>
+					<div id="logo">
+						<a href="{{ path_for('home2', {'lang':LANG}) }}" class="standard-logo" ><img src="{{ STATIC_PATH }}imagenes/iconos/logo.png" alt="medo Logo"></a>
+            <a href="{{ path_for('home2', {'lang':LANG}) }}" class="retina-logo"><img src="{{ STATIC_PATH }}imagenes/iconos/logo.png" alt="medo Logo"></a>
+					</div>
+					<nav id="primary-menu" class="clearfix">
+
+						<ul class="lang_menu mb-0">
+              {% for l in ['it','es','en'] %}
+                {% if l == LANG %}
+                  <li class="inline-block current">{{ l | upper }}</li>
+                {% else %} 
+                  <li class="inline-block"><a href="{{ HREFLANG[l]['url'] }}" title="{{ HREFLANG[l]['label'] }}">{{ l | upper }}</a></li>
+                {% endif %}
+              {% endfor %}
+							<!--<li class="inline-block"><a href="#"><div>ES</div></a></li>
+							<li class="inline-block current"><a class="left-line"  href="#"><div>EN</div></a></li>
+							<li class="inline-block"><a class="left-line" href="#"><div>IT</div></a></li>-->
+						</ul>
+						<div class="d-none d-lg-block">
+							<div id="top-account" data-toggle="modal" data-target="#overlayModal">
+								<a class="ml-4" href="#"><a href="#"><img class="icon-top" src="{{ STATIC_PATH }}imagenes/iconos/burger.png" alt=""></a></a>
+							</div>
+						</div>
+
+						<div id="top-cart">
+							<a class="mr-lg-5" href="#" id="top-cart-trigger">
+								<img class="icon-cart" src="{{ STATIC_PATH }}imagenes/iconos/cart.png" alt="">
+								<span class="quantityCart"></span>
+				      </a>
+
+							<div class="top-cart-content">
+								<div class="top-cart-title">
+									<h4>{{ T['cart'] }}</h4>
+								</div>
+								<div class="top-cart-items">
+									<div class="top-cart-item clearfix">
+										<p style="margin-bottom: 0px">No hay productos en el carrito.</p>
+									</div>
+								</div>
+								<div class="top-cart-action clearfix">
+									<div id="top-cart-action"> 
+										<span class="fleft top-checkout-price sumCart"></span>
+										<form action="{{ path_for('cart', {'lang':LANG}) }}">
+											<button class="button button-circle button-border button-brown button-small nomargin fright">{{ T['go-to-cart'] }}</button>
+										</form>
+									</div> 
+                </div>
+							</div>  
+							
+						</div>
+
+						<input type="hidden" id="edit_cart_url" value="{{ path_for('editCart',{'lang':LANG,'collectionSlug':'|||','position':'@@@'} ) }}"/>
+						<div id="top-account" class="dropdown">
+							
+
+              {% if SESSION.isLogged() == true %} 
+              <a href="#" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><img class="icon-user" src="{{ STATIC_PATH }}imagenes/iconos/user.png"  alt=""></a>
+              {% else %}
+              <!--<a href="#" class="btn btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><img class="icon-user" src="/static/imagenes/iconos/user.png" alt=""></a>-->
+              <a href="{{ path_for('register', {'lang':LANG}) }}"><img class="icon-user" src="{{ STATIC_PATH }}imagenes/iconos/user.png" alt=""></a>
+              {% endif %}
+
+              {% if SESSION.isLogged() == true %}
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">                
+                <a class="dropdown-item tleft" href="{{ path_for('profile', {'lang':LANG}) }}">{{ T['my-account'] }}</a>
+                <a class="dropdown-item tleft" href="{{ path_for('address', {'lang':LANG}) }}">{{ T['address'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</a>
+                <a class="dropdown-item tleft" href="{{ path_for('myOrders', {'lang':LANG}) }}">{{ T['buyed-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</a>
+                <a class="dropdown-item tleft" href="{{ path_for('myDesigns2', {'lang':LANG}) }}">{{ T['my-saved-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item tleft logout" href="{{ path_for('logout', {'lang':LANG}) }}">{{ T['logout'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>                
+              </ul>
+              {% endif %}
+					   </div>
+					</nav>
+				</div>
+			</div>
+    </header>
+
+    {% block main %}{% endblock %}
+
+    <!-- Footer -->
+		<footer id="footer">
+			<div class="container ctr-1200">
+        <div class="row">
+          <div class="col-md-3 col1"><img src="{{ STATIC_PATH }}imagenes/iconos/logo.png" alt="" class="footer-logo"></div>
+          <div class="col-md-3 col2">
+            <ul>
+                <li><a href="{{ path_for('freq', {'lang':LANG}) }}"> {{ T['freq'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</a></li>
+                <li><a href="{{ path_for('service', {'lang':LANG}) }}">{{ T['service'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col3">
+            <ul>
+              <li><a href="{{ path_for('terms', {'lang':LANG}) }}">{{ T['terms'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</a></li>
+              <li><a href="{{ path_for('contact2', {'lang':LANG}) }}"> {{ T['contact'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</a></li>
+            </ul>
+          </div>
+
+          <div class="col-md-3 col4">
+              <a href="mailto:info@medo-arauco.com">info@medo-arauco.com</a>
+             <p>© 2019 Innovarauco <br/>{{ T['rights-reserved'] |convert_encoding('UTF-8', 'ISO-8859-1') | raw  }}</p>
+          </div>
+                
+                
+        </div>
+			</div>
+    </footer>
+    
+
+	</div><!-- #wrapper end -->
+
+
+	<!-- Modal login -->
+	<div class="modal fade" id="overlayModal" tabindex="-1" role="dialog" aria-labelledby="overlayModalLabel" aria-hidden="true">
+		<div id="overlay-menu" class="modal-dialog">
+			<div class="modal-body">
+				<div class="modal-content">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon-line-cross"></i></button>
+
+					<div class="align-items-center d-flex flex-column modal-body p-4">
+						<div class="img">
+							<img src="{{ STATIC_PATH }}imagenes/iconos/logo.png" alt="medo">
+						</div>
+
+						<div id="page-links" data-delay="500">
+							<ul>
+								<li class="current"><a href="{{ path_for('home2', {'lang':LANG}) }}">{{ T['init'] }}</a></li>
+								<li><a href="{{ path_for('about2', {'lang':LANG}) }}">{{ T['about']  |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</a></li>
+								<li><a href="{{ path_for('collections2', {'lang':LANG}) }}">{{ T['personalize-design']  |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a></li>
+								<li><a href="{{ path_for('gallery2', {'lang':LANG}) }}">{{ T['design-by-people']  |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a></li>
+								<li><a href="{{ path_for('designers2', {'lang':LANG}) }}">{{ T['designers'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</a></li>
+              </ul>
+
+							<div id="cuenta" class="mt-5">
+								<ul>
+                  {% if SESSION.isLogged() %}
+                  <li>                    
+                    <a href="{{ path_for('profile', {'lang': LANG}) }}" class="">
+                      <i class="icon-user1"></i> {{ T['my-profile'] }}
+                    </a>
+                  </li>
+                  <!-- <li><a href="{{ path_for('logout', {'lang':LANG}) }}">{{ T['logout'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a></li> -->
+                  {% else %}
+                  <li>
+                    <a href="{{ path_for('register', {'lang':LANG}) }}" class="">
+                      <i class="icon-user1"></i> {{ T['login'] |convert_encoding('UTF-8', 'ISO-8859-1') }}
+                    </a>
+                  </li>
+                  {% endif %}
+								</ul>
+							</div>
+						</div>
+
+						
+
+						<div id="log-in" class="form-widget">
+
+							<div class="text-center mb-5">
+								<a href="#" id="return">
+									<i class="icon-chevron-left"></i>
+								</a>
+							</div>
+							<!--<form id="template-logIn"  name="login-form" action="{{ path_for('login2', {'lang':LANG}) }}" method="post">
+								<div class="form-group">
+									<input type="email" class="form-control" id="login-email" name="login-email" aria-describedby="emailHelp" placeholder="Correo electrónico">
+								</div>
+								<div class="form-group">
+									<input type="password" class="form-control" id="login-password" name="login-password" placeholder="Contraseña">
+								</div>
+								<div class="form-group text-center">
+                  <button id="button-cafe2" type="submit" class="btn-transparent button button-circle button-border button-brown nomargin btnLogin">Iniciar sesión</button>
+								</div>
+                                
+							</form>-->
+							<div id="contrasena" class="text-center">
+								<a href="#">{{ T['remember-pass'] }}</a>
+								<br>
+								<a href="{{ path_for('register', {'lang':LANG}) }}">{{ T['create-account'] }}</a>
+							</div>
+                            
+              <div class="line line-sm"></div>
+								<div class="center">
+									<h5 style="margin-bottom: 15px;">{{ T['social-login'] }}</h5>
+									<div class="iconos-redes">
+                    <a href="#" class="social-icon si-rounded si-light si-facebook" title="Facebook">
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon si-rounded si-light si-instagram" title="Facebook">
+                        <i class="icon-instagram2"></i>
+                        <i class="icon-instagram2"></i>
+                    </a>
+                    <a href="#" class="social-icon si-rounded si-light si-google" title="Facebook">
+                        <i class="icon-google-plus-g"></i>
+                        <i class="icon-google-plus-g"></i>
+                    </a>
+                  </div>  
+								</div>
+						</div>
+						<div class="clear"></div>
+						<ul class="footer-lang mt-5">
+							{% for l in ['it','es','en'] %}
+                {% if l == LANG %}
+                  <li class="inline-block current">{{ l | upper }}</li>
+                {% else %} 
+                  <li class="inline-block"><a href="{{ HREFLANG[l]['url'] }}" title="{{ HREFLANG[l]['label'] }}">{{ l | upper }}</a></li>
+                {% endif %}
+              {% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    
+    
+    
+
+	<!-- Go To Top -->
+	<div id="gotoTop" class="icon-angle-up"></div>
+
+	<!-- Scripts -->
+
+  <script src="{{ STATIC_PATH }}js2/functions.js"></script> 
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f79183151731c00"></script>     
+  
+	
+
+<!--   Select-Boxes Plugin -->
+
+
+    
+    
+  <script>
+		$(document).on('click','.sign-in',function(){
+			$('#page-links').hide();			
+			$('#log-in').fadeIn();			
+		});
+		$(document).on('click','#return',function(){
+			$('#page-links').fadeIn();			
+			$('#log-in').hide();			
+		});
+
+		
+		
+	</script>
+	<script>
+		jQuery(document).ready(function($){
+			var $faqItems = $('#faqs .faq');
+			if( window.location.hash != '' ) {
+				var getFaqFilterHash = window.location.hash;
+				var hashFaqFilter = getFaqFilterHash.split('#');
+				if( $faqItems.hasClass( hashFaqFilter[1] ) ) {
+					$('#portfolio-filter li').removeClass('activeFilter');
+					$( '[data-filter=".'+ hashFaqFilter[1] +'"]' ).parent('li').addClass('activeFilter');
+					var hashFaqSelector = '.' + hashFaqFilter[1];
+					$faqItems.css('display', 'none');
+					if( hashFaqSelector != 'all' ) {
+						$( hashFaqSelector ).fadeIn(500);
+					} else {
+						$faqItems.fadeIn(500);
+					}
+				}
+			}
+
+			$('#portfolio-filter a').on( 'click', function(){
+				$('#portfolio-filter li').removeClass('activeFilter');
+				$(this).parent('li').addClass('activeFilter');
+				var faqSelector = $(this).attr('data-filter');
+				$faqItems.css('display', 'none');
+				if( faqSelector != 'all' ) {
+					$( faqSelector ).fadeIn(500);
+				} else {
+					$faqItems.fadeIn(500);
+				}
+				return false;
+		   });
+
+
+		});
+	</script>
+
+	
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '2258683101051805',
+				cookie     : true,
+				xfbml      : true,
+				version    : 'v3.2'
+			});
+				
+			FB.AppEvents.logPageView();   
+				
+		};
+
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+  </script>
+  
+  <script>
+      $(".select-1").select2();
+      
+      $(".select-hide").select2({
+            minimumResultsForSearch: Infinity
+        });
+        $(document).on('click','.sign-in',function(){
+          $('#page-links').hide();			
+          $('#log-in,#return').fadeIn();			
+        });
+        $(document).on('click','#return,.close',function(){
+          $('#page-links').fadeIn();			
+          $('#log-in').hide();			
+            });
+            $(document).on('click','#show-login',function(){
+          $('#page-links,#return').hide();			
+          $('#log-in').fadeIn();			
+        });
+    </script>
+	
+</body>
+</html>

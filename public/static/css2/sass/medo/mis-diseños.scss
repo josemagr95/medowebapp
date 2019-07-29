@@ -1,0 +1,351 @@
+.template-contactform-ready #page-title.page-title-dark {
+    top: -100px;
+    margin-bottom: -100px;
+}
+
+/* POP UP MIS DISEÑOS */
+
+.loading_overlay {
+    position: fixed;
+    top: -110%;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    padding: 0 5%;
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+    text-align: center;
+    font-size: 1.15em;
+    font-weight: 300;
+    opacity: 0;
+    transition: opacity .2s linear 0s, top 0s linear 0s
+}
+
+.loading_overlay.active {
+    top: 0;
+    opacity: 1
+}
+
+
+/*# popup my design */
+
+.popup {
+    display: none;
+    max-width: 350px;
+    text-align: center;
+}
+
+
+
+.popup .button_wrapper {
+    clear: both;
+}
+
+.popup .button_wrapper .button {
+    font-size: 13px;
+    position: relative; top: 10px;
+}
+
+.popup .confirmation {
+    display: none;
+    margin-top: -20px;
+}
+
+.popup .confirmation p {
+    margin-top: 10px;
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.popup .confirmation .button {
+    margin: 0px;
+    padding: 0px 20px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    opacity: 1;
+    float: none;
+    margin-left: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+#confirm_popup {
+    width: auto;
+    min-width: 220px;
+    margin: -30px auto -10px auto;
+    padding: 0 20px;
+}
+
+#confirm_popup .confirmation {
+    display: block;
+}
+
+#confirm_popup .title {
+    margin-bottom: 20px;
+}
+
+#confirm_popup .button {
+    min-width: 90px;
+}
+
+#save_popup .image_wrapper,
+.mydesign .image_wrapper {
+    display: none;
+}
+
+#save_popup label,
+.mydesign label {
+    display: inline-block;
+    margin: 10px 0;
+    color: #2b897f;
+}
+
+.mydesign label { margin: 0px 0px 10px 0px;}
+
+
+#save_popup textarea,
+.mydesign textarea {
+    clear: both;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 14px !important;
+    text-align: left;
+    color: $cafe2;
+    border: 1px solid $cafe;
+}
+.mydesign textarea { height: 120px; text-align: center}
+
+#save_popup .gallery_label,
+.mydesign .gallery_label {
+    color: $cafe;
+    font-size: 14px;
+}
+.mydesign .gallery_label  { display: block}
+
+#save_popup .gallery_switch {
+    margin-top: 70px;
+}
+
+#save_popup .gallery_switch .gallery_label{ margin: 0px; position: relative;  top: 6px}
+
+
+.popup {
+    width: 650px;
+}
+
+.popup h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+    text-transform: uppercase;
+}
+
+.popup p {
+    margin-bottom: 0px
+}
+
+.popup .confirmation {
+    font-size: 1.2em;
+}
+
+
+
+.featherlight .featherlight-content {
+    padding: 0px !important;
+}
+
+.featherlight .featherlight-close-icon {
+    top: 30px !important;
+    right: 60px !important;
+}
+
+.featherlight .featherlight-content {
+    -webkit-animation: fade_in .8s;
+    -ms-animation: fade_in .8s;
+    -moz-animation: fade_in .8s;
+    animation: fade_in .8s;
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    max-width: 100%;
+    padding: 58px 28px 28px 28px !important;
+    box-shadow: 6px 6px 6px 0 rgba(0, 0, 0, .5);
+}
+
+.featherlight .featherlight-close-icon {
+    top: 20px !important;
+    right: 20px !important;
+    width: 18px !important;
+    height: 18px !important;
+    color: transparent !important;
+    background: url("../img/close-green.svg") no-repeat !important;
+    background-size: auto 100% !important;
+    background-position: center !important;
+}
+
+.featherlight.confirmpopup .featherlight-close-icon {
+    display: none !important;
+}
+
+
+#save_popup label.description_label,
+.mydesign label.description_label {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: $cafe2;
+}
+
+#save_popup .name_label, .mydesign .name_label {
+    font-size: 14px;
+    font-weight: 500;
+    color: $cafe2;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+#name_design {
+    border: 1px solid #b1a6a3;
+    padding: 6px 10px;
+    width: 100%;
+    margin: 0px !important;
+    color: #847770;
+    font-size: 13px
+}
+
+
+
+
+.popup {
+    width: 600px;
+    max-width: none;
+    text-align: left;
+}
+
+.popup h4 {
+    padding-bottom: 0;
+    border-bottom: 0;
+}
+
+.popup .confirmation {
+    text-align: center;
+}
+
+
+
+
+
+
+#save_popup .image_wrapper,
+.mydesign .image_wrapper {
+    display: block;
+}
+
+.close:not(:disabled):not(.disabled):hover, .close:not(:disabled):not(.disabled):focus { opacity: 1}
+
+
+@media (max-width: 767px) { 
+    .popup .confirmation p { font-size: 14px}
+}
+
+
+/*  EDITAR MIS DISEÑOS */
+
+.absolute-edit-design {
+    position: absolute;
+    .button {
+        top: -80px;
+        position: relative;
+        z-index: 999;
+        left: 30px;
+        color: #575757;
+        background: #ececec;
+        text-shadow: none;
+        letter-spacing: 0px;
+        font-size: 12.6px !important;
+        padding: 0px 20px !important;
+        border-radius: 25px;
+    }
+
+}
+
+
+.edit-design .configurator__viewer__loading,
+.edit-design .configurator__viewer__model {
+    height: calc(100vh - 260px) !important;
+}
+
+.edit-design .configurator.read_only,
+.edit-design .configurator.read_only .configurator__viewer,
+.edit-design .configurator.read_only .configurator__viewer__loading,
+.edit-design .configurator.read_only .configurator__viewer__model {
+    height: calc(100vh - 260px) !important;
+}
+
+
+/*  EDITAR MIS DISEÑOS INTERNA */
+
+.edit-my-design-internal {
+    .fecha {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        margin-bottom: 30px;
+    }
+    .button_wrapper {
+        margin-top: 40px
+    }
+    .button {
+        margin-right: 20px !important
+    }
+
+
+
+}
+
+/*  INTERNA DISEÑADO POR PERSONA */
+
+#gallery-design {
+    h3 {
+        margin-bottom: 20px;
+    }
+    .fecha h5 {
+        margin-bottom: 0px
+    }
+    .description {
+        margin-top: 20px;
+        p {
+            font-size: 16px !important;
+            color: $cafe2;
+        }
+
+    }
+}
+
+
+.comments {
+    textarea {
+        width: 100%;
+        border: 1px solid #dedcdd;
+        height: 100px;
+        padding: 10px;
+        color: $cafe2;
+        font-size: 13px;
+    }
+    button { margin-top: 20px;}
+    
+    .date_author {
+        font-size: 12px;
+        strong { font-weight: 600;}
+        
+    }
+    .confirm { font-size: 12px; border-bottom: 1px solid $cafe;  }
+    .comment { font-size: 13px; letter-spacing: 0px; color: $cafe2; margin-bottom:20px}
+    h4 { margin-top: 80px;}
+    h3 { margin-bottom: 40px !important}
+
+}
+
+    

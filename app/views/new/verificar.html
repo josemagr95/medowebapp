@@ -1,0 +1,30 @@
+{% extends "new/base2.html" %}
+{% set current_section = "verificar" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['verificar'] }}{% endblock %}
+{% block description %}{{ T['seo-myaccount-description'] }}{% endblock %}
+
+{% block main %}	
+	<div class="clear"></div>
+       
+		<!-- Content-->
+		<section id="content" class="content">
+      <div class="content-wrap">
+          <div class="container clearfix">
+            <div class="col-xs-12 text-center verificar">
+              {% if verificated == true %}
+                <h3>{{ T['thanks'] }}</h3>
+                <h2><small>{{ T['verificated'] }}</small></h2>
+                <a href="{{ path_for('register',{'lang':LANG}) }}"><button class="button button-circle button-brown nomargin">{{ T['login'] }}</button></a>
+              {% else %}
+                <h3>{{ T['error'] }}</h3>
+                <h2><small>{{ T['error-verificated'] }}</small></h2>
+              {% endif %}
+            </div>
+        </div>
+      </div>
+      
+		</section>
+
+{% endblock %}

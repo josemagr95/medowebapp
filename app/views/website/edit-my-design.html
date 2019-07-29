@@ -1,0 +1,88 @@
+{% extends "website/base.html" %}
+{% set current_section = "my-designs" %}
+{% set header_subtitle = T['my-designs'] %}
+{% set body_class = 'configurator_page' %}
+
+{% block title %}{{ T['r2-edit-my-design'] | capitalize }} | {{ T['title'] }}{% endblock %}
+
+{% block js %}
+  <script src="https://s3.amazonaws.com/shapediverviewer/v2/2.0.8/sdv.concat.min.js" defer></script>
+  <script src="{{ STATIC_PATH }}js/configurator.js?v2=28"></script>
+	<script src="{{ STATIC_PATH }}bower_components/featherlight/release/featherlight.min.js"></script>
+  <script>
+    var selectLabel = '{{T['r3-select']}}';
+
+    var textures = {
+    {% for texture in textures %}
+      '{{texture.shapediver_label}}': {
+        image: '{{ MEDIA_PATH }}images/textures/{{texture.image}}',
+        value: '{{texture.shapediver_position}}',
+        label: '{{texture.name}}'
+      },
+    {%endfor%}
+    };
+    var paramDefs = {
+    {% for param in paramDefinitions %}
+      '{{param.shapediver_label}}': '{{param.name}}',
+    {%endfor%}
+    };
+    var partDefs = {
+    {% for part in partDefinitions %}
+      '{{part.shapediver_label}}': '{{part.name}}',
+    {%endfor%}
+    };
+  </script>
+
+  <script>
+    {%if params!=''%}  
+      var designParameters = {{ params | raw }};
+    {% endif %}
+  </script>
+{% endblock %}
+
+{% block css %}
+  <link href="{{ STATIC_PATH }}bower_components/featherlight/release/featherlight.min.css" rel="stylesheet" media="all">
+{% endblock %}
+
+{% block main %}
+  <div class="configurator edit">
+    {% include 'website/partials/configurator.html' %}
+    {%if params!=''%}  
+    <input type="hidden" id="configurator__design__params" value="1"/>
+    {% endif %}
+  </div>
+  
+  <div class="wrapper mydesign edit">
+    <ul class="design_specs">
+      <li><span>{{ T['r2-design-by'] }}</span>{{ SESSION.get('user_name') }}</li>
+      <li><span>{{ T['r2-date'] }}</span>{{  design.created | date("d/m/Y") }}</li>
+    </ul>
+    <label for="description" class="description_label">{{ T['r2-description'] }}</label>
+    <textarea id="description">{{ design.description }}</textarea>
+
+    <label class="gallery_label">{{ T['r2-add-to-gallery'] }}</label>
+    
+    <label class="switch_field">
+      {%if design.public %}
+        <input type="checkbox" checked="checked"/>
+      {%else%}
+        <input type="checkbox"/>
+      {%endif%}
+      <div class="slider"></div>
+    </label>
+    
+    <div class="button_wrapper">
+      <a href="{{ path_for('showMyDesign', {'lang':LANG, 'designId': design.id }) }}" class="button neutral">{{ T['r2-cancel'] }}</a>
+      <button class="update_my_design button disabled" id="save-my-design-btn" disabled="disabled">{{ T['r2-save'] }}</button>
+    </div>
+    
+    <input type="hidden" id="design_url" value="{{ path_for('myDesigns', {'lang':LANG }) }}"/>
+    <input type="hidden" id="design_id" value="{{ design.id }}"/>
+  </div>
+
+  {% include 'website/partials/confirm-popup.html' %}
+  
+  <div class="loading_overlay">
+    {{ T['r2-add-to-designs-loading'] | nl2br }}
+  </div>
+{% endblock %}

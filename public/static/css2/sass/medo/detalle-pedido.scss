@@ -1,0 +1,52 @@
+table {
+    font-size: 13.6px;
+    &.detalle-pedido {
+        td,
+        th {
+            padding: 4px 0px;
+        }
+    }
+}
+
+.list-group-item-action {
+    color: #84736c;
+}
+
+
+
+
+
+
+#instrucciones-shapediver { margin-bottom: 60px;}
+
+
+
+
+.list-group-item:first-child {
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+.list-group-item:last-child {
+
+    margin-bottom: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+
+}
+
+.list-group-item {
+    padding: 0.75rem 1rem;
+    font-weight: 400;
+    font-size: 14px;
+    i {
+        margin-right: 10px
+    }
+
+}
+
+
+
+

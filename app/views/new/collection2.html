@@ -1,0 +1,171 @@
+{% extends "new/base-fix-mobile.html" %}
+{% set current_section = "collections" %}
+{% set header_subtitle = T['configurator'] %}
+{% set body_class = 'configurator_page' %}
+
+{% block title %}{{ currentCollection.name }} | {{ T['configurator'] | capitalize }} {{ T['title'] }}{% endblock %}
+{% block description %}{{ currentCollection.description | length > 150 ? currentCollection.description | slice(0, 150) ~ '...' : currentCollection.description }}{% endblock %}
+
+{% block js %}
+  <script src="{{ STATIC_PATH }}js2/shapediver2.0.8.js"></script>
+  <script src="{{ STATIC_PATH }}js/configurator.js?v2=28"></script>
+  <script src="{{ STATIC_PATH }}bower_components/featherlight/release/featherlight.min.js"></script>
+
+  <script>
+    var selectLabel = '{{T['r3-select']}}';
+
+    var textures = {
+    {% for texture in textures %}
+      '{{texture.shapediver_label}}': {
+        image: '{{ MEDIA_PATH }}images/textures/{{texture.image}}',
+        value: '{{texture.shapediver_position}}',
+        label: '{{texture.name}}'
+      },
+    {%endfor%}
+    };
+    var paramDefs = {
+    {% for param in paramDefinitions %}
+      '{{param.shapediver_label}}': '{{param.name}}',
+    {%endfor%}
+    };
+    console.log(paramDefs);
+
+    var partDefs = {
+    {% for part in partDefinitions %}
+      '{{part.shapediver_label}}': '{{part.name}}',
+    {%endfor%}
+    };
+    console.log(partDefs);
+
+    {%if params!=''%}  
+    var designParameters = {{ params | raw }};
+    {% endif %}
+  </script>
+{% endblock %}
+
+{% block css %}
+  <link href="{{ STATIC_PATH }}bower_components/featherlight/release/featherlight.min.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="{{ STATIC_PATH }}/css2/configuratorV2.css" type="text/css" />
+  <!-- Select-Boxes CSS -->
+  <link rel="stylesheet" href="{{ STATIC_PATH }}css2/components/select-boxes.css" type="text/css" />
+  <link rel="stylesheet" href="{{ STATIC_PATH }}css2/select-boxes-configurator.css" type="text/css" />
+{% endblock %}
+
+
+{% block main %}
+
+
+		<!-- Content -->
+		<section id="content" class="colletion">
+			<div class="content-wrap" style="padding:0px">
+        <div class="configurator clearfix" id="shapediver">
+          {% set collection = currentCollection %}
+          {% include 'website/partials/configurator.html' %}
+          {% if params!=''%}  
+          <input type="hidden" id="configurator__design__params" value="1"/>
+          {% endif %}
+            <a href="#" data-scrollto="#ancla-productos" data-offset="100" class="one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+        </div>
+             
+      <div class="clear"></div>
+                
+        <div id="ancla-productos" class="container" style="max-width: 960px">
+            <div class="row product-detail">
+              <div class="col-md-6">
+        
+                
+                <h2>{{ T['characteristics'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</h2>
+                <p>{{ collection.description |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}.</p>       
+                <div class="si-share clearfix escritorio">
+                   <div class="addthis_inline_share_toolbox_4c54"></div> 
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-8">
+                <div class="desing">
+                  <a href="{{ path_for('designer2', {'lang': LANG, 'designerId': collection.designer_id}) }}">
+                  <div class="d-sm-flex text-center text-sm-left justify-content-between align-items-center">
+                    <div>
+                      <h3>{{ T['r2-design-by'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</h3> 
+                      <h2>{{ collection.designer }}</h2>
+                    </div>   
+                    <div class="logo-image">
+                      <img class="rounded-circle" src="{{collection.designer_image}}" alt="">
+                    </div>
+                  </div>
+                  </a>    
+                </div>
+              </div>
+              <div class="si-share clearfix movil">
+                   <div class="addthis_inline_share_toolbox_4c54"></div> 
+                </div>    
+            </div>
+        </div>
+        <div id="galeria-disenador" class="owl-carousel owl-carousel-full portfolio-carousel portfolio-notitle portfolio-nomargin footer-stick carousel-widget mb-0" data-loop="true" data-margin="0" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="2" data-items-lg="4">
+
+        {% for image in imagesCollection %}
+          <div class="oc-item">
+            <div class="iportfolio">
+              <div class="portfolio-image" data-lightbox="gallery">
+                <a href="{{ image.file }}" data-lightbox="gallery-item">
+                  <img src="{{ image.file }}" alt="Open Imagination">
+                  <div class="portfolio-overlay"></div>
+                </a>
+              </div>
+            </div>
+          </div>  
+        {% endfor %}                  
+        </div>
+
+        
+    {% if SESSION.isLogged() %}
+    <div id="save_popup" class="popup">
+      <div class="form">
+        <div class="row">
+          <div class="col-md-7">
+            <div class="image_wrapper"></div>
+          </div>
+          <div class="col-md-5">
+            <h4>{{ currentCollection.name }}</h4>
+             <p>{{ T['r2-design-by'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}: {{ SESSION.get('name') }} </p>
+             <p>{{ T['r2-date'] }}: {{ "now"|date("d/m/Y") }}</p>
+              <div class="gallery_switch">
+                {{ T['r2-add-to-gallery'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+                <br/>
+                <label class="switch_field">
+                  <input type="checkbox" checked="checked"/>
+                  <div class="slider"></div>
+                </label> 
+              </div>                                
+          </div>
+        
+        </div>
+        <label for="name" class="name_label">{{ T['name'] }}</label>  
+        <input type="text" id="name_design">
+        <label for="description" class="description_label">{{ T['r2-description'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+        <textarea id="description"></textarea>
+        <div class="button_wrapper">
+          <button id="save_design" class="button button-circle button-brown">{{ T['r2-add-to-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</button>
+        </div>
+        <input type="hidden" id="media_path" value="{{ MEDIA_PATH }}"/>
+        <input type="hidden" id="collection_id" value="{{ currentCollection.id }}"/>
+      </div>
+      
+      <div class="confirmation">
+        <h3 class="nomargin">{{ T['r2-create-design-confirmation'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</h3>
+        <p>{{ T['r2-create-design-confirmation-text'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</p>
+        
+        <a href="{{ path_for('myDesigns', {'lang':LANG}) }}" class="button button button-circle button-border button-brown nomargin">{{ T['r2-go-to-my-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</a>
+        <button class="button close button button-circle button-border button-brown nomargin">{{ T['r2-continue-configuring'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</button>
+      </div>
+    </div>
+  {% endif %}
+    
+  <div class="loading_overlay">
+    {{ T['r2-add-to-designs-loading'] | nl2br }}
+  </div>
+
+      </div>
+	  </section><!-- #content end -->
+
+{% endblock %}
+

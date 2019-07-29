@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="{{ LOCALE }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ T['title'] }}{% endblock %}</title>
+    <meta name="description" content="{% block description %}{{ T['seo-main-description'] }}{% endblock %}"/>
+    
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{ STATIC_PATH }}../apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ STATIC_PATH }}../apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ STATIC_PATH }}../apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ STATIC_PATH }}../apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ STATIC_PATH }}../apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ STATIC_PATH }}../apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ STATIC_PATH }}../apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ STATIC_PATH }}../apple-touch-icon-152x152.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="{{ STATIC_PATH }}../favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="{{ STATIC_PATH }}../favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="{{ STATIC_PATH }}../favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{ STATIC_PATH }}../favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="{{ STATIC_PATH }}../favicon-128.png" sizes="128x128" />
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css/carrito.css">
+
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css/plugins/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ STATIC_PATH }}css/plugins/sweetalert.css">
+
+    <meta name="application-name" content="me·do"/>
+    <meta name="msapplication-TileColor" content="#000000" />
+    <meta name="msapplication-TileImage" content="{{ STATIC_PATH }}../mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="{{ STATIC_PATH }}../mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="{{ STATIC_PATH }}../mstile-150x150.png" />
+    <meta name="msapplication-square310x310logo" content="{{ STATIC_PATH }}../mstile-310x310.png" />
+    {% block meta %}{% endblock %}
+
+ 
+
+    <link href="{{ STATIC_PATH }}css/styles.css?v=7-8" rel="stylesheet" media="all">
+    {% block css %}{% endblock %}
+    
+    <script src="{{ STATIC_PATH }}bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="{{ STATIC_PATH }}js/plugins/bootstrap.min.js"></script>
+    <script src="{{ STATIC_PATH }}/js/plugins/sweetalert.min.js"></script>
+    <script src="{{ STATIC_PATH }}js/main.js?v=2-5"></script>
+    <script src="{{ STATIC_PATH }}js/user.js?v=2-2"></script>
+
+    <script src="{{ STATIC_PATH }}js/carrito.js"></script>
+    <script src="{{ STATIC_PATH }}js2/cart.js"></script>
+
+    
+    {% block js %}{% endblock %}
+
+  </head>
+
+  <body class="{{ current_section }}{% if body_class != '' %} {{ body_class }}{% endif %}{% if OPEN_MENU %} visible_menu{% endif %}" >
+    <header class="page_header">
+      <div class="wrapper">
+        <h1><a href="{{ path_for('home', {'lang':LANG}) }}">{{ T['title'] }}</a></h1>
+        
+        <button class="menu_btn">MENU</button>
+        <ul class="lang_menu">
+          {% for l in ['it','es','en'] %}
+            {% if l == LANG %}
+              <li>{{ l | upper }}</li>
+            {% else %} 
+              <li><a href="{{ HREFLANG[l]['url'] }}" title="{{ HREFLANG[l]['label'] }}">{{ l | upper }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        
+        {% if header_subtitle != '' %}
+          <h2>{{ header_subtitle }}</h2>
+        {% endif %} 
+     
+      </div>
+ 
+    </header>
+    
+    <nav class="main_menu">
+      <div class="wrapper main_view">
+        <button class="close_menu">CLOSE</button>
+        <ul>
+          <li><a href="{{ path_for('home', {'lang':LANG}) }}"{%if current_section=='home' %} class="active"{% endif %}>{{ T['home'] | capitalize}} </a></li>
+          <li><a href="{{ path_for('about', {'lang':LANG}) }}"{%if current_section=='about' %} class="active"{% endif %}>{{ T['about'] | capitalize }}</a></li>
+          <li><a href="{{ path_for('gallery', {'lang':LANG}) }}"{%if current_section=='gallery' %} class="active"{% endif %}>{{ T['gallery'] | capitalize }}</a></li>
+          <li><a href="{{ path_for('collections', {'lang':LANG}) }}"{%if current_section=='collections' %} class="active"{% endif %}>{{ T['configurator'] | capitalize }}</a></li>
+          <li><a href="{{ path_for('designers', {'lang':LANG}) }}"{%if current_section=='designers' %} class="active"{% endif %}>{{ T['designers'] | capitalize }}</a></li>          
+          {%if SESSION.isLogged() %}
+            <li><a href="{{ path_for('myDesigns', {'lang':LANG}) }}"{%if current_section=='my-designs' %} class="active"{% endif %}>{{ T['my-designs'] | capitalize }}</a></li>
+          {%endif%}
+          <li><a href="{{ path_for('contact', {'lang':LANG}) }}"{%if current_section=='contact' %} class="active"{% endif %}>{{ T['contact'] | capitalize }}</a></li>
+        </ul>
+
+        <div class="user_details">
+          {%if SESSION.isLogged() %}
+            <span class="username link_to_view" rel="profile"><span>{{ SESSION.get('name') }}</span></span>
+            <a href="{{ path_for('logout', {'lang':LANG}) }}" class="signup">{{ T['r2-logout'] }}</a>
+          {%else%}
+            <span class="username link_to_view" rel="login"><span>{{ T['login'] }}</span></span>
+            <span class="signup link_to_view" rel="register">{{ T['create-an-account'] }}</span>
+          {%endif%}
+        </div>
+      </div>
+      
+      <!--googleoff: all--> 
+      {%if SESSION.isLogged() == false %}
+        <div class="wrapper register_view">
+          <button class="back_to_menu link_to_view" rel="main">BACK</button>
+
+          <div class="user_file register">
+            <header>{{ T['create-an-account'] }}</header>
+            
+            <ul class="form_errors">
+              <li class="required_error">{{ T['error-required'] }}</li>
+              <li class="mail_error">{{ T['error-email'] }}</li>
+              <li class="already_error">{{ T['r2-error-already'] }}</li>
+              <li class="password_error">{{ T['r2-error-password'] }}</li>
+            </ul>
+             
+            <form method="post" action="{{ path_for('signup', {'lang':LANG}) }}">
+              <div class="data_wrapper">
+                <label for="signup_name">{{ T['r2-full-name'] }}</label>
+                <input type="text" name="signup_name" id="signup_name" placeholder="{{ T['r2-full-name'] }}"/> 
+
+                <label for="signup_email">{{ T['email'] }}</label>
+                <input type="email" name="signup_email" id="signup_email" placeholder="{{ T['email'] }}"/> 
+                
+                <label for="signup_password">{{ T['r2-password'] }}</label>
+                <input type="password" name="signup_password" id="signup_password" placeholder="{{ T['r2-password'] }}"/> 
+              </div>
+
+              <div class="button_wrapper">
+                <button type="submit" class="button">{{ T['r2-create-account'] }}</button>
+              </div>
+            </form>
+            <span class="remember link_to_view" rel="remember">{{ T['r2-remember-password'] }}</span>
+          </div>
+        </div>
+        
+        <div class="wrapper register_confirmation_view">
+          <button class="close_menu force_refresh">CLOSE</button>
+
+          <div class="user_file register">
+            <div class="form_confirmation">
+              <div class="title">{{ T['r2-signup-confirmation'] }}</div>
+              <p>{{ T['r2-signup-confirmation-text'] }}</p>
+            </div>
+
+            <div class="button_wrapper">
+              <button class="button close_menu_btn force_refresh">{{ T['r2-continue'] }}</button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="wrapper login_view">
+          <button class="back_to_menu link_to_view" rel="main">BACK</button>
+          <button class="close_menu">CLOSE</button>
+
+          <div class="user_file login">
+            <header>{{ T['login'] }}</header>
+            
+            <ul class="form_errors">
+              <li class="login_error">{{ T['r2-error-login'] }}</li>
+            </ul>
+            
+            <form method="post" action="{{ path_for('login', {'lang':LANG}) }}">
+              <div class="data_wrapper">
+                <label for="login_email">{{ T['email'] }}</label>
+                <input type="email" name="login_email" id="login_email" placeholder="{{ T['email'] }}"/> 
+                <label for="login_password">{{ T['r2-password'] }}</label>
+                <input type="password" name="login_password" id="login_password" placeholder="{{ T['r2-password'] }}"/> 
+              </div>
+
+              <div class="button_wrapper">
+                <button class="button" type="submit">{{ T['login'] }}</button>
+              </div>
+            </form>
+            <span class="remember link_to_view" rel="remember">{{ T['r2-remember-password'] }}</span><br/>
+            <span class="signup small_margin link_to_view" rel="register">{{ T['create-an-account'] }}</span>
+          </div>
+        </div>
+        
+        <div class="wrapper remember_view">
+          <button class="back_to_menu link_to_view" rel="main">BACK</button>
+
+          <div class="user_file register">
+            <header>{{ T['r2-remember-password'] }}</header>
+            
+            <form method="post" action="{{ path_for('recoverPassword', {'lang':LANG}) }}">
+              <div class="data_wrapper">
+                <label for="remember_email">{{ T['email'] }}</label>
+                <input type="email" name="remember_email" id="remember_email" placeholder="{{ T['email'] }}"/> 
+                
+              </div>
+
+              <div class="button_wrapper">
+                <button class="button" type="submit">{{ T['r2-recover-password'] }}</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="wrapper remember_confirmation_view">
+          <button class="back_to_menu link_to_view" rel="main">BACK</button>
+
+          <div class="user_file register">
+            <div class="form_confirmation">
+              <div class="title">{{ T['r2-remember-confirmation'] }}</div>
+              <p>{{ T['r2-remember-confirmation-text'] }}</p>
+            </div>
+
+            <div class="button_wrapper">
+              <button class="button close_menu_btn">{{ T['r2-close'] }}</button>
+            </div>
+          </div>
+        </div>
+      {% else %}
+        <div class="wrapper profile_view">
+          <button class="back_to_menu link_to_view" rel="main">BACK</button>
+
+          <div class="user_file register">
+            <header>{{ T['r2-update-profile'] }}</header>
+            
+            <ul class="form_errors">
+              <li class="required_error">{{ T['error-required'] }}</li>
+              <li class="mail_error">{{ T['error-email'] }}</li>
+              <li class="already_error">{{ T['r2-error-already'] }}</li>
+            </ul>
+             
+            <form method="post" action="{{ path_for('updateProfile', {'lang':LANG}) }}">
+              <div class="data_wrapper">
+                <label for="profile_name">{{ T['r2-full-name'] }}</label>
+                <input type="text" name="profile_name" id="profile_name" value='{{ SESSION.get('name') }}' placeholder="{{ T['r2-full-name'] }}"/> 
+
+                <label for="profile_email">{{ T['email'] }}</label>
+                <input type="email" name="profile_email" id="profile_email" value='{{ SESSION.get('email') }}' placeholder="{{ T['email'] }}"/> 
+              </div>
+
+              <div class="button_wrapper">
+                <button type="submit" class="button">{{ T['r2-update'] }}</button>
+              </div>
+            </form>
+            <span class="remember link_to_view" rel="new_password">{{ T['r2-change-password'] }}</span><br/>
+          </div>
+        </div>
+        
+        <div class="wrapper new_password_view">
+          <button class="back_to_menu link_to_view" rel="profile">BACK</button>
+
+          <div class="user_file register">
+            <header>{{ T['r2-change-password'] }}</header>
+            
+            <ul class="form_errors">
+              <li class="password_error">{{ T['r2-error-password'] }}</li>
+            </ul>
+             
+            <form method="post" action="{{ path_for('changePassword', {'lang':LANG}) }}">
+              <div class="data_wrapper">
+                <label for="profile_password">{{ T['r2-new-password'] }}</label>
+                <input type="password" name="profile_password" id="profile_password" placeholder="{{ T['r2-new-password'] }}"/> 
+              </div>
+
+              <div class="button_wrapper">
+                <button type="submit" class="button">{{ T['r2-update'] }}</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        
+        <div class="wrapper profile_confirmation_view">
+          <button class="close_menu force_refresh">CLOSE</button>
+
+          <div class="user_file register">
+            <div class="form_confirmation">
+              <div class="title">{{ T['r2-update-confirmation'] }}</div>
+              <p>{{ T['r2-update-confirmation-text'] }}</p>
+            </div>
+
+            <div class="button_wrapper">
+              <button class="button close_menu_btn force_refresh">{{ T['r2-close'] }}</button>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+      <!--googleon: all--> 
+    </nav>
+    
+    <main class="page_content">
+    {% block main %}{% endblock %}
+    </main>
+
+    <footer class="page_footer">
+      <div class="wrapper">
+        <div class="footer_block footer_logo">
+          <img src="{{ STATIC_PATH }}img/logo-medo.svg" alt="me·do logo"/>
+        </div>
+
+        <ul class="footer_block footer_menu">
+          <li><a href="{{ path_for('about', {'lang':LANG}) }}">{{ T['about'] }}</a></li>
+          {#<li><a href="{{ path_for('gallery', {'lang':LANG}) }}">{{ T['gallery'] }}</a></li>#}
+          <li><a href="{{ path_for('collections', {'lang':LANG}) }}">{{ T['configurator'] }}</a></li>
+          {#<li><a href="{{ path_for('my-designs', {'lang':LANG}) }}">{{ T['my-designs'] }}</a></li>#}
+          <li><a href="{{ path_for('contact', {'lang':LANG}) }}">{{ T['contact'] }}</a></li>
+        </ul>
+
+        <div class="footer_block footer_contact">
+          <div class="title">{{ T['write-us'] }}</div>
+          <a href="mailto:{{ T['contact-email'] }}">{{ T['contact-email'] }}</a>
+        </div>
+        
+        <div class="footer_block footer_legal">
+          <div class="title">{{ T['legal'] }}</div>
+          <small>&copy; {{ "now"|date("Y") }} {{ T['owner'] }} <span>{{ T['all-rights'] }}. <a href="{{ path_for('legal', {'lang':LANG}) }}">{{ T['legal-note'] }}</a></span></small>
+        </div>
+
+      </div>
+    </footer>  
+
+    <input type="hidden" id="static_path" value="{{STATIC_PATH}}"/>  
+  
+  
+  </body>
+</html>

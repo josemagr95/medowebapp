@@ -1,0 +1,122 @@
+ul {
+    &.tab-nav{
+        li {
+            a {
+                color: #84736c;
+            }
+        }
+    } 
+}
+
+
+.heading-block {
+    h3 {
+        color: #84736c;
+    }
+}
+
+
+/*  LOGIN  */
+
+
+#login {
+    .acctitle i.icon-unlock {
+        font-size: 15px
+    }
+    .acctitle i {
+        margin-top: 12px
+    }
+
+    .botones {
+        margin-top: 40px;
+        a {
+            position: relative;
+            top: 10px;
+            font-size: 13px
+        }
+    }
+    button {
+        font-size: 13px
+    }
+    h5.iniciar-redes {
+        display: inline-block;
+    }
+    .iconos-redes-checkout {
+        display: inline-block;
+        width: 140px;
+        top: 14px;
+        left: 6px;
+    }
+    .acctitle {
+        border-top: 1px solid #EEE;
+        padding-top: 25px;
+    }
+    .acctitle:first-child {
+        border-top: none;
+    }
+    .accordion.accordion-lg .acctitle {
+        line-height: 38px
+    }
+}
+
+
+@media (max-width: 575px) {
+    #login .accordion.accordion-lg .acctitle {
+        font-size: 22px;
+        line-height: 30px
+    }
+    #login .acctitle i {
+
+        margin-top: 16px;
+        font-size: 18px
+    }
+    #login button {
+        letter-spacing: 0px
+    }
+    #login .botones a {
+        font-size: 12px
+    }
+    #login .accordion.accordion-lg .acc_content {
+        padding: 10px 0 70px 0px;
+    }
+    #login h5.iniciar-redes {
+        font-size: 14px
+    }
+    #login .acctitle {
+        padding-top: 35px;
+        padding-left: 25px
+    }
+    
+    .content-login .content-wrap { padding: 30px 0px 60px 0px !important} 
+    #login label { font-size: 13px}
+
+
+}
+
+
+/*  MY ACCOUNT   */
+.list-group-item.active {
+    color: $cafe2;
+    background-color: #f8f9fa;
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+@media (max-width: 1199px) {
+    .editar-usuario {
+        padding-left: 20px !important
+    }
+
+
+}
+@media (max-width: 991px) {
+    .editar-usuario {
+        margin-top: 50px;
+        padding-left: 15px !important;
+
+    }
+    
+
+
+}
+
+

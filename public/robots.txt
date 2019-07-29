@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /*/gallery/delete-comment
+Disallow: /*/mydesigns/

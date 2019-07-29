@@ -1,0 +1,113 @@
+{% extends "new/base2.html" %}
+{% set current_section = "gallery" %}
+{% set header_subtitle = T['gallery'] %}
+
+{% block title %}
+  {{ T['gallery'] | capitalize }}{%if filters.search != ""%}, {{ T['r2-search-for'] }} {{ filters.search }}{%endif%}{%if filters.collection != "" and filters.collection != "all" %}, {{ T['r2-collection'] }} {{ filters.collection }}{%endif%} | {{ T['title'] }}
+{% endblock %}
+{% block description %}{{ T['r2-seo-gallery-description']}}{% endblock %}
+
+{% block js %}
+	<script src="{{ STATIC_PATH }}js/gallery.js?v=2-2"></script>
+{% endblock %}
+
+{% block main %}
+
+
+
+
+<section id="content" class="gallery">
+			<div class="content-wrap">
+				<div class="container clearfix">
+          <h2 >{{ T['design-by-people'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h2>
+          <p>{{ T['inspirate'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</p>
+          <div class="filter filters mb-3">
+            <form method="get" action="">
+              <div class="row">
+                <div class="col-lg-4 col-md-6">
+                  <div class="form-group row">
+                    <label for="inputCollection" class="col-md-4 col-6 col-form-label pr-0">{{ T['r2-collection'] }}</label>
+                    <div class="col-md-7 col-6 pl-0">
+                      <select name="collection" id="collection" class="selectpicker form-control">
+                        <option value="all">{{ T['r2-all'] }}</option>
+                        {% for collection in collections %}
+                          {% if filters.collection == collection.slug %}
+                            <option value="{{ collection.slug }}" selected="selected">{{ attribute(collection, 'name_' ~ LANG) }}</option>
+                          {% else %}
+                            <option value="{{ collection.slug }}">{{ attribute(collection, 'name_' ~ LANG) }}</option>
+                          {% endif %}
+                        {% endfor %}        
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                  <div class="form-group row">
+                    <label for="inputCollection" class="col-md-4 col-6 col-form-label pr-0">{{ T['r2-order-by'] }}</label>
+                    <div class="order_by">
+                      {% if filters.order_by == 'rating' %}
+                        <span rel="date">{{ T['r2-date'] }}</span> |
+                        <span class="active" rel="rating">{{ T['r2-rating'] }}</span>
+                      {% else %}
+                        <span class="active" rel="date">{{ T['r2-date'] }}</span> |
+                        <span rel="rating">{{ T['r2-rating'] }}</span>
+                      {% endif %}
+                      <input type="hidden" name="order_by" id="order_by" value="date"/>
+                    </div>   
+                  </div>
+                </div>
+              </div>    
+            </form>
+          </div>
+          <div id="portfolio" data-class-xs="portfolio-1" data-class-sm="portfolio-2" data-class-md="portfolio-2" data-class-lg="portfolio-3" class="portfolio grid-container portfolio-4 clearfix desings">
+          {% if designs | length > 0 %}  
+          {% for design in designs %}
+					<article class="portfolio-item pf-media pf-icons r-padd">
+						<div class="portfolio-image">
+							<a href="{{ path_for('showGalleryDesign2', {'lang':LANG,'designId':design.id}) }}">
+                <img data-src="{{ MEDIA_PATH }}images/designs/{{ design.screenshot }}" alt="custom design"/>
+                <div class="stars rating r{{ design.rating }}">
+                  <div>★</div><div>★</div><div>★</div><div>★</div><div>★</div>
+                </div>
+                                        
+                                        
+                <div class="portfolio-overlay d-flex align-items-end figure">
+                    <div class="text-white caption-text less-m">
+                        <ul>
+                            <li>
+                              <strong>{{ T['r2-design-by2'] }}</strong> {{ design.author }}
+                            </li>
+
+                            <li class="text-left">
+                              <small class="mb-0 text-reset">{{ design.created | date("d/m/Y") }}</small>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </a>    
+								  </div>
+							</article>
+                        {% endfor %}
+                        </div>
+                        {% if pager.nextPageUrl() or pager.previousPageUrl() %}
+                        <nav class="pager">
+                          {% if pager.previousPageUrl() %}
+                            <a href="{{ pager.previousPageUrl() }}">{{ T['r2-previous-page'] }}</a> 
+                          {% else %}
+                            <span>{{ T['r2-previous-page'] }}</span> 
+                          {% endif %}
+                          | 
+                          {% if pager.nextPageUrl() %}
+                            <a href="{{ pager.nextPageUrl() }}">{{ T['r2-next-page'] }}</a> 
+                          {% else %}
+                            <span>{{ T['r2-next-page'] }}</span> 
+                          {% endif %}
+                        </nav>
+                      {% endif %}
+                    {% else %}
+                      <p class="no_results">{{ T['r2-no-gallery-designs-found'] }}</p>
+                    {% endif %}
+				</div>
+			</div>
+		</section>
+{% endblock %}

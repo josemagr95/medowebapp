@@ -1,0 +1,25 @@
+{
+  "coupons": [
+    {
+      "code": "MEDO-FREE",
+      "expiration": "03-04-2019",
+      "discount": "total"
+    },
+    {
+      "code": "MEDO-60%",
+      "expiration": "03-04-2019",
+      "discount": "0.6"
+    },
+    {
+      "code": "MEDO-50%",
+      "expiration": "03-04-2019",
+      "discount": "0.5"
+    },
+    {
+      "code": "MEDO-10%",
+      "expiration": "03-04-2019",
+      "discount": "0.1"
+    }
+    
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "medo-website",
+  "authors": [
+    "Òscar Marí <oscar@uombo.com>"
+  ],
+  "description": "me·do",
+  "main": "index",
+  "license": "comercial",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "jquery.cycle2": "http://malsup.github.com/jquery.cycle2.js",
+    "jquery.cycle2.swipe.min": "http://malsup.github.io/min/jquery.cycle2.swipe.min.js",
+    "featherlight": "^1.7.2"
+  }
+}

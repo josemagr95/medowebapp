@@ -1,0 +1,50 @@
+{% extends "website/base.html" %}
+{% set current_section = "my-designs" %}
+{% set header_subtitle = T['my-designs'] %}
+{% set body_class = 'configurator_page' %}
+
+{% block title %}{{ T['r2-my-design'] | capitalize }} {{ attribute(collection, 'name_' ~ LANG) }} | {{ T['title'] }}{% endblock %}
+
+{% block js %}
+  <script src="https://s3.amazonaws.com/shapediverviewer/v2/2.0.8/sdv.concat.min.js" defer></script>
+  <script src="{{ STATIC_PATH }}js/configurator.js?v2=28"></script>
+	<script src="{{ STATIC_PATH }}bower_components/featherlight/release/featherlight.min.js"></script>
+
+  <script>
+    {% if params != '' %}  
+      var designParameters = {{ params | raw }};
+    {% endif %}
+  </script>
+{% endblock %}
+
+{% block css %}
+  <link href="{{ STATIC_PATH }}bower_components/featherlight/release/featherlight.min.css" rel="stylesheet" media="all">
+{% endblock %}
+
+{% block main %}
+  <div class="configurator read_only">
+    {% include 'website/partials/configurator.html' %}
+    {% if params != '' %}
+    <input type="hidden" id="configurator__design__params" value="1"/>
+    {% endif %}
+  </div>
+  
+  <div class="wrapper mydesign">
+    <ul class="design_specs">
+      <li><span>{{ T['r2-design-by'] }}</span>{{ SESSION.get('name') }}</li>
+      <li><span>{{ T['r2-date'] }}</span>{{ design.created | date("d/m/Y") }}</li>
+      <li class="double_margin"><span>{{ T['r2-description'] }}</span><br/>{{ design.description | nl2br }}</li>
+      <li class="double_margin">
+        <span>{{ T['r2-add-to-gallery'] }}</span><br/>
+        {% if design.public %}{{ T['r2-yes'] }}{% else %}{{ T['r2-no'] }}{% endif %}
+      </li>
+    </ul>
+    <div class="button_wrapper">
+      <a href="{{ path_for('myDesigns', {'lang':LANG}) }}" class="button neutral">{{ T['r2-back'] }}</a>
+      <a href="{{ path_for('editMyDesign', {'lang':LANG,'designId':design.id}) }}" class="button">{{ T['r2-edit'] }}</a>
+      <a href="{{ path_for('deleteMyDesign', {'lang':LANG,'designId':design.id}) }}" class="button red confirm" rel="{{ T['r2-are-you-sure'] }}">{{ T['r2-delete'] }}</a>
+    </div>
+  </div>
+
+  {% include 'website/partials/confirm-popup.html' %}
+{% endblock %}

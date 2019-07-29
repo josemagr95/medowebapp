@@ -1,0 +1,64 @@
+{% extends "new/base2.html" %}
+{% set current_section = "contact" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['freq'] }}{% endblock %}
+{% block description %}{{ T['seo-myaccount-description'] }}{% endblock %}
+
+{% block main %}	
+
+		<section id="page-title" class="page-title-parallax" style=" background-image: url('{{ STATIC_PATH }}imagenes/contact/desing-banner.png');" data-bottom-top="background-position:0px 0px;"><div class="video-overlay" style="background-color: rgba(0,0,0,0.4);"></div>
+		</section><!-- #page-title end -->
+		
+
+		<!-- Content -->
+    <div class="clear"></div>
+        
+		<section id="content">
+			<div class="content-wrappt-0">
+        <div class="row clearfix">
+          <div class="col-lg-9 offset-lg-3 pb-5 bg-grey pt-4 pl-xl-5">
+            <div class="form-title text-center text-lg-left">
+                <h1>{{ T['contact'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</h1>
+            </div>
+
+            <div class="container">
+							<div class="form-widget">
+								<div class="form-result"></div>
+								<form class="row" id="template-contactform" action="#" method="post">
+								  <div class="form-process"></div>
+										<div class="col-xl-6 pr-4">
+											<div class="form-group">
+												<input type="text" id="template-contactform-name" name="template-contactform-name" value="" placeholder="{{ T['name'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}" class="form-control required" />
+											</div>
+											<div class="form-group">
+												<input type="email" id="template-contactform-email" name="template-contactform-email" value="" placeholder="{{ T['email'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}" class="required email form-control" />
+											</div>
+											<div class="form-group form-select">
+												<select class="form-control required" id="template-contactform-contact">
+                          {{ T['options-contact'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}
+												</select>
+												<i class="icon-chevron-down position-absolute"></i>
+											</div>											
+										</div>
+	
+										<div class="col-xl-6 pt-2 pl-4">
+											<div class="form-group">
+												<label for="template-contactform-message">{{ T['message'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</label>
+												<textarea class="required form-control mb-0" id="template-contactform-message" name="template-contactform-message" rows="5
+												" cols="30"></textarea>
+											</div> 
+	
+											<div class="text-right">
+												<button type="submit" class="button button-circle button-border button-brown nomargin fright mt-3">{{ T['send'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</button>
+											</div>
+										</div>
+			
+									</form>
+								</div>
+              </div>            
+						</div>
+					</div>              
+			</div>
+		</section><!-- #content end -->
+{% endblock %}

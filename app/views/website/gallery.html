@@ -1,0 +1,91 @@
+{% extends "website/base.html" %}
+{% set current_section = "gallery" %}
+{% set header_subtitle = T['gallery'] %}
+
+{% block title %}
+  {{ T['gallery'] | capitalize }}{%if filters.search != ""%}, {{ T['r2-search-for'] }} {{ filters.search }}{%endif%}{%if filters.collection != "" and filters.collection != "all" %}, {{ T['r2-collection'] }} {{ filters.collection }}{%endif%} | {{ T['title'] }}
+{% endblock %}
+{% block description %}{{ T['r2-seo-gallery-description']}}{% endblock %}
+
+{% block js %}
+	<script src="{{ STATIC_PATH }}js/gallery.js?v=2-2"></script>
+{% endblock %}
+
+{% block main %}
+  <div class="wrapper">
+    <button class="filters_trigger">Show filters</button>
+
+    <div class="filters">
+      <form method="get" action="">
+        <label for="search">{{ T['r2-search'] }}</label>
+        <input type="text" name="search" id="search" value="{{ filters.search }}"/>
+
+        <label for="collection">{{ T['r2-collection'] }}</label>
+        <select name="collection" id="collection">
+          <option value="all">{{ T['r2-all'] }}</option>
+          {% for collection in collections %}
+            {% if filters.collection == collection.slug %}
+              <option value="{{ collection.slug }}" selected="selected">{{ attribute(collection, 'name_' ~ LANG) }}</option>
+            {% else %}
+              <option value="{{ collection.slug }}">{{ attribute(collection, 'name_' ~ LANG) }}</option>
+            {% endif %}
+          {% endfor %}        
+        </select>
+
+        <label>{{ T['r2-order-by'] }}</label>
+        <div class="order_by">
+          {% if filters.order_by == 'rating' %}
+            <span rel="date">{{ T['r2-date'] }}</span> |
+            <span class="active" rel="rating">{{ T['r2-rating'] }}</span>
+          {% else %}
+            <span class="active" rel="date">{{ T['r2-date'] }}</span> |
+            <span rel="rating">{{ T['r2-rating'] }}</span>
+          {% endif %}
+          <input type="hidden" name="order_by" id="order_by" value="date"/>
+        </div>
+
+        <button type="submit" class="button">{{ T['r2-filter'] }}</button>
+      </form>
+    </div>
+
+    {% if designs | length > 0 %}
+      <ul class="collection_list gallery_list">
+        {% for design in designs %}<li>
+          <a href="{{ path_for('showGalleryDesign', {'lang':LANG,'designId':design.id}) }}">
+            <img data-src="{{ MEDIA_PATH }}images/designs/{{ design.screenshot }}" alt="custom design"/>
+            <span>{{ T['r2-show'] }}</span>
+          </a>
+          <div class="info">
+            <ul class="design_specs">
+              <li><strong>{{ T['r2-design-by'] }}</strong>{{ design.author }}</li>
+              <li><strong>{{ T['r2-date'] }}</strong>{{ design.created | date("d/m/Y") }}</li>
+            </ul>
+
+            <div class="rating r{{design.rating }}">
+              <div>★</div><div>★</div><div>★</div><div>★</div><div>★</div>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+
+      {% if pager.nextPageUrl() or pager.previousPageUrl() %}
+        <nav class="pager">
+          {% if pager.previousPageUrl() %}
+            <a href="{{ pager.previousPageUrl() }}">{{ T['r2-previous-page'] }}</a> 
+          {% else %}
+            <span>{{ T['r2-previous-page'] }}</span> 
+          {% endif %}
+          | 
+          {% if pager.nextPageUrl() %}
+            <a href="{{ pager.nextPageUrl() }}">{{ T['r2-next-page'] }}</a> 
+          {% else %}
+            <span>{{ T['r2-next-page'] }}</span> 
+          {% endif %}
+        </nav>
+      {% endif %}
+    {% else %}
+      <p class="no_results">{{ T['r2-no-gallery-designs-found'] }}</p>
+    {% endif %}
+  </div>
+{% endblock %}

@@ -1,0 +1,228 @@
+{% extends "new/base2.html" %}
+{% set current_section = "home2" %}
+{% set body_class = "impact_header" %}
+
+{% block main %}
+		<section id="content" class="content-login">
+			<div class="content-wrap">
+				<div id="login" class="container clearfix">
+
+          
+          {% if SESSION.get("user-already-exist") == "1" %}
+            <script>
+              swal({
+                title: "{{ T['error'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}",
+                text: "{{ T['user-already-exist'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}",
+                icon: "error",
+                button: "{{ T['close'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}"
+              }, function(){
+                window.location.href="register";
+              });
+            </script>
+          {{ SESSION.delete("user-already-exist")}}
+          {% endif %}
+
+          {% if SESSION.get("register-successful") == "1" %}
+            <script>
+              swal({
+                title: "{{ T['ok'] }}",
+                text: "{{ T['register-successful'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}",
+                icon: "success"
+                },
+                function(){
+                  window.location.href="/{{LANG}}/2";
+                });
+            </script>
+            {{ SESSION.delete("register-successful")}}
+          {% endif %}
+
+          {% if SESSION.get("error-register-chars") == "1" %}
+            <script>
+              swal({
+                title: "{{ T['error'] }}",
+                text: "{{ T['error-register-chars'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}",
+                icon: "success",
+                closeOnConfirm: false
+                },
+                function(isConfirm){
+                  if(isConfirm){
+                    history.back();
+                  }s
+                },
+                function(){
+                  window.location.href="/{{LANG}}/2";
+                });
+            </script>
+            {{ SESSION.delete("error-register-chars")}}
+          {% endif %}
+
+          {% if SESSION.get("email-invalid") == "1" %}
+            <script>
+              swal({
+                title: "{{ T['error'] }}",
+                text: "{{ T['invalid-email'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}",
+                icon: "error",
+                closeOnConfirm: false
+                },
+                function(isConfirm){
+                  if(isConfirm){
+                    history.back();
+                  }
+              });
+            </script>
+            {{ SESSION.delete("email-invalid")}}
+          {% endif %}
+
+          {% if SESSION.get("incorrect-password") == "1" %}
+          <script>
+            swal({
+              title: "{{ T['error'] }}",
+              text: "{{ T['incorrect-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}",
+              icon: "error",
+              closeOnConfirm: false
+                },
+                function(isConfirm){
+                  if(isConfirm){
+                    history.back();
+                  }
+              });
+          </script>
+          {{ SESSION.delete("incorrect-password")}}
+          {% endif %}
+
+          {% if SESSION.get("incorrect-username") == "1" %}
+          <script>
+            swal({
+              title: "{{ T['error'] }}",
+              text: "{{ T['incorrect-username'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}",
+              icon: "error",
+              closeOnConfirm: false
+                },
+                function(isConfirm){
+                  if(isConfirm){
+                    history.back();
+                  }
+              });
+          </script>
+          {{ SESSION.delete("incorrect-username")}}
+          {% endif %}
+
+          {% if SESSION.get("incorrect-characters") == "1" %}
+          <script>
+            swal({
+              title: "{{ T['error'] }}",
+              text: "{{ T['incorrect-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}",
+              icon: "error",
+              closeOnConfirm: false
+                },
+                function(isConfirm){
+                  if(isConfirm){
+                    history.back();
+                  }
+              });
+          </script>
+          {{ SESSION.delete("incorrect-characters")}}
+          {% endif %}
+
+
+					<div class="accordion accordion-lg divcenter nobottommargin clearfix" style="max-width: 550px;">
+            <div class="acctitle">
+              <i class="acc-closed icon-lock3"></i>
+              <i class="acc-open icon-unlock"></i>
+                {{ T['login-to-account'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+            </div>
+						<div class="acc_content clearfix">
+							<form id="login-form" name="login-form" class="nobottommargin" action="{{ path_for('login2', {'lang':LANG}) }}" method="post">
+								<div class="col_full">
+									<label for="login-form-username">{{ T['email'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</label>
+									<input type="text" id="login-email" name="login-email" value="" class="form-control" />
+								</div>
+
+								<div class="col_full">
+									<label for="login-form-password">{{ T['password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}:</label>
+									<input type="password" id="login-password" name="login-password" value="" class="form-control" />
+								</div>
+
+								<div class="col_full botones">
+									<button class="button button-circle button-border button-brown nomargin btnLogin" id="login-form-submit" name="login-form-submit" value="login">{{ T['login'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</button>
+									<a href="{{ path_for('recover-password', {'lang':LANG}) }}" class="fright">{{ T['forgot-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</a>
+								</div>
+							</form>
+								<div class="left">
+									<h5 class="iniciar-redes">{{ T['login-with-social'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}:</h5>
+									<div class="iconos-redes-checkout">
+                    <div class="social-icon si-rounded si-light si-facebook facebookRegister" title="Facebook">
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                    </div>
+                    <div class="social-icon si-rounded si-light si-instagram instagramRegister" title="Facebook">
+                        <i class="icon-instagram2"></i>
+                        <i class="icon-instagram2"></i>
+                    </div>
+                    <div href="{{ googleRoute }}">
+                      <div class="social-icon si-rounded si-light si-google" title="Google">
+                        <i class="icon-google-plus-g"></i>
+                        <i class="icon-google-plus-g"></i>
+                      </div>
+                    </div>
+                  </div>  
+								</div>
+              </div>
+            
+              <div id class="acctitle">
+                <i class="acc-closed icon-arrow-right"></i>
+                <i class="acc-open icon-ok-sign"></i>
+                {{T['are-new'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}
+              </div>
+						<div class="acc_content clearfix">
+
+							<form id="register-form" name="register-form" class="nobottommargin" action="{{ path_for('signup2', {'lang':LANG}) }}" method="post" onsubmit="return userRegister()">
+								<div class="col_full">
+									<label for="register-form-name">{{T['name'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</label>
+									<input type="text" id="register-form-name" name="register-form-name" value="" class="form-control" required/>
+								</div>
+
+								<div class="col_full">
+									<label for="register-form-email">{{T['email'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</label>
+									<input type="email" id="register-form-email" name="register-form-email" value="" class="form-control" required/>
+								</div>
+
+								<div class="col_full">
+									<label for="register-form-password">{{T['password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</label>
+									<input type="password" id="register-form-password" name="register-form-password" value="" class="form-control" required/>
+								</div>
+
+								<div class="col_full">
+									<label for="register-form-repassword">{{T['re-password'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</label>
+									<input type="password" id="register-form-repassword" name="register-form-repassword" value="" class="form-control" required/>
+								</div>
+
+								<div class="col_full botones">
+									<button class="button button-circle button-border button-brown nomargin" id="register-form-submit" name="register-form-submit" value="register">{{T['register'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</button>
+								</div>
+							</form>
+								<div class="left">
+									<h5 class="iniciar-redes">{{ T['register-social'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h5>
+									<div class="iconos-redes-checkout">
+                    <div class="social-icon si-rounded si-light si-facebook facebookRegister" title="Facebook">
+                      <i class="icon-facebook"></i>
+                      <i class="icon-facebook"></i>
+                    </div>
+                    <div class="social-icon si-rounded si-light si-instagram instagramRegister" title="Instagram">
+                      <i class="icon-instagram2"></i>
+                      <i class="icon-instagram2"></i>
+                  </div>
+                  <a href="{{ googleRoute }}">
+                    <div class="social-icon si-rounded si-light si-google" title="{{ googleRoute }}">
+                      <i class="icon-google-plus-g"></i>
+                      <i class="icon-google-plus-g"></i>
+                    </div>
+                  </a>
+                  </div>  
+								</div>
+              </div>
+					</div>
+				</div>
+			</div>
+		</section>   
+{% endblock %} 

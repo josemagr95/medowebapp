@@ -1,0 +1,14 @@
+#!/bin/bash
+echo "--> Pulling to production"
+
+cd /var/www/repositories/medo && git pull 2>&1 | sed 's/^/    /'
+
+echo "--> Installing back-end dependencies"
+composer --ansi --no-dev install 2>&1 | sed 's/^/    /'
+
+echo "--> Running migrations"
+cd /var/www/repositories/medo && vendor/bin/phinx migrate --ansi 2>&1 | sed 's/^/    /'
+
+echo "--> Clear views cache"
+cd /var/www/repositories/medo/app/cache/views && sudo rm -rf * 2>&1 | sed 's/^/    /'
+

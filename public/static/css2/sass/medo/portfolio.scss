@@ -1,0 +1,17 @@
+.profile {
+    .oc-item {
+      .portfolio-img {
+        display: block;
+        width: 100%;
+        height: auto;
+        position: relative;
+        overflow: hidden;
+      }
+      &:hover {
+        .portfolio-overlay {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  

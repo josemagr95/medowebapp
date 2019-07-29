@@ -1,0 +1,9 @@
+*.sass-cache*
+config/
+vendor/
+media/
+cache/
+sources/design/
+.DS_Store
+.swp
+composer.phar

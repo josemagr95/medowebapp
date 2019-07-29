@@ -1,0 +1,94 @@
+{% extends "new/base2.html" %}
+{% set current_section = "home2" %}
+{% set body_class = "impact_header" %}
+
+{% block main %}
+<!-- Slider -->   
+<section id="slider" class="slider-element slider-parallax swiper_wrapper clearfix" data-loop="true" data-autoplay="8000" data-speed="1000">
+  <div class="slider-parallax-inner">
+    <div class="swiper-container swiper-parent">
+      <div class="swiper-wrapper">
+        {% for image in slider_images %}
+          <div class="swiper-slide" style="background-image: url('{{ image.image }}'); background-position: center bottom;">
+            <div class="container clearfix">
+              <div class="slider-caption">
+                <p>{{ image.text |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</p>
+              </div>
+              <a href="#" data-scrollto="#furniture-desing" data-offset="100" class="one-page-arrow"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+      <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>    
+
+<!-- Content -->
+<section id="content" class="home content">
+  <div class="content-wrap">
+    <div class="base-container">
+      <div class="row align-items-stretch clearfix" id="furniture-desing">
+        
+          
+        <div class="col-md-6 col-padding position-relative" style="background: url('{{ I['home-1']}}') center center no-repeat; background-size: cover;min-height: 560px;">
+          <div class="position-absolute side-title e">
+            <h1>{{ T['home-4'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h1>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-padding d-flex align-items-end">
+          <div class="paragraph">
+
+            <p>{{ T['home-5'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</p>
+            <p>{{ T['home-6'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</p>
+                            
+            <a class="d-flex align-items-center video" href="{{ STATIC_PATH }}imagenes/videos/explore.mp4" data-lightbox="iframe">
+              <div class="play d-flex justify-content-center align-items-center rounded-circle">
+                <i class="icon-line2-control-play"></i>
+              </div>
+              <p>{{ T['video'] }}</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+   <!--  <div class="container clearfix">
+      <div class="ctr-1200 port-section">
+        <h2>{{ T['personaliza-home'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}}</h2>
+        <div id="home-diseños" class="portfolio grid-container portfolio-2 clearfix desings">
+
+          {% for collection in collections %}
+            {% for col in collection %}
+              <article class="portfolio-item pf-media pf-icons">
+                <a href="{{ path_for('collection2', {'lang':LANG,'collectionSlug':col.slug})}}">
+                <div class="portfolio-image">
+                  <div class="top-title">{{ col.name | capitalize}}</div>
+                      <img src="{{ col.image }}" alt="me·do design trend">
+                    <div class="portfolio-overlay d-flex align-items-end figure">
+                      <div class="text-white caption-text">
+                        <strong> {{ T['personalize-your-design'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }} </strong>
+                      </div>
+                    </div>
+                </div>
+                </a>
+                <div class="portfolio-desc">
+                  <a href="{{ path_for('collection2', {'lang':LANG,'collectionSlug':col.slug}) |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}"><h3>{{ col.name |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h3></a>    
+                  <a href="{{ path_for('designer2', {'lang': LANG, 'designerId': col.designerId}) }}"><h4>{{ col.designer |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</h4></a>                               
+                </div>
+              </article>
+
+            {% endfor %}
+          {% endfor %}
+        </div>
+      </div>
+      <div class="text-center">
+        <a href="{{ path_for('collections2', {'lang': LANG}) }}" class="button button-circle button-border button-brown nomargin">{{ T['view-all'] }}</a>
+      </div>
+    </div> -->
+  </div>
+</section>
+{% endblock %}

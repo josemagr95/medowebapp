@@ -1,0 +1,14 @@
+{% extends "website/base.html" %}
+{% set current_section = "legal" %}
+{% set header_subtitle = T['legal-note'] %}
+
+{% block title %}{{ T['legal-note'] }} | {{ T['title'] }}{% endblock %}
+
+{% block main %}
+  <div class="wrapper">
+    <h3 class="content_title">{{ T['legal-note'] }}</h3>
+    <div class="text_wrapper">
+      {{ T['legal-content'] | raw }}
+    </div>
+  </div>
+{% endblock %}

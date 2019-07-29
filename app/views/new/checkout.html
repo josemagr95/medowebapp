@@ -1,0 +1,179 @@
+{% extends "new/base2.html" %}
+{% set current_section = "checkout" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['Checkout'] }}{% endblock %}
+{% block description %}{{ T['seo-cart-description'] }}{% endblock %}
+{% block js %}
+	<!-- Select-Boxes Plugin -->
+
+{% endblock %}
+
+{% block css %}
+  <!-- Select-Boxes CSS -->
+  
+
+{% endblock %}
+{% block main %}
+		<!-- Content -->
+		<section id="content">
+			<div class="content-wrap">
+				<div id="checkout" class="container clearfix">
+          {% if SESSION.isLogged() == false %}
+          <div class="col-md-12 center iniciar">
+              <h3>{{ T['have-account'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}} <br/><a id="show-login" data-toggle="modal" data-target="#overlayModal" href="javascript:void(0)" class="button button-circle button-border button-brown button-small nomargin">Inicia sesión</a></h3>
+          </div>
+          {% endif %}
+
+					<div class="clear"></div>
+
+					<div class="row clearfix">
+            {% if SESSION.isLogged() == false %}
+						<div class="col-lg-6">
+							<h4 class="checkout">{{ T['create-account']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h4>
+              <p class="checkout">{{ T['complete-data']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}
+              <div class="iconos-redes-checkout">
+                <a href="#" class="social-icon si-rounded si-light si-facebook" title="Facebook">
+                  <i class="icon-facebook"></i>
+                  <i class="icon-facebook"></i>
+                </a>
+                <a href="#" class="social-icon si-rounded si-light si-facebook" title="Facebook">
+                  <i class="icon-instagram2"></i>
+                  <i class="icon-instagram2"></i>
+                </a>
+                <a href="#" class="social-icon si-rounded si-light si-google" title="Facebook">
+                  <i class="icon-google"></i>
+                  <i class="icon-google"></i>
+                </a> 
+              </div>
+              <div class="clear"></div>
+                                
+                                
+							<form id="billing-form" name="billing-form" class="nobottommargin" action="#" method="post">
+
+								<div class="col_half">
+									<label for="billing-form-name">{{ T['name']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<input type="text" id="billing-form-name" name="billing-form-name" value="" class="form-control" />
+								</div>
+
+								<div class="col_half col_last">
+									<label for="billing-form-lname">{{ T['surname']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<input type="text" id="billing-form-lname" name="billing-form-lname" value="" class="form-control" />
+								</div>
+
+								<div class="clear"></div>
+
+								<div class="col_full">
+									<label for="billing-form-date">{{ T['email']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<input type="text" id="register-form-email" name="register-form-email" value="" class="form-control" />
+								</div>
+                                
+                <div class="col_half">
+									<label for="register-form-password">{{ T['password']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<input type="password" id="register-form-password" name="register-form-password" value="" class="form-control" />
+								</div>
+                <div class="col_half col_last">
+									<label for="register-form-repassword">{{ T['re-password']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<input type="password" id="register-form-repassword" name="register-form-repassword" value="" class="form-control" />
+								</div>
+              </form>
+              
+            </div>
+            {% endif %}
+						<div class="col-lg-6 shipping">
+							<h4 class="checkout">{{ T['your-address']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h4>
+              <p class="checkout">{{ T['indicate-region']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</p>
+              
+							<form id="shipping-form" name="shipping-form" class="nobottommargin" action="#" method="post">
+
+								<div class="col_half form-group">
+									<label for="billing-form-region">{{ T['region']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<select class="form-control select-1" id="selectRegion" style="width:100%;">										
+                  </select>
+                  
+									<!-- <i class="icon-chevron-down position-absolute"></i> -->
+								</div>
+
+								<div class="col_half col_last form-group">
+									<label for="billing-form-comuna">{{ T['commune']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<select class="form-control select-1" id="selectLocalidad" style="width:100%;">
+									
+									</select>
+									<!-- <i class="icon-chevron-down position-absolute"></i> -->
+								</div>
+	
+								<div class="col_full">
+									<label for="billing-form-address">{{ T['address-form']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<input type="text"  id="address" name="billing-form-address" value="" class="form-control" />
+								</div>
+								<div class="col_half">
+									<label for="billing-form-phone">{{ T['apartment']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</label>
+									<input type="text" id="billing-form-phone" name="billing-form-phone" value="" class="form-control" />
+                </div>
+                <br>
+							</form>
+						</div>
+						<div class="w-100 bottommargin"></div>
+						<div class="col-lg-6 tu-pedido">
+							<h4>{{ T['order-detail'] }}</h4>
+
+							<div class="table-responsive itemCartsDefinitive">
+								<table class="table cart">
+									<tbody class="detailProductCheckout">
+
+									</tbody>
+
+								</table>
+							</div>
+						</div>
+						<div class="col-lg-6 total-carrito">
+							<h4>{{ T['total-cart'] }}</h4>
+
+							<div class="table-responsive">
+								<table class="table cart">
+									<tbody class="totalCheckout">
+										<tr class="cart_item">
+											<td class="notopborder cart-product-name">
+												<strong>{{ T['subtotal']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</strong>
+											</td>
+
+											<td class="notopborder cart-product-name">
+												<span class="amount sumSubTotals"></span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												<strong>{{ T['shipping']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</strong>
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount totalShippingCost"></span>
+											</td>
+										</tr>
+										<tr class="cart_item">
+											<td class="cart-product-name">
+												<strong>{{ T['total']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</strong>
+											</td>
+
+											<td class="cart-product-name">
+												<span class="amount lead sumTotal"><strong></strong></span>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+
+							<img src="https://mifreelance.cl/wp-content/uploads/2017/03/integracion-webpay-plus.jpg" width="70px" alt="">
+                            <br/>
+							<a href="{{ path_for('order', {'lang':LANG}) }}" class="button button-circle button-brown nomargin btnPay">{{ T['go-to-checkout'] }}</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+		</section><!-- #content end -->
+
+
+
+{% endblock %}

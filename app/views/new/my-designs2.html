@@ -1,0 +1,45 @@
+{% extends "new/base2.html" %}
+{% set current_section = "my_designs" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['Checkout'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}{% endblock %}
+{% block description %}{{ T['seo-cart-description'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}{% endblock %}
+
+{% block main %}
+		<section id="content">
+			<div class="content-wrap">
+        <div class="container clearfix">
+          <div class="row clearfix">
+            <div class="col-lg-3 col-md-12 clearfix">
+              <div class="list-group">
+                <a href="{{ path_for('myaccount', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-user21 float-left"></i>{{ T['my-account'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                <a href="{{ path_for('address', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-envelope2 float-left"></i>{{ T['address'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                <a href="{{ path_for('myOrders', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-credit-cards float-left"></i> {{ T['buyed-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                <a href="{{ path_for('myDesigns2', {'lang':LANG}) }}" class="active list-group-item list-group-item-action clearfix"><i class="icon-line-cog float-left"></i>{{ T['my-saved-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                <a href="{{ path_for('logout', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-line2-logout float-left"></i>{{ T['logout'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+              </div>
+            </div>
+            <div class="col-lg-9 col-md-12 editar-usuario">
+              <h3>{{ T['my-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}</h3>
+              <div data-class-sm="portfolio-1" data-class-md="portfolio-2" id="portfolio" class="portfolio grid-container portfolio-3 clearfix desings">
+                {% for design in designs %}
+                <article class="portfolio-item pf-media pf-icons">
+                  <a href="{{ path_for('showMyDesign', {'lang':LANG,'designId':design.id}) |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}">
+                    <div class="portfolio-image">                                                
+                      <img src="{{ MEDIA_PATH |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}images/designs/{{ design.screenshot |convert_encoding('UTF-8', 'ISO-8859-1')  | raw  }}" alt="custom design">
+                      <div class="portfolio-overlay figure"></div> 
+                    </div>
+                    <div class="designs-content">
+                      <h2>{{ design.name | convert_encoding('UTF-8', 'ISO-8859-1') }}</h2>
+                      <p>{{ design.created | date("d/m/Y") }}</p>
+                    </div>
+                  </a>     
+                </article>
+                {% endfor %}     
+            </div>
+            </div>
+          </div>
+        </div>
+			</div>
+		</section>
+{% endblock %}

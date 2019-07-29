@@ -1,0 +1,62 @@
+{% extends "new/base2.html" %}
+{% set current_section = "product-detail" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['Contact'] }}{% endblock %}
+{% block description %}{{ T['seo-product-detail-description'] }}{% endblock %}
+
+{% block main %}
+
+		<section id="content" class="content">
+			<div class="content-wrap">
+				<div id="disenador_profile" class="container" style="max-width: 1200px">
+          <div class="row align-items-stretch clearfix">
+            <h2 class="movil">{{ designer.name }}</h2>
+						<div class="col-md-6 position-relative img-desing">
+              <img src='{{designer.image}}'>    
+            </div>
+
+						<div class="col-md-6 d-flex col-padding">
+							<div class="paragraph position-relative">
+                <h2 class="escritorio">{{ designer.name }}</h2>
+                <p>{{ designer.description | convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</p>
+                <p><a href="{{designer.web}}">{{designer.web}}</a></p>
+								<a class="d-flex align-items-center video" href="{{ STATIC_PATH }}{{designer.video}}" data-lightbox="iframe">
+									<div class="play d-flex justify-content-center align-items-center rounded-circle">
+										<i class="icon-line2-control-play"></i>
+									</div>
+								  <p>{{ T['video'] }}</p>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+        <div class="container clearfix">
+				  <div class="ctr-1200 port-section">
+				    <h3>{{ T['disenoautormedo'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }} {{ designer.alias }}</h3>
+              <div class="owl-carousel image-carousel carousel-widget desings profile" data-margin="40" data-nav="false" data-pagi="true" data-items="2" data-items-sm="1">                     
+                {% for collection in designerCollections %}
+                <div class="oc-item">
+                  <a href="{{ path_for('collection2', {'lang': LANG, 'collectionSlug': collection.slug}) }}">
+                    <div class="portfolio-img">
+                      <div class="top-title">{{ collection.name }}</div>
+                      <img class="image_fade" src="{{ collection.image }}">
+                      <div class="portfolio-overlay d-flex align-items-end figure">
+                        <div class="text-white caption-text">
+                          <strong> {{ T['personalize-design'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }} </strong>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="portfolio-desc">
+                      <h3>{{ collection.name }}</h3>
+                    </div>
+                  </a>      
+                </div>
+                {% endfor %}
+            </div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+{% endblock %}

@@ -1,0 +1,128 @@
+
+
+.content {
+    .title {
+        line-height: 80px;
+        small{
+            font-size: 20px;
+            font-weight: 400;
+            opacity: 0.6;
+            letter-spacing: 4px;
+        }
+    }
+    .personalization {
+
+        margin-top: 120px;
+        margin-bottom: 60px;
+        .paragraph {
+            margin-top: 110px;
+            &.last {
+                margin-top: 75px;
+                padding-right: 2em;
+            }
+        }
+    }
+}
+
+
+#about {
+    .col1 .fix {
+        max-width: 500px
+    }
+    .col2 .m1 .fix {
+        max-width: 400px;
+        margin-top: 60px;
+    }
+    .col2 .m4 .fix {
+        max-width: 400px;
+        margin-left: 60px;
+    }
+    .col2 .m1,
+    .col2 .m2,
+    .col2 .m3,
+    .col2 .m4 {
+        padding: 0px !important
+    }
+    .m1 {
+        h1 {
+            max-width: 200px
+        }
+
+    }
+    .m4 {
+        margin-top: 150px
+    }
+}
+
+
+#about {
+    .img3 {
+        height: 400px;
+        width: 100%;
+        position: relative;
+        top: 60px;
+    }
+    .img2 {
+        position: relative;
+        top: -30px
+    }
+}
+
+
+
+
+@media (max-width: 991px) {
+    #about .col2 .m1 .fix,
+    #about .col2 .m4 .fix {
+        max-width: 300px
+    }
+    #about .col1 .col-padding {
+        padding: 0px 60px
+    }
+    #about h1 {
+        line-height: 40px
+    }
+    .content .title small {
+        font-size: 18px;
+        position: relative;
+        top: -10px
+    }
+}
+
+
+@media (max-width: 767px) {
+    #about .col2 .m1 .fix {
+        margin-top: 0px
+    }
+    #about .col2 .m1 .fix,
+    #about .col2 .m4 .fix,
+    #about .m1 h1 {
+        max-width: 100%;
+    }
+    .content .personalization {
+        margin-top: 80px
+    }
+    #about .img3,
+    #about .img2 {
+        top: 0px
+    }
+    #about .m4 {
+        margin-top: 40px
+    }
+    #about .col2 .m4 .fix {
+        margin-left: 0px
+    }
+     #about .col2 h1 br { display: none}
+
+}
+
+
+@media (max-width: 575px) {
+    #about .col1 .col-padding {
+        margin: 0px 50px;
+        padding: 0px !important;
+    }
+    .content .personalization { margin-top: 60px}
+    #about .col1 .img1 { height: 400px !important}
+   
+}

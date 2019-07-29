@@ -1,0 +1,41 @@
+{% extends "new/base2.html" %}
+{% set current_section = "collections" %}
+{% set header_subtitle = T['configurator'] %}
+
+{% block title %}{{ T['configurator'] | capitalize |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }} | {{ T['title'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}{% endblock %}
+{% block description %}{{ T['seo-collections-list-description'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}{% endblock %}
+
+{% block js %}
+	<script src="{{ STATIC_PATH |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}bower_components/jquery.cycle2/index.js"></script>
+	<script src="{{ STATIC_PATH |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}bower_components/jquery.cycle2.swipe.min/index.js"></script>
+{% endblock %}
+
+
+{% block main %}
+
+<section id="content" class="collections">
+  <div class="content-wrap">
+    <div class="container clearfix">
+        <h2 class="mb-0">{{ T['personalize-design'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h2>
+        <p>{{ T['select-product'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}.</p>
+  
+        <div data-class-sm="portfolio-1" data-class-md="portfolio-2" id="portfolio" class="portfolio grid-container portfolio-3 clearfix desings">
+              {% for collection in collections %}
+              <article class="portfolio-item pf-media pf-icons">
+                <div class="portfolio-image">
+                  <div class="top-title">{{ collection.name |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</div>
+                    <a href="{{ path_for('collection2', {'lang':LANG,'collectionSlug':collection.slug}) |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}" rel="{{ collection.slug |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}">
+                      <img src="{{ collection.image |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}" alt="{{ collection.name |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}">
+                    </a>    
+                  </div>
+                  <div class="portfolio-desc">
+                    <a href="{{ path_for('collection2', {'lang': LANG, 'collectionSlug': collection.slug}) }}"><h3>{{ collection.name |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</h3></a>    
+                    <a href="{{ path_for('designer2', {'lang': LANG, 'designerId': collection.designer_id}) }}"><h4>{{ T['r2-design-by'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw}} {{ collection.designer }}</h4></a>                                   
+                  </div>
+              </article>
+              {% endfor %}
+        </div>
+    </div>
+  </div>
+</section>
+{% endblock %}

@@ -1,0 +1,66 @@
+{% extends "new/base2.html" %}
+{% set current_section = "myOrders" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['my-orders'] }}{% endblock %}
+{% block description %}{{ T['seo-myaccount-description'] }}{% endblock %}
+
+{% block main %}	
+<section id="content">
+    <div class="content-wrap">
+        <div class="container clearfix">
+          <div class="row clearfix">
+
+            <div class="col-lg-3 col-md-12 clearfix">
+                      <div class="list-group">
+                        <a href="{{ path_for('myaccount', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-user21 float-left"></i>{{ T['my-account'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                        <a href="{{ path_for('address', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-envelope2 float-left"></i>{{ T['address'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                        <a href="{{ path_for('myOrders', {'lang':LANG}) }}" class="active list-group-item list-group-item-action clearfix"><i class="icon-credit-cards float-left"></i> {{ T['buyed-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                        <a href="{{ path_for('myDesigns2', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-line-cog float-left"></i>{{ T['my-saved-designs'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                        <a href="{{ path_for('logout', {'lang':LANG}) }}" class="list-group-item list-group-item-action clearfix"><i class="icon-line2-logout float-left"></i>{{ T['logout'] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a>
+                      </div>
+            </div>
+           <div class="col-lg-9 col-md-12 editar-usuario">
+                  <h3>Mis diseños comprados</h3> 
+                   <div class="table-responsive">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                              <th>Pedido</th>
+                              <th>Fecha</th>
+                              <th>Estado</th>
+                              <th>Total</th>
+                              <th>Armado</th>
+                              <th>Orden de compra</th>
+
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>#606</td>
+                            <td>Marzo 25,2019</td>
+                            <td>Completado</td>
+                            <td>$44.000</td>
+                            <td><a href="{{ path_for('instructions', {'lang':LANG}) }}" class="button button-circle button-border button-brown button-small nomargin">Ver instrucciones</a></td>    
+                            <td><a href="{{ path_for('order', {'lang':LANG}) }}" class="button button-circle button-border button-brown button-small nomargin">Detalles</a></td>
+
+                          </tr>
+                          <tr>
+                            <td>#605</td>
+                            <td>Marzo 25,2019</td>
+                            <td>Pendiente de pago</td>
+                            <td>$44.000</td>
+                            <td></td>
+                            <td>
+                              <a href="#" class="button button-circle button-border button-brown button-small nomargin">Pagar</a>
+                            </td> 
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

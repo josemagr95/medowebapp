@@ -1,0 +1,24 @@
+{% extends "website/base.html" %}
+{% set current_section = "my-designs" %}
+{% set header_subtitle = T['my-designs'] %}
+
+{% block title %}{{ T['my-designs'] | capitalize }} | {{ T['title'] }}{% endblock %}
+
+{% block main %}
+  <div class="wrapper">
+    {% if designs | length > 0 %}
+      <ul class="collection_list">
+        {% for design in designs %}
+        <li>
+          <a href="{{ path_for('showMyDesign', {'lang':LANG,'designId':design.id}) }}">
+            <img data-src="{{ MEDIA_PATH }}images/designs/{{ design.screenshot }}" alt="custom design"/>
+            <span>{{ T['r2-show'] }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p class="no_results">{{ T['r2-no-designs-found'] }}</p>
+    {% endif %}
+  </div>
+{% endblock %}

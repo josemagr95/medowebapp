@@ -1,0 +1,38 @@
+.iconos-redes {
+    margin: 0 auto;
+    width: 135px
+}
+
+h4.checkout {
+    margin-bottom: 10px
+}
+
+p.checkout {
+    margin-right: 10px;
+    margin-bottom: 40px;
+    float: left;
+}
+
+
+.iconos-redes-checkout {
+    position: relative;
+    top: -6px;
+    .social-icon {
+        width: 33px;
+        height: 33px;
+        font-size: 15px;
+        line-height: 30px
+    }
+    i {
+        position: relative;
+        top: -4px
+    }
+}
+
+#checkout {
+
+    .form-control {
+        font-size: 14px
+    }
+
+}

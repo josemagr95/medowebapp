@@ -1,0 +1,46 @@
+{% extends "new/base2.html" %}
+{% set current_section = "orderDetail" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['Checkout'] }}{% endblock %}
+{% block description %}{{ T['seo-cart-description'] }}{% endblock %}
+
+{% block main %}
+    <!-- Content  -->
+    <div class="clear"></div>
+		<section id="content">
+
+			<div class="content-wrap">
+
+				<div id="order-detail" class="container clearfix">
+          <center><h2>¡Gracias! {{ SESSION.get("user_name") }} Tu compra ha sido exitosa.</h2>
+          <h4 class="mb-1">Detalles de tu pedido</h4>
+
+          <ul class="list-inline order-detail">
+            <li class="list-inline-item border-right pr-4"> Número del pedido<br><strong>#5</strong> </li>
+            <li class="list-inline-item px-3 dateToday"> Fecha <br><strong></strong></li>
+          </ul>
+
+        <div class="table-responsive table table-borderless" style="max-width:600px">
+            <table class="table cart mb-0">
+                <thead>
+                    <tr>
+                        <th class="cart-product-name">Productos</th>
+                        <th class="cart-product-name">Total</th>
+                    </tr>
+                </thead>
+                <tbody class="productOrderDetail">
+                    
+  
+                                    
+                   
+                    
+                </tbody>
+    
+              </table>
+            </div>
+          </div>
+        </center>
+        </div>
+      </section><!-- #content end -->
+{% endblock %}

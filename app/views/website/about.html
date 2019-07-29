@@ -1,0 +1,33 @@
+{% extends "website/base.html" %}
+{% set current_section = "about" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['about-medo'] }}{% endblock %}
+{% block description %}{{ T['seo-about-description'] }}{% endblock %}
+
+{% block main %}
+  <div class="image_header">
+  </div>
+  
+  <div class="wrapper">
+    <p class="centered_description">{{ T['about-content1'] | nl2br }}</p>
+  </div>
+
+  <div class="parallax_image good_design">
+    <div class="overlay">{{ T['buen-diseno'] }}</div>
+    <div class="background"></div>
+  </div>
+  
+  <div class="wrapper">
+    <p class="centered_description">{{ T['about-content2'] | nl2br }}</p>
+  </div>
+  
+  <div class="parallax_image sustainability">
+    <div class="overlay">{{ T['sostenibilidad-siempre'] }}</div>
+    <div class="background"></div>
+  </div>
+  
+  <div class="wrapper">
+    <p class="centered_description">{{ T['about-content3'] | nl2br }}</p> 
+  </div>
+{% endblock %}

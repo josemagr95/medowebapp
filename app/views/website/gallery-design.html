@@ -1,0 +1,115 @@
+{% extends "website/base.html" %}
+{% set current_section = "gallery" %}
+{% set header_subtitle = T['gallery'] %}
+{% set body_class = 'configurator_page' %}
+
+{% block title %}{{ attribute(collection, 'name_' ~ LANG) }} #{{ design.id }} by {{ design.author().name }} | {{ T['title'] }}{% endblock %}
+{% block description %}{{ design.description|length > 157 ? design.description|slice(0, 157) ~ '...' : design.description  }}{% endblock %}
+
+{% block meta %}
+  <meta property="og:title" content="{{ attribute(collection, 'name_' ~ LANG) }} by {{ design.author().name }} | {{ T['title'] }}" />
+  <meta property="og:description" content="{{ design.description }}" />
+  <meta property="og:image" content="http://me-do.cl{{ MEDIA_PATH }}images/designs/{{ design.screenshot }}" />
+  <meta property="og:locale" content="{{ LANG }}"/>
+  <meta property="og:site_name" content="me · do"/>
+{% endblock %}
+
+{% block js %}
+  <script src="https://s3.amazonaws.com/shapediverviewer/v2/2.0.8/sdv.concat.min.js" defer></script>
+	<script src="{{ STATIC_PATH }}js/gallery.js?v=2-3"></script>
+  <script src="{{ STATIC_PATH }}js/configurator.js?v2=28"></script>
+	<script src="{{ STATIC_PATH }}bower_components/featherlight/release/featherlight.min.js"></script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58f5ab5ef77e3f74" async="async"></script>
+  <script>
+    {% if params!='' %}
+      var designParameters = {{ params | raw }};
+    {% endif %}
+  </script>
+{% endblock %}
+
+{% block css %}
+  <link href="{{ STATIC_PATH }}bower_components/featherlight/release/featherlight.min.css" rel="stylesheet" media="all">
+{% endblock %}
+
+{% block main %}
+  <div class="configurator read_only">
+    {% include 'website/partials/configurator.html' %}
+    {%if params!=''%}
+    <input type="hidden" id="configurator__design__params" value="1"/>
+    {% endif %}
+  </div>
+  
+  <div class="wrapper gallery_design">
+    <div class="author_rating">
+      <ul class="design_specs">
+        <li><span>{{ T['r2-design-by'] }}</span>{{ design.author().name }}</li>
+        <li><span>{{ T['r2-date'] }}</span>{{ design.created | date("d/m/Y") }}</li>
+      </ul>
+
+      <div class="rating_wrapper">
+        <span>{{ T['r2-average-rating'] }}</span>
+        <div class="rating r{{design.rating }}">
+          <div>★</div><div>★</div><div>★</div><div>★</div><div>★</div>
+        </div>
+      </div>
+      
+      {% if SESSION.isLogged() %}
+        <div class="rate_wrapper">
+          <span>{{ T['r2-rate'] }}</span>
+          <div class="rating r{{ userRating.rating }}" rel="{{ userRating.rating }}">
+            <div rel="1">★</div><div rel="2">★</div><div rel="3">★</div><div rel="4">★</div><div rel="5">★</div>
+          </div>
+        </div>
+        <input type="hidden" id="design_id" value="{{ design.id }}"/>
+      {% endif %}
+
+      <div class="share">
+        <span class="title">{{ T['r2-share'] }}</span>
+        <a class="addthis_button_facebook facebook"></a>
+        <a class="addthis_button_twitter twitter"></a>
+        <a class="addthis_button_pinterest pinterest"></a>
+      </div>
+    </div>
+
+    <div class="description_comments">
+      <p>{{ design.description | nl2br }}</p>
+      <a href="{{ backUrl }}" class="button neutral">{{ T['r2-back'] }}</a>
+      <a href="{{ path_for('collection', {'lang':LANG,'collectionSlug': collection.slug}) }}?fromDesign={{ design.id }}" class="button">{{ T['start-to-configure'] }}</a>
+
+      <button class="comments_trigger">{{ T['r2-see-comments'] }}</button>
+
+      <div class="comments" id="comments" >
+        <h3>{{ T['r2-comments'] }}</h3>
+        {% if comments | length > 0 %}
+          <ul class="comment_list">
+            {% for comment in comments %}
+            <li>
+              <div class="date_author"><strong>{{ comment.created | date("d/m/Y") }}</strong> {{ comment.author().name }}</div>
+              <p>{{ comment.comment | nl2br }}</p>
+              {%if user.id == comment.author().id%}
+                <a href="{{ path_for('deleteComment', {'lang':LANG,'designId': design.id}) }}?comment_id={{ comment.id }}" class="confirm" rel="{{ T['r2-are-you-sure'] }}">{{ T['r2-delete'] | lower }}</a> 
+              {%endif%}
+            </li>
+            {% endfor %}
+          </ul>
+        {% else %}
+          <p class="no_comments">{{ T['r2-no-comments'] }}</p>
+        {% endif %}
+
+        <h3>{{ T['r2-leave-a-comment'] }}</h3>
+        {% if SESSION.isLogged() %}
+          <form id="comment_form" method="post" action="{{ path_for('leaveComment', {'lang':LANG,'designId':design.id}) }}">
+            <textarea name="comment" id="comment" required="required"></textarea>
+            <button type="submit" class="button">{{ T['send'] }}</button>
+          </form>
+        {% else %}
+          <div class="alert_box">
+            {{ T['r2-login-to-comment'] }}
+            <div><button class="button open_login">{{ T['login'] }}</button></div>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+  {% include 'website/partials/confirm-popup.html' %}
+{% endblock %}

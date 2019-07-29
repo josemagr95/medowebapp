@@ -1,0 +1,58 @@
+{% extends "new/base2.html" %}
+{% set current_section = "freq" %}
+{% set body_class = "impact_header" %}
+
+{% block title %}{{ T['freq'] }}{% endblock %}
+{% block description %}{{ T['seo-myaccount-description'] }}{% endblock %}
+
+{% block main %}	
+	<div class="clear"></div>
+	<!-- Content-->
+	<section id="content" class="content frecuentes">
+    <div class="content-wrap">
+      <div class="container clearfix">
+        <div class="ctr-1200 mt-n4">
+          <h2>{{ T['freq'] }}</h2>
+          <div class="postcontent nobottommargin clearfix">
+            <ul id="portfolio-filter" class="portfolio-filter customjs clearfix">
+
+              <li class="activeFilter"><a href="#" data-filter="all">{{ T['all']|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a></li>
+              {% for item in Freq %}
+              <li><a href="#" data-filter=".faq-{{item[0]}}">{{ item[1] |convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</a></li>
+              {% endfor %}
+            </ul>
+
+            <div class="clear"></div>
+
+            <div id="faqs" class="faqs">
+
+            {% for key, questions in Freq_questions %}
+            <div class="toggle faq faq-{{ key }}">
+              {% for question in questions %}
+                <div class="togglet">{{ question[0]|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</div>
+                <div class="togglec">{{ question[1]|convert_encoding('UTF-8', 'ISO-8859-1')  | raw }}</div>
+              {% endfor %}
+            </div>
+            {% endfor %}                    
+            </div>
+          </div>
+			  </div>
+		  </div>
+	  </div>
+
+</section><!-- #content end -->
+{% endblock %}	
+   
+{% block js %}
+<script>
+		$(document).on('click','.sign-in',function(){
+			$('#page-links').hide();			
+			$('#log-in').fadeIn();			
+		});
+		$(document).on('click','#return',function(){
+			$('#page-links').fadeIn();			
+			$('#log-in').hide();			
+		});
+</script>
+
+	{% endblock %}

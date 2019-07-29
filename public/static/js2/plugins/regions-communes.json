@@ -1,0 +1,8462 @@
+[
+  {
+    "id": "13",
+    "BASE": "SANTIAGO",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "CERRILLOS",
+        "ZONA": "BASE",
+        "CODIGO": "RRI"
+      },
+      {
+        "LOCALIDAD": "CERRO NAVIA",
+        "ZONA": "BASE",
+        "CODIGO": "CNV"
+      },
+      {
+        "LOCALIDAD": "CONCHALI",
+        "ZONA": "BASE",
+        "CODIGO": "CNH"
+      },
+      {
+        "LOCALIDAD": "EL BOSQUE",
+        "ZONA": "BASE",
+        "CODIGO": "EBO"
+      },
+      {
+        "LOCALIDAD": "ESTACION CENTRAL",
+        "ZONA": "BASE",
+        "CODIGO": "ECE"
+      },
+      {
+        "LOCALIDAD": "HUECHURABA",
+        "ZONA": "BASE",
+        "CODIGO": "HRB"
+      },
+      {
+        "LOCALIDAD": "INDEPENDENCIA",
+        "ZONA": "BASE",
+        "CODIGO": "IDP"
+      },
+      {
+        "LOCALIDAD": "LA CISTERNA",
+        "ZONA": "BASE",
+        "CODIGO": "LCN"
+      },
+      {
+        "LOCALIDAD": "LA FLORIDA",
+        "ZONA": "BASE",
+        "CODIGO": "LFD"
+      },
+      {
+        "LOCALIDAD": "LA GRANJA",
+        "ZONA": "BASE",
+        "CODIGO": "LGJ"
+      },
+      {
+        "LOCALIDAD": "LA PINTANA",
+        "ZONA": "BASE",
+        "CODIGO": "LPT"
+      },
+      {
+        "LOCALIDAD": "LA REINA",
+        "ZONA": "BASE",
+        "CODIGO": "LRN"
+      },
+      {
+        "LOCALIDAD": "LAS CONDES",
+        "ZONA": "BASE",
+        "CODIGO": "LCD"
+      },
+      {
+        "LOCALIDAD": "LO  ERRAZURIZ",
+        "ZONA": "BASE",
+        "CODIGO": "SLZ"
+      },
+      {
+        "LOCALIDAD": "LO BARNECHEA",
+        "ZONA": "BASE",
+        "CODIGO": "LBR"
+      },
+      {
+        "LOCALIDAD": "LO ESPEJO",
+        "ZONA": "BASE",
+        "CODIGO": "LEP"
+      },
+      {
+        "LOCALIDAD": "LO PRADO",
+        "ZONA": "BASE",
+        "CODIGO": "LPR"
+      },
+      {
+        "LOCALIDAD": "MACUL",
+        "ZONA": "BASE",
+        "CODIGO": "MAC"
+      },
+      {
+        "LOCALIDAD": "MAIPU",
+        "ZONA": "BASE",
+        "CODIGO": "MAI"
+      },
+      {
+        "LOCALIDAD": "NUNOA",
+        "ZONA": "BASE",
+        "CODIGO": "NNA"
+      },
+      {
+        "LOCALIDAD": "PEDRO AGUIRRE CERDA",
+        "ZONA": "BASE",
+        "CODIGO": "PAC"
+      },
+      {
+        "LOCALIDAD": "PENALOLEN",
+        "ZONA": "BASE",
+        "CODIGO": "PNL"
+      },
+      {
+        "LOCALIDAD": "PROVIDENCIA",
+        "ZONA": "BASE",
+        "CODIGO": "PRO"
+      },
+      {
+        "LOCALIDAD": "PUDAHUEL",
+        "ZONA": "BASE",
+        "CODIGO": "PUD"
+      },
+      {
+        "LOCALIDAD": "PUENTE ALTO",
+        "ZONA": "BASE",
+        "CODIGO": "PAL"
+      },
+      {
+        "LOCALIDAD": "QUILICURA",
+        "ZONA": "BASE",
+        "CODIGO": "QLC"
+      },
+      {
+        "LOCALIDAD": "QUINTA NORMAL",
+        "ZONA": "BASE",
+        "CODIGO": "QTN"
+      },
+      {
+        "LOCALIDAD": "RECOLETA",
+        "ZONA": "BASE",
+        "CODIGO": "RLT"
+      },
+      {
+        "LOCALIDAD": "RENCA",
+        "ZONA": "BASE",
+        "CODIGO": "REN"
+      },
+      {
+        "LOCALIDAD": "SAN JOAQUIN",
+        "ZONA": "BASE",
+        "CODIGO": "SJQ"
+      },
+      {
+        "LOCALIDAD": "SAN MIGUEL",
+        "ZONA": "BASE",
+        "CODIGO": "SMG"
+      },
+      {
+        "LOCALIDAD": "SAN RAMON",
+        "ZONA": "BASE",
+        "CODIGO": "SRN"
+      },
+      {
+        "LOCALIDAD": "SANTIAGO",
+        "ZONA": "BASE",
+        "CODIGO": "SCL"
+      },
+      {
+        "LOCALIDAD": "VITACURA",
+        "ZONA": "BASE",
+        "CODIGO": "VTC"
+      },
+      {
+        "LOCALIDAD": "ALTO JAHUEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SAJ"
+      },
+      {
+        "LOCALIDAD": "BATUCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SBX"
+      },
+      {
+        "LOCALIDAD": "BOLLENAR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SBR"
+      },
+      {
+        "LOCALIDAD": "BUIN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZBU"
+      },
+      {
+        "LOCALIDAD": "CALERA DE TANGO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CDT"
+      },
+      {
+        "LOCALIDAD": "CALLE LARGA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CLG"
+      },
+      {
+        "LOCALIDAD": "CATEMU",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CAT"
+      },
+      {
+        "LOCALIDAD": "CERRILLOS DE SAN FELIPE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CSP"
+      },
+      {
+        "LOCALIDAD": "CERRO BLANCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CBO"
+      },
+      {
+        "LOCALIDAD": "CHAGRES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SHW"
+      },
+      {
+        "LOCALIDAD": "CHAMPA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CHP"
+      },
+      {
+        "LOCALIDAD": "CHICUREO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CHW"
+      },
+      {
+        "LOCALIDAD": "CHOCALAN ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AAN"
+      },
+      {
+        "LOCALIDAD": "CHOROMBO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SCM"
+      },
+      {
+        "LOCALIDAD": "CODIGUA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZCD"
+      },
+      {
+        "LOCALIDAD": "COLINA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "COL"
+      },
+      {
+        "LOCALIDAD": "COLLIGUAY",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CLY"
+      },
+      {
+        "LOCALIDAD": "CRUCE LAS ARANAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CZA"
+      },
+      {
+        "LOCALIDAD": "CULIPRAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CLP"
+      },
+      {
+        "LOCALIDAD": "CURACAVI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CVI"
+      },
+      {
+        "LOCALIDAD": "CURIMON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CRM"
+      },
+      {
+        "LOCALIDAD": "EL CANELO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SEC"
+      },
+      {
+        "LOCALIDAD": "EL CERRADO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SWC"
+      },
+      {
+        "LOCALIDAD": "EL COBRE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SOW"
+      },
+      {
+        "LOCALIDAD": "EL MELOCOTON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "EME"
+      },
+      {
+        "LOCALIDAD": "EL MONTE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZTE"
+      },
+      {
+        "LOCALIDAD": "EL PAICO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "EPC"
+      },
+      {
+        "LOCALIDAD": "EL TARTARO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "STY"
+      },
+      {
+        "LOCALIDAD": "EL TRANSITO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TTO"
+      },
+      {
+        "LOCALIDAD": "EL TREBOL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TRB"
+      },
+      {
+        "LOCALIDAD": "ESMERALDA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ESB"
+      },
+      {
+        "LOCALIDAD": "GRANALLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SGY"
+      },
+      {
+        "LOCALIDAD": "HOSPITAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "HOS"
+      },
+      {
+        "LOCALIDAD": "HUELQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SHU"
+      },
+      {
+        "LOCALIDAD": "ISLA DE MAIPO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "IDM"
+      },
+      {
+        "LOCALIDAD": "ISLA DE PIRQUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "IPQ"
+      },
+      {
+        "LOCALIDAD": "JAHUEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "JHL"
+      },
+      {
+        "LOCALIDAD": "LA OBRA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SLO"
+      },
+      {
+        "LOCALIDAD": "LAMPA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LSG"
+      },
+      {
+        "LOCALIDAD": "LAS CANTERAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SLN"
+      },
+      {
+        "LOCALIDAD": "LAS MARIPOSAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SLM"
+      },
+      {
+        "LOCALIDAD": "LAS VERTIENTES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SLV"
+      },
+      {
+        "LOCALIDAD": "LINDEROS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SLD"
+      },
+      {
+        "LOCALIDAD": "LO CHACON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "HAC"
+      },
+      {
+        "LOCALIDAD": "LOLENCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KET"
+      },
+      {
+        "LOCALIDAD": "LONQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LQN"
+      },
+      {
+        "LOCALIDAD": "LOS ANDES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LOB"
+      },
+      {
+        "LOCALIDAD": "LOS ARRAYANES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LYR"
+      },
+      {
+        "LOCALIDAD": "LOS RULOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SLR"
+      },
+      {
+        "LOCALIDAD": "LOYCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZXX"
+      },
+      {
+        "LOCALIDAD": "MAIPO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MIP"
+      },
+      {
+        "LOCALIDAD": "MALLOCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MLL"
+      },
+      {
+        "LOCALIDAD": "MANDINGA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SMD"
+      },
+      {
+        "LOCALIDAD": "MARIA PINTO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MPO"
+      },
+      {
+        "LOCALIDAD": "MELIPILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZMP"
+      },
+      {
+        "LOCALIDAD": "MONTENEGRO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SMQ"
+      },
+      {
+        "LOCALIDAD": "NILHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SNW"
+      },
+      {
+        "LOCALIDAD": "OCOA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SOX"
+      },
+      {
+        "LOCALIDAD": "PABELLON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SPB"
+      },
+      {
+        "LOCALIDAD": "PADRE HURTADO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PHT"
+      },
+      {
+        "LOCALIDAD": "PAINE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPN"
+      },
+      {
+        "LOCALIDAD": "PANQUEHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PNQ"
+      },
+      {
+        "LOCALIDAD": "PENAFLOR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PFL"
+      },
+      {
+        "LOCALIDAD": "PINTUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SPT"
+      },
+      {
+        "LOCALIDAD": "PIRQUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PIR"
+      },
+      {
+        "LOCALIDAD": "POLPAICO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "POL"
+      },
+      {
+        "LOCALIDAD": "POMAIRE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "IRE"
+      },
+      {
+        "LOCALIDAD": "PUEBLO HUNDIDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SPH"
+      },
+      {
+        "LOCALIDAD": "PUTAENDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PUT"
+      },
+      {
+        "LOCALIDAD": "QUIMCAHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SQM"
+      },
+      {
+        "LOCALIDAD": "RANGUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZUU"
+      },
+      {
+        "LOCALIDAD": "RESGUARDO LOS PATOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SRP"
+      },
+      {
+        "LOCALIDAD": "RINCONADA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RDA"
+      },
+      {
+        "LOCALIDAD": "RINCONADA DE GUZMAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SRG"
+      },
+      {
+        "LOCALIDAD": "RINCONADA DE SILVA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SRS"
+      },
+      {
+        "LOCALIDAD": "RIO BLANCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SRB"
+      },
+      {
+        "LOCALIDAD": "SALTO DEL SOLDADO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SSD"
+      },
+      {
+        "LOCALIDAD": "SAN BERNARDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SBD"
+      },
+      {
+        "LOCALIDAD": "SAN ESTEBAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SEN"
+      },
+      {
+        "LOCALIDAD": "SAN FELIPE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SFP"
+      },
+      {
+        "LOCALIDAD": "SAN MANUEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SMN"
+      },
+      {
+        "LOCALIDAD": "SANTA INES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SIS"
+      },
+      {
+        "LOCALIDAD": "SANTA MARIA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SRI"
+      },
+      {
+        "LOCALIDAD": "SANTA MARTA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SMP"
+      },
+      {
+        "LOCALIDAD": "TALAGANTE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TNT"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE JAHUEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TJL"
+      },
+      {
+        "LOCALIDAD": "TIL TIL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TIL"
+      },
+      {
+        "LOCALIDAD": "VILLA ALHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SVH"
+      },
+      {
+        "LOCALIDAD": "ALHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ALH"
+      },
+      {
+        "LOCALIDAD": "CHACAY",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SCY"
+      },
+      {
+        "LOCALIDAD": "EL MANZANILLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SMI"
+      },
+      {
+        "LOCALIDAD": "EL VOLCAN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SVV"
+      },
+      {
+        "LOCALIDAD": "FARELLONES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "FAR"
+      },
+      {
+        "LOCALIDAD": "GUAYACAN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SYY"
+      },
+      {
+        "LOCALIDAD": "JUNCAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SJH"
+      },
+      {
+        "LOCALIDAD": "LAS MELOSAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SLS"
+      },
+      {
+        "LOCALIDAD": "LO VALDES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "STQ"
+      },
+      {
+        "LOCALIDAD": "LONCHA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZKU"
+      },
+      {
+        "LOCALIDAD": "LOS MAITENES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SMT"
+      },
+      {
+        "LOCALIDAD": "LOS QUELTEHUES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "XQT"
+      },
+      {
+        "LOCALIDAD": "PORTILLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PRT"
+      },
+      {
+        "LOCALIDAD": "RUNGUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SER"
+      },
+      {
+        "LOCALIDAD": "SAN ALFONSO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SAF"
+      },
+      {
+        "LOCALIDAD": "SAN GABRIEL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SGB"
+      },
+      {
+        "LOCALIDAD": "SAN JOSE DE MAIPO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SJS"
+      },
+      {
+        "LOCALIDAD": "SAN PEDRO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SPO"
+      },
+      {
+        "LOCALIDAD": "TRES FUERTES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TRE"
+      },
+      {
+        "LOCALIDAD": "VILLA DEL VALLE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SRV"
+      },
+      {
+        "LOCALIDAD": "EL MEMBRILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MMZ"
+      },
+      {
+        "LOCALIDAD": "GUARDIA VIEJA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SGZ"
+      },
+      {
+        "LOCALIDAD": "ISLA DE PASCUA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IPC"
+      },
+      {
+        "LOCALIDAD": "ISLA JUAN FERNANDEZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "JFZ"
+      },
+      {
+        "LOCALIDAD": "LA CRUZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LZU"
+      },
+      {
+        "LOCALIDAD": "SALADILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SDO"
+      }
+     ]
+  },
+  {
+    "id": "1",
+    "BASE": "IQUIQUE",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "IQUIQUE",
+        "ZONA": "BASE",
+        "CODIGO": "IQQ"
+      },
+      {
+        "LOCALIDAD": "ALTO HOSPICIO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AHP"
+      },
+      {
+        "LOCALIDAD": "CALETA BUENA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ICB"
+      },
+      {
+        "LOCALIDAD": "PLAYA BLANCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPL"
+      },
+      {
+        "LOCALIDAD": "POZO ALMONTE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PAM"
+      },
+      {
+        "LOCALIDAD": "CAMINA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CMN"
+      },
+      {
+        "LOCALIDAD": "FUERTE BAQUEDANO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "IFB"
+      },
+      {
+        "LOCALIDAD": "HUARA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "HRA"
+      },
+      {
+        "LOCALIDAD": "LA HUAICA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LGC"
+      },
+      {
+        "LOCALIDAD": "LA TIRANA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LTI"
+      },
+      {
+        "LOCALIDAD": "MAMIÑA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MAN"
+      },
+      {
+        "LOCALIDAD": "MATILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MTA"
+      },
+      {
+        "LOCALIDAD": "PICA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OPC"
+      },
+      {
+        "LOCALIDAD": "PISAGUA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PIS"
+      },
+      {
+        "LOCALIDAD": "PUERTO PATILLOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "IPP"
+      },
+      {
+        "LOCALIDAD": "PUNTA LOBOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QLB"
+      },
+      {
+        "LOCALIDAD": "ALPAJERES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PJR"
+      },
+      {
+        "LOCALIDAD": "ALTUZA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IAL"
+      },
+      {
+        "LOCALIDAD": "ANAGUANI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ANG"
+      },
+      {
+        "LOCALIDAD": "ANCOVINTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CVT"
+      },
+      {
+        "LOCALIDAD": "ANCUAQUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ANQ"
+      },
+      {
+        "LOCALIDAD": "CALATAMBO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CTA"
+      },
+      {
+        "LOCALIDAD": "CALETA CHICA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ICC"
+      },
+      {
+        "LOCALIDAD": "CANCOSA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ICO"
+      },
+      {
+        "LOCALIDAD": "CARIQUIMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ICQ"
+      },
+      {
+        "LOCALIDAD": "CARITAYA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RTA"
+      },
+      {
+        "LOCALIDAD": "CHAPIQUITA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ICY"
+      },
+      {
+        "LOCALIDAD": "CHIAPA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ICI"
+      },
+      {
+        "LOCALIDAD": "CHIPANA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PQA"
+      },
+      {
+        "LOCALIDAD": "CHUSMISA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ICA"
+      },
+      {
+        "LOCALIDAD": "COLCHANE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "COE"
+      },
+      {
+        "LOCALIDAD": "COLLACAGUA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QLG"
+      },
+      {
+        "LOCALIDAD": "COLLAHUASI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CLH"
+      },
+      {
+        "LOCALIDAD": "COLONIA PINTADOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ICP"
+      },
+      {
+        "LOCALIDAD": "CORSA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QCR"
+      },
+      {
+        "LOCALIDAD": "ENQUELGA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QEP"
+      },
+      {
+        "LOCALIDAD": "GUATACONDO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZRC"
+      },
+      {
+        "LOCALIDAD": "ISLUGA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IIS"
+      },
+      {
+        "LOCALIDAD": "LIRIMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ILI"
+      },
+      {
+        "LOCALIDAD": "MACAYA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IMA"
+      },
+      {
+        "LOCALIDAD": "MINA FAKIR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IMF"
+      },
+      {
+        "LOCALIDAD": "MINA LOBOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IML"
+      },
+      {
+        "LOCALIDAD": "MINERA QUEBRADA BLANCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BQM"
+      },
+      {
+        "LOCALIDAD": "MOCHA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IMO"
+      },
+      {
+        "LOCALIDAD": "MOCOMUCANE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MCL"
+      },
+      {
+        "LOCALIDAD": "NAMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "NMA"
+      },
+      {
+        "LOCALIDAD": "OFICINA VICTORIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IOV"
+      },
+      {
+        "LOCALIDAD": "PACHICA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IPH"
+      },
+      {
+        "LOCALIDAD": "PALCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PKA"
+      },
+      {
+        "LOCALIDAD": "POROMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QPR"
+      },
+      {
+        "LOCALIDAD": "PUQUIOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PQU"
+      },
+      {
+        "LOCALIDAD": "RIO SECO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RSC"
+      },
+      {
+        "LOCALIDAD": "SAN MARCOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RFO"
+      },
+      {
+        "LOCALIDAD": "SOTOCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "STA"
+      },
+      {
+        "LOCALIDAD": "TAMBILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IUJ"
+      },
+      {
+        "LOCALIDAD": "TARAPACA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ITP"
+      },
+      {
+        "LOCALIDAD": "VILAVILA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IVV"
+      },
+      {
+        "LOCALIDAD": "AEROPUERTO ARTURO MERINO BENITEZ",
+        "ZONA": "BASE",
+        "CODIGO": "AMB"
+      }
+     ]
+  },
+  {
+    "id": "2",
+    "BASE": "CALAMA",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "CALAMA",
+        "ZONA": "BASE",
+        "CODIGO": "CJC"
+      },
+      {
+        "LOCALIDAD": "CHUQUICAMATA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QUI"
+      },
+      {
+        "LOCALIDAD": "MINA RADOMIRO TOMIC",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MRT"
+      },
+      {
+        "LOCALIDAD": "MINERA SPENCER",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SPM"
+      },
+      {
+        "LOCALIDAD": "CONCHI   ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CCI"
+      },
+      {
+        "LOCALIDAD": "CUPO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CEY"
+      },
+      {
+        "LOCALIDAD": "MINA CERRO DOMINADOR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MCD"
+      },
+      {
+        "LOCALIDAD": "MINA FARIDE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MFD"
+      },
+      {
+        "LOCALIDAD": "MINA GABY",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MGY"
+      },
+      {
+        "LOCALIDAD": "SAN JOSE  ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SJE"
+      },
+      {
+        "LOCALIDAD": "SAN PEDRO DE ATACAMA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SPX"
+      },
+      {
+        "LOCALIDAD": "TOCONAO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TCO"
+      },
+      {
+        "LOCALIDAD": "TUINA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CTN"
+      },
+      {
+        "LOCALIDAD": "AGUAS BLANCAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CAA"
+      },
+      {
+        "LOCALIDAD": "ALITAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CTZ"
+      },
+      {
+        "LOCALIDAD": "AMINCHA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AMC"
+      },
+      {
+        "LOCALIDAD": "ASCOTAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ASN"
+      },
+      {
+        "LOCALIDAD": "AUCANQUILCHA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QCA"
+      },
+      {
+        "LOCALIDAD": "AYQUINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CAY"
+      },
+      {
+        "LOCALIDAD": "BANOS DE TURI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CBT"
+      },
+      {
+        "LOCALIDAD": "CALACHUZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CCZ"
+      },
+      {
+        "LOCALIDAD": "CAMAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CMR"
+      },
+      {
+        "LOCALIDAD": "CARACOLES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CCR"
+      },
+      {
+        "LOCALIDAD": "CASPANA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CAP"
+      },
+      {
+        "LOCALIDAD": "CENTINELA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CDQ"
+      },
+      {
+        "LOCALIDAD": "CHIUCHIU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CHU"
+      },
+      {
+        "LOCALIDAD": "CONCHI VIEJO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CCV"
+      },
+      {
+        "LOCALIDAD": "ESTACION CARCOTE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ETC"
+      },
+      {
+        "LOCALIDAD": "ESTACION CEBOLLAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CEB"
+      },
+      {
+        "LOCALIDAD": "ESTACION CERRITOS BAYOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CCB"
+      },
+      {
+        "LOCALIDAD": "FLOR DEL DESIERTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "FDT"
+      },
+      {
+        "LOCALIDAD": "INCACALIRI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CJI"
+      },
+      {
+        "LOCALIDAD": "LASANA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CXL"
+      },
+      {
+        "LOCALIDAD": "LEQUENA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CLQ"
+      },
+      {
+        "LOCALIDAD": "LINZOR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LZR"
+      },
+      {
+        "LOCALIDAD": "MELLIZOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MLZ"
+      },
+      {
+        "LOCALIDAD": "MINA EL ABRA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ELA"
+      },
+      {
+        "LOCALIDAD": "MINA EL LITIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MLT"
+      },
+      {
+        "LOCALIDAD": "OLLAGUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OLL"
+      },
+      {
+        "LOCALIDAD": "PEINE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PNI"
+      },
+      {
+        "LOCALIDAD": "POLAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CXP"
+      },
+      {
+        "LOCALIDAD": "PURITAMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RMA"
+      },
+      {
+        "LOCALIDAD": "RIO GRANDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RGS"
+      },
+      {
+        "LOCALIDAD": "SAN BARTOLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CSB"
+      },
+      {
+        "LOCALIDAD": "SAN PEDRO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SPD"
+      },
+      {
+        "LOCALIDAD": "SANTA ROSA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CSR"
+      },
+      {
+        "LOCALIDAD": "SOCAIRE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CSE"
+      },
+      {
+        "LOCALIDAD": "TALABRE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CTB"
+      },
+      {
+        "LOCALIDAD": "TILO POZO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CTP"
+      },
+      {
+        "LOCALIDAD": "TILOMONTE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CIL"
+      },
+      {
+        "LOCALIDAD": "TOCONCE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "COV"
+      },
+      {
+        "LOCALIDAD": "TURI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TTR"
+      }
+     ]
+  },
+  {
+    "id": "2",
+    "BASE": "ANTOFAGASTA",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "ANTOFAGASTA",
+        "ZONA": "BASE",
+        "CODIGO": "ANF"
+      },
+      {
+        "LOCALIDAD": "RANCHO ANTOFAGASTA",
+        "ZONA": "BASE",
+        "CODIGO": "RAN"
+      },
+      {
+        "LOCALIDAD": "BAQUEDANO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "BQO"
+      },
+      {
+        "LOCALIDAD": "CERRO MORENO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ACM"
+      },
+      {
+        "LOCALIDAD": "JUAN LOPEZ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AJL"
+      },
+      {
+        "LOCALIDAD": "LA NEGRA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LNA"
+      },
+      {
+        "LOCALIDAD": "MEJILLONES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MJS"
+      },
+      {
+        "LOCALIDAD": "PUERTO COLOSO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "APC"
+      },
+      {
+        "LOCALIDAD": "ESTACION LA RIOJA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "AEJ"
+      },
+      {
+        "LOCALIDAD": "HORNITOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "AHO"
+      },
+      {
+        "LOCALIDAD": "MANTOS BLANCOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MTB"
+      },
+      {
+        "LOCALIDAD": "MARIA ELENA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MAE"
+      },
+      {
+        "LOCALIDAD": "MARIA ELENA SOQUIMICH",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MEQ"
+      },
+      {
+        "LOCALIDAD": "MINA LOMAS BAYAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MIN"
+      },
+      {
+        "LOCALIDAD": "MINA MICHILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MIC"
+      },
+      {
+        "LOCALIDAD": "SIERRA GORDA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SGD"
+      },
+      {
+        "LOCALIDAD": "TOCOPILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TOC"
+      },
+      {
+        "LOCALIDAD": "AGUA VERDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AAV"
+      },
+      {
+        "LOCALIDAD": "AZUFRERA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AZF"
+      },
+      {
+        "LOCALIDAD": "AZUFRERA PLATO DE SOPA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ATM"
+      },
+      {
+        "LOCALIDAD": "BLANCO ENCALADA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ABL"
+      },
+      {
+        "LOCALIDAD": "BRITANIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ABT"
+      },
+      {
+        "LOCALIDAD": "CALETA BOTIJA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AJJ"
+      },
+      {
+        "LOCALIDAD": "CALETA BOY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACB"
+      },
+      {
+        "LOCALIDAD": "CALETA BUENA ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACE"
+      },
+      {
+        "LOCALIDAD": "CALETA EL COBRE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEE"
+      },
+      {
+        "LOCALIDAD": "CARMEN ALTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CIN"
+      },
+      {
+        "LOCALIDAD": "CERRO PARANAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CPL"
+      },
+      {
+        "LOCALIDAD": "COBIJA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACJ"
+      },
+      {
+        "LOCALIDAD": "EL GUANACO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEG"
+      },
+      {
+        "LOCALIDAD": "EL MEDANO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEM"
+      },
+      {
+        "LOCALIDAD": "EL WAY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEW"
+      },
+      {
+        "LOCALIDAD": "ENSUENO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEO"
+      },
+      {
+        "LOCALIDAD": "ESTACION AGUA BUENA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEB"
+      },
+      {
+        "LOCALIDAD": "ESTACION AGUAS BLANCAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AGC"
+      },
+      {
+        "LOCALIDAD": "ESTACION AUGUSTA VICTORIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEV"
+      },
+      {
+        "LOCALIDAD": "ESTACION CATALINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEC"
+      },
+      {
+        "LOCALIDAD": "ESTACION LOS VIENTOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEL"
+      },
+      {
+        "LOCALIDAD": "ESTACION MIRAJE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AET"
+      },
+      {
+        "LOCALIDAD": "ESTACION MONTURAQUI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AMQ"
+      },
+      {
+        "LOCALIDAD": "ESTACION O`HIGGINS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AEH"
+      },
+      {
+        "LOCALIDAD": "ESTACION PALESTINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "APE"
+      },
+      {
+        "LOCALIDAD": "ESTACION PAN DE AZUCAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "APZ"
+      },
+      {
+        "LOCALIDAD": "ESTACION SOCOMPA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ESA"
+      },
+      {
+        "LOCALIDAD": "ESTACION VARILLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AVE"
+      },
+      {
+        "LOCALIDAD": "EX OFICINA ALEMANIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AXA"
+      },
+      {
+        "LOCALIDAD": "EX OFICINA CHILE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AXC"
+      },
+      {
+        "LOCALIDAD": "EX OFICINA FLOR DE CHILE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AXF"
+      },
+      {
+        "LOCALIDAD": "ISLA SANTA MARIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZSM"
+      },
+      {
+        "LOCALIDAD": "MICHILLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AMI"
+      },
+      {
+        "LOCALIDAD": "MINERA ZALDIVAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MZL"
+      },
+      {
+        "LOCALIDAD": "OFICINA PEDRO DE VALDIVIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ALQ"
+      },
+      {
+        "LOCALIDAD": "OFICINA VERGARA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OVR"
+      },
+      {
+        "LOCALIDAD": "PAPOSO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "APP"
+      },
+      {
+        "LOCALIDAD": "PARANAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PRL"
+      },
+      {
+        "LOCALIDAD": "QUILLAGUA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CQG"
+      },
+      {
+        "LOCALIDAD": "SAN CRISTOBAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ASC"
+      }
+     ]
+  },
+  {
+    "id": "3",
+    "BASE": "COPIAPO",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "COPIAPO",
+        "ZONA": "BASE",
+        "CODIGO": "CPO"
+      },
+      {
+        "LOCALIDAD": "CALDERA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CLR"
+      },
+      {
+        "LOCALIDAD": "EL BORATILLO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "EBL"
+      },
+      {
+        "LOCALIDAD": "ELISA DE BORDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CBD"
+      },
+      {
+        "LOCALIDAD": "MINA CANDELARIA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MCR"
+      },
+      {
+        "LOCALIDAD": "NANTOCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CNN"
+      },
+      {
+        "LOCALIDAD": "PAIPOTE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PPE"
+      },
+      {
+        "LOCALIDAD": "PUERTO VIEJO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CPV"
+      },
+      {
+        "LOCALIDAD": "RANCHO CALDERA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RCD"
+      },
+      {
+        "LOCALIDAD": "TIERRA AMARILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TRM"
+      },
+      {
+        "LOCALIDAD": "TOTORALILLO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RQM"
+      },
+      {
+        "LOCALIDAD": "ALGARROBAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VZV"
+      },
+      {
+        "LOCALIDAD": "BAHIA INGLESA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CBH"
+      },
+      {
+        "LOCALIDAD": "CHANARAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CHN"
+      },
+      {
+        "LOCALIDAD": "COLINA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QCI"
+      },
+      {
+        "LOCALIDAD": "DIEGO DE ALMAGRO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "DAG"
+      },
+      {
+        "LOCALIDAD": "EL DONKEY",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VOB"
+      },
+      {
+        "LOCALIDAD": "EL SALADO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ESL"
+      },
+      {
+        "LOCALIDAD": "EL SALVADOR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ESR"
+      },
+      {
+        "LOCALIDAD": "HORNITOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QHN"
+      },
+      {
+        "LOCALIDAD": "INCA DE ORO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "IRO"
+      },
+      {
+        "LOCALIDAD": "LA HOYADA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VHY"
+      },
+      {
+        "LOCALIDAD": "LOS COLORADOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VLO"
+      },
+      {
+        "LOCALIDAD": "PUQUIOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QPQ"
+      },
+      {
+        "LOCALIDAD": "TALTAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TTL"
+      },
+      {
+        "LOCALIDAD": "ALTAMIRA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AMR"
+      },
+      {
+        "LOCALIDAD": "AMOLANAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AMN"
+      },
+      {
+        "LOCALIDAD": "BARRANQUILLAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BQQ"
+      },
+      {
+        "LOCALIDAD": "BOCAMINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QBQ"
+      },
+      {
+        "LOCALIDAD": "CALETA PAJONAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QCP"
+      },
+      {
+        "LOCALIDAD": "CIFUNCHO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CFI"
+      },
+      {
+        "LOCALIDAD": "EL PINO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QPN"
+      },
+      {
+        "LOCALIDAD": "EL VOLCAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CVO"
+      },
+      {
+        "LOCALIDAD": "ESMERALDA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SDA"
+      },
+      {
+        "LOCALIDAD": "FINCA DE CHANARAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CFC"
+      },
+      {
+        "LOCALIDAD": "FLAMENCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CFL"
+      },
+      {
+        "LOCALIDAD": "HACIENDA CASTILLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CHX"
+      },
+      {
+        "LOCALIDAD": "LA ARENA ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VLA"
+      },
+      {
+        "LOCALIDAD": "LA GUARDIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CGD"
+      },
+      {
+        "LOCALIDAD": "LA OLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QLA"
+      },
+      {
+        "LOCALIDAD": "LA POLVORA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LPV"
+      },
+      {
+        "LOCALIDAD": "LA PUERTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CXA"
+      },
+      {
+        "LOCALIDAD": "LAS JUNTAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CLJ"
+      },
+      {
+        "LOCALIDAD": "LLANTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LLT"
+      },
+      {
+        "LOCALIDAD": "LOS AZULES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CLZ"
+      },
+      {
+        "LOCALIDAD": "LOS LOROS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CLW"
+      },
+      {
+        "LOCALIDAD": "MINA CHIVATO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CLC"
+      },
+      {
+        "LOCALIDAD": "MINA DICHOSA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QMD"
+      },
+      {
+        "LOCALIDAD": "MINA LA COIPA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CMQ"
+      },
+      {
+        "LOCALIDAD": "MINA LA ESTRELLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QME"
+      },
+      {
+        "LOCALIDAD": "MINA MARTE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MTE"
+      },
+      {
+        "LOCALIDAD": "MINA ROSARIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RSO"
+      },
+      {
+        "LOCALIDAD": "MONTANDON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MNN"
+      },
+      {
+        "LOCALIDAD": "OBISPITO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OBT"
+      },
+      {
+        "LOCALIDAD": "PAN DE AZUCAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CPZ"
+      },
+      {
+        "LOCALIDAD": "PASTOS LARGOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QPL"
+      },
+      {
+        "LOCALIDAD": "PLAYA REFUGIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QPO"
+      },
+      {
+        "LOCALIDAD": "POTRERILLOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PTS"
+      },
+      {
+        "LOCALIDAD": "PUERTO FINO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CPF"
+      },
+      {
+        "LOCALIDAD": "SAN ANTONIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SAI"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE RIO NEGRO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QTR"
+      },
+      {
+        "LOCALIDAD": "TOTORAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CTX"
+      },
+      {
+        "LOCALIDAD": "VALLE HERMOSO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CVX"
+      },
+      {
+        "LOCALIDAD": "VEGAS DE CHANARAL ALTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QVC"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "BASE": "LA SERENA",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "COQUIMBO",
+        "ZONA": "BASE",
+        "CODIGO": "COQ"
+      },
+      {
+        "LOCALIDAD": "LA HERRADURA",
+        "ZONA": "BASE",
+        "CODIGO": "LRR"
+      },
+      {
+        "LOCALIDAD": "LA SERENA",
+        "ZONA": "BASE",
+        "CODIGO": "LSC"
+      },
+      {
+        "LOCALIDAD": "TIERRAS BLANCAS",
+        "ZONA": "BASE",
+        "CODIGO": "LTB"
+      },
+      {
+        "LOCALIDAD": "ALGARROBITO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RRG"
+      },
+      {
+        "LOCALIDAD": "ALTO DEL CARMEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ADC"
+      },
+      {
+        "LOCALIDAD": "ALTOVALSOL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AVS"
+      },
+      {
+        "LOCALIDAD": "BARRANCAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "BRR"
+      },
+      {
+        "LOCALIDAD": "BARRAZA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RRB"
+      },
+      {
+        "LOCALIDAD": "CAMARICO VIEJO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RQV"
+      },
+      {
+        "LOCALIDAD": "CERRILLOS DE TAMAYA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CTY"
+      },
+      {
+        "LOCALIDAD": "CHALINGA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AGA"
+      },
+      {
+        "LOCALIDAD": "CHILECITO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OCT"
+      },
+      {
+        "LOCALIDAD": "CHUNGUNGO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LGY"
+      },
+      {
+        "LOCALIDAD": "COQUIMBITO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LCQ"
+      },
+      {
+        "LOCALIDAD": "CORRAL QUEMADO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RQO"
+      },
+      {
+        "LOCALIDAD": "DOMEYKO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "DYK"
+      },
+      {
+        "LOCALIDAD": "EL ALTAR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "REA"
+      },
+      {
+        "LOCALIDAD": "EL CARRIZAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OEC"
+      },
+      {
+        "LOCALIDAD": "EL ISLON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LEI"
+      },
+      {
+        "LOCALIDAD": "EL MAITEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "REM"
+      },
+      {
+        "LOCALIDAD": "EL MAQUI ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RMQ"
+      },
+      {
+        "LOCALIDAD": "EL PENON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PON"
+      },
+      {
+        "LOCALIDAD": "EL RETAMO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TMO"
+      },
+      {
+        "LOCALIDAD": "EL ROMERAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LER"
+      },
+      {
+        "LOCALIDAD": "EL TOFO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TFO"
+      },
+      {
+        "LOCALIDAD": "FREIRINA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "FRN"
+      },
+      {
+        "LOCALIDAD": "GUACHALALUME",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "GHC"
+      },
+      {
+        "LOCALIDAD": "GUAMALATA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OGT"
+      },
+      {
+        "LOCALIDAD": "GUAMPULLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RGU"
+      },
+      {
+        "LOCALIDAD": "GUANAQUEROS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "GQS"
+      },
+      {
+        "LOCALIDAD": "HIGUERITAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RHG"
+      },
+      {
+        "LOCALIDAD": "HUASCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "HCO"
+      },
+      {
+        "LOCALIDAD": "HUASCO BAJO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "HCB"
+      },
+      {
+        "LOCALIDAD": "INCAGUASI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LIH"
+      },
+      {
+        "LOCALIDAD": "LA AGUADA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RLG"
+      },
+      {
+        "LOCALIDAD": "LA CHIMBA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OLB"
+      },
+      {
+        "LOCALIDAD": "LA COMPAÑÍA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "GOS"
+      },
+      {
+        "LOCALIDAD": "LA FUNDINA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RLF"
+      },
+      {
+        "LOCALIDAD": "LA HIGUERA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LHC"
+      },
+      {
+        "LOCALIDAD": "LA PLACILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OLP"
+      },
+      {
+        "LOCALIDAD": "LA TORRE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LAT"
+      },
+      {
+        "LOCALIDAD": "LAMBERT",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LBT"
+      },
+      {
+        "LOCALIDAD": "LAS CARDAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LLS"
+      },
+      {
+        "LOCALIDAD": "LAS JUNTAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RLJ"
+      },
+      {
+        "LOCALIDAD": "LAS ROJAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RSE"
+      },
+      {
+        "LOCALIDAD": "LAS TACAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LTC"
+      },
+      {
+        "LOCALIDAD": "LIMARI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RLI"
+      },
+      {
+        "LOCALIDAD": "LOS HORNOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LHB"
+      },
+      {
+        "LOCALIDAD": "OTAROLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OTR"
+      },
+      {
+        "LOCALIDAD": "OVALLE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OVL"
+      },
+      {
+        "LOCALIDAD": "PACHINGO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PIC"
+      },
+      {
+        "LOCALIDAD": "PAN DE AZUCAR ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LPZ"
+      },
+      {
+        "LOCALIDAD": "PEJERREYES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RPJ"
+      },
+      {
+        "LOCALIDAD": "PENA BLANCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OPB"
+      },
+      {
+        "LOCALIDAD": "PENUELAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PLB"
+      },
+      {
+        "LOCALIDAD": "PICHASCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RPI"
+      },
+      {
+        "LOCALIDAD": "PUERTO VELERO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PVO"
+      },
+      {
+        "LOCALIDAD": "PUNITAQUI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PTQ"
+      },
+      {
+        "LOCALIDAD": "QUEBRADA SECA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QWR"
+      },
+      {
+        "LOCALIDAD": "RAPEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RQW"
+      },
+      {
+        "LOCALIDAD": "RECOLETA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RTG"
+      },
+      {
+        "LOCALIDAD": "RETIRO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RTO"
+      },
+      {
+        "LOCALIDAD": "SAMO ALTO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RVG"
+      },
+      {
+        "LOCALIDAD": "SAMO BAJO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RVF"
+      },
+      {
+        "LOCALIDAD": "SAN PABLO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "XPB"
+      },
+      {
+        "LOCALIDAD": "SOTAQUI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SOZ"
+      },
+      {
+        "LOCALIDAD": "TEATINOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TNS"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE SOCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SQT"
+      },
+      {
+        "LOCALIDAD": "TONGOY",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TGY"
+      },
+      {
+        "LOCALIDAD": "TOTORALILLO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TOT"
+      },
+      {
+        "LOCALIDAD": "TRES CRUCES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TCS"
+      },
+      {
+        "LOCALIDAD": "VALLENAR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VAL"
+      },
+      {
+        "LOCALIDAD": "VICUNA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VCA"
+      },
+      {
+        "LOCALIDAD": "AGUA GRANDE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "AGG"
+      },
+      {
+        "LOCALIDAD": "ALMIRANTE LATORRE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ALT"
+      },
+      {
+        "LOCALIDAD": "ANDACOLLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ACO"
+      },
+      {
+        "LOCALIDAD": "ANDACOLLO HOLDING",
+        "ZONA": "EXTREMA",
+        "CODIGO": "AVU"
+      },
+      {
+        "LOCALIDAD": "BALALA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LBW"
+      },
+      {
+        "LOCALIDAD": "CACHIYUYO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VCQ"
+      },
+      {
+        "LOCALIDAD": "CAMARICO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CRI"
+      },
+      {
+        "LOCALIDAD": "CANTO DE AGUA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TAG"
+      },
+      {
+        "LOCALIDAD": "CAREN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "KEN"
+      },
+      {
+        "LOCALIDAD": "CASERONES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LCR"
+      },
+      {
+        "LOCALIDAD": "CENTRAL LOS MOLLES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RCM"
+      },
+      {
+        "LOCALIDAD": "CHAPILCA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LKK"
+      },
+      {
+        "LOCALIDAD": "CHOROS BAJOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LKM"
+      },
+      {
+        "LOCALIDAD": "CONDORIACO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LCO"
+      },
+      {
+        "LOCALIDAD": "CORTADERA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CEA"
+      },
+      {
+        "LOCALIDAD": "DIAGUITAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "DTS"
+      },
+      {
+        "LOCALIDAD": "EL CHACAY",
+        "ZONA": "EXTREMA",
+        "CODIGO": "HAY"
+      },
+      {
+        "LOCALIDAD": "EL OLIVO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "EOV"
+      },
+      {
+        "LOCALIDAD": "EL ROMERAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LEM"
+      },
+      {
+        "LOCALIDAD": "EL TAMBO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TBE"
+      },
+      {
+        "LOCALIDAD": "EL TRANSITO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VET"
+      },
+      {
+        "LOCALIDAD": "HURTADO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RHT"
+      },
+      {
+        "LOCALIDAD": "LA FRAGUITA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VFR"
+      },
+      {
+        "LOCALIDAD": "LA HIGUERITA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VLH"
+      },
+      {
+        "LOCALIDAD": "LA LAJA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YCV"
+      },
+      {
+        "LOCALIDAD": "LA LIGUA BAJO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RLU"
+      },
+      {
+        "LOCALIDAD": "LABRAR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VLB"
+      },
+      {
+        "LOCALIDAD": "LAS MOLLACAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LMS"
+      },
+      {
+        "LOCALIDAD": "LITIPAMPA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RLL"
+      },
+      {
+        "LOCALIDAD": "LLANOS DE GUANTA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LLG"
+      },
+      {
+        "LOCALIDAD": "LOS TOYOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CXQ"
+      },
+      {
+        "LOCALIDAD": "MAITENCILLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VMT"
+      },
+      {
+        "LOCALIDAD": "MANTOS DE HORNILLOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RMH"
+      },
+      {
+        "LOCALIDAD": "MINA ALGARROBO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VMI"
+      },
+      {
+        "LOCALIDAD": "MIRAFLORES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VMR"
+      },
+      {
+        "LOCALIDAD": "MONTE PATRIA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MPC"
+      },
+      {
+        "LOCALIDAD": "OBSERVATORIO EL TOLOLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LOO"
+      },
+      {
+        "LOCALIDAD": "OBSERVATORIO LA SILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LSX"
+      },
+      {
+        "LOCALIDAD": "OBSERVATORIO LAS CAMPANAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VOS"
+      },
+      {
+        "LOCALIDAD": "PEDREGAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RGR"
+      },
+      {
+        "LOCALIDAD": "PERALILLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PLV"
+      },
+      {
+        "LOCALIDAD": "PISCO ELQUI",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ELQ"
+      },
+      {
+        "LOCALIDAD": "PLACILLA   ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PLM"
+      },
+      {
+        "LOCALIDAD": "PUNTA CHOROS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PHS"
+      },
+      {
+        "LOCALIDAD": "QUILITAPIA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QWQ"
+      },
+      {
+        "LOCALIDAD": "RIO HURTADO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RHU"
+      },
+      {
+        "LOCALIDAD": "RIVADAVIA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LRV"
+      },
+      {
+        "LOCALIDAD": "SAN FELIX",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VSA"
+      },
+      {
+        "LOCALIDAD": "SAN MARCOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SMC"
+      },
+      {
+        "LOCALIDAD": "TRAPICHE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LTH"
+      },
+      {
+        "LOCALIDAD": "TULAHUEN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TNH"
+      },
+      {
+        "LOCALIDAD": "VARILLAR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LVR"
+      },
+      {
+        "LOCALIDAD": "VINITA BAJA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LVT"
+      },
+      {
+        "LOCALIDAD": "ALCOHUAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MRR"
+      },
+      {
+        "LOCALIDAD": "ALTO BUEY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OAY"
+      },
+      {
+        "LOCALIDAD": "BANOS DEL GORDITO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OBG"
+      },
+      {
+        "LOCALIDAD": "BANOS DEL TORO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LBJ"
+      },
+      {
+        "LOCALIDAD": "BOCATOMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XBC"
+      },
+      {
+        "LOCALIDAD": "CALETA CHANARAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VCL"
+      },
+      {
+        "LOCALIDAD": "CALETA DEL MEDIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CCM"
+      },
+      {
+        "LOCALIDAD": "CALETA MORRITOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RCC"
+      },
+      {
+        "LOCALIDAD": "CALETA SARCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TSC"
+      },
+      {
+        "LOCALIDAD": "CARRIZAL BAJO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VCR"
+      },
+      {
+        "LOCALIDAD": "CARRIZALILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VCI"
+      },
+      {
+        "LOCALIDAD": "CHANAR ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LHH"
+      },
+      {
+        "LOCALIDAD": "CHANARAL ALTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CHZ"
+      },
+      {
+        "LOCALIDAD": "CHANARCILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CYO"
+      },
+      {
+        "LOCALIDAD": "CHINEO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OCH"
+      },
+      {
+        "LOCALIDAD": "CHINGAY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ONG"
+      },
+      {
+        "LOCALIDAD": "COCHIGUAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CGS"
+      },
+      {
+        "LOCALIDAD": "COGOTI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RCT"
+      },
+      {
+        "LOCALIDAD": "COMBARBALA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "COB"
+      },
+      {
+        "LOCALIDAD": "CONAY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VCO"
+      },
+      {
+        "LOCALIDAD": "EL NEVADO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZMJ"
+      },
+      {
+        "LOCALIDAD": "EL PALQUI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "EPI"
+      },
+      {
+        "LOCALIDAD": "GUANTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LGU"
+      },
+      {
+        "LOCALIDAD": "GUATULAME",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GUT"
+      },
+      {
+        "LOCALIDAD": "HACIENDA LOS ANDES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XMR"
+      },
+      {
+        "LOCALIDAD": "HILARICOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OHY"
+      },
+      {
+        "LOCALIDAD": "JUNTA VALERIANO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VJU"
+      },
+      {
+        "LOCALIDAD": "JUNTAS DEL TORO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LJZ"
+      },
+      {
+        "LOCALIDAD": "LAGUNA GRANDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTA"
+      },
+      {
+        "LOCALIDAD": "LAS BREAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RLB"
+      },
+      {
+        "LOCALIDAD": "LAS COLORADAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LZZ"
+      },
+      {
+        "LOCALIDAD": "LAS HEDIONDAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LHD"
+      },
+      {
+        "LOCALIDAD": "LAS RAMADAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RLR"
+      },
+      {
+        "LOCALIDAD": "LLAHUIN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OLH"
+      },
+      {
+        "LOCALIDAD": "LOS PERALES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LZP"
+      },
+      {
+        "LOCALIDAD": "MINA DEL INDIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LMX"
+      },
+      {
+        "LOCALIDAD": "MONTE GRANDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LMG"
+      },
+      {
+        "LOCALIDAD": "NUEVA ELQUI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "NEQ"
+      },
+      {
+        "LOCALIDAD": "PABELLON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RPB"
+      },
+      {
+        "LOCALIDAD": "PAIHUANO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PHO"
+      },
+      {
+        "LOCALIDAD": "PARMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OPA"
+      },
+      {
+        "LOCALIDAD": "SAN LORENZO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RFG"
+      },
+      {
+        "LOCALIDAD": "SANTA CECILIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SSC"
+      },
+      {
+        "LOCALIDAD": "SOL NACIENTE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TAL"
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "BASE": "LA CALERA",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "LA CALERA",
+        "ZONA": "BASE",
+        "CODIGO": "ZLC"
+      },
+      {
+        "LOCALIDAD": "LA CRUZ",
+        "ZONA": "BASE",
+        "CODIGO": "LCZ"
+      },
+      {
+        "LOCALIDAD": "QUILLOTA",
+        "ZONA": "BASE",
+        "CODIGO": "QTA"
+      },
+      {
+        "LOCALIDAD": "ALICAHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZAI"
+      },
+      {
+        "LOCALIDAD": "ARTIFICIO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZAT"
+      },
+      {
+        "LOCALIDAD": "CABILDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CDO"
+      },
+      {
+        "LOCALIDAD": "CACHAGUA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CGU"
+      },
+      {
+        "LOCALIDAD": "CALETA HORCON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LNO"
+      },
+      {
+        "LOCALIDAD": "CALETA POLCURA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LAR"
+      },
+      {
+        "LOCALIDAD": "CANELA ALTA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZZC"
+      },
+      {
+        "LOCALIDAD": "CASUTO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZOQ"
+      },
+      {
+        "LOCALIDAD": "CATAPILCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PIL"
+      },
+      {
+        "LOCALIDAD": "CHIGUALOCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZOA"
+      },
+      {
+        "LOCALIDAD": "EL COBRE ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEC"
+      },
+      {
+        "LOCALIDAD": "EL GUAYACAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEG"
+      },
+      {
+        "LOCALIDAD": "EL INGENIO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEI"
+      },
+      {
+        "LOCALIDAD": "EL MELON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "EML"
+      },
+      {
+        "LOCALIDAD": "EL RINCON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZQD"
+      },
+      {
+        "LOCALIDAD": "GRANIZO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZGR"
+      },
+      {
+        "LOCALIDAD": "GUANGALI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZIV"
+      },
+      {
+        "LOCALIDAD": "HIERRO VIEJO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZHR"
+      },
+      {
+        "LOCALIDAD": "HIJUELAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "HJS"
+      },
+      {
+        "LOCALIDAD": "HUENTELAUQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZHT"
+      },
+      {
+        "LOCALIDAD": "ILLAPEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ILL"
+      },
+      {
+        "LOCALIDAD": "LA LAGUNA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LGN"
+      },
+      {
+        "LOCALIDAD": "LA LIGUA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LLC"
+      },
+      {
+        "LOCALIDAD": "LA MORA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LAO"
+      },
+      {
+        "LOCALIDAD": "LA PATAGUA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZGC"
+      },
+      {
+        "LOCALIDAD": "LA QUEBRADA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QZC"
+      },
+      {
+        "LOCALIDAD": "LA VINA ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "XLV"
+      },
+      {
+        "LOCALIDAD": "LAS PALMAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LSA"
+      },
+      {
+        "LOCALIDAD": "LLAILLAY",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LLY"
+      },
+      {
+        "LOCALIDAD": "LONGOTOMA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "GMA"
+      },
+      {
+        "LOCALIDAD": "LOS ERMITANOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZKK"
+      },
+      {
+        "LOCALIDAD": "LOS MOLLES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LMO"
+      },
+      {
+        "LOCALIDAD": "LOS VILOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LVL"
+      },
+      {
+        "LOCALIDAD": "MAITENCILLO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MTC"
+      },
+      {
+        "LOCALIDAD": "MANUEL MONTT",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZMU"
+      },
+      {
+        "LOCALIDAD": "MINCHA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZMH"
+      },
+      {
+        "LOCALIDAD": "MINCHA SUR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZMM"
+      },
+      {
+        "LOCALIDAD": "NOGALES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "NOG"
+      },
+      {
+        "LOCALIDAD": "OLMUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OLM"
+      },
+      {
+        "LOCALIDAD": "PAPUDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PPO"
+      },
+      {
+        "LOCALIDAD": "PEDEGUA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PUA"
+      },
+      {
+        "LOCALIDAD": "PICHICUY",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PZY"
+      },
+      {
+        "LOCALIDAD": "PICHIDANGUI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PCH"
+      },
+      {
+        "LOCALIDAD": "PUCHUNCAVI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PCV"
+      },
+      {
+        "LOCALIDAD": "PUPIO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LOI"
+      },
+      {
+        "LOCALIDAD": "QUEBRADA ALVARADO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZQB"
+      },
+      {
+        "LOCALIDAD": "QUILIMARI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZQM"
+      },
+      {
+        "LOCALIDAD": "QUINQUIMO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZQQ"
+      },
+      {
+        "LOCALIDAD": "RABANALES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZTL"
+      },
+      {
+        "LOCALIDAD": "SAN LORENZO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZSL"
+      },
+      {
+        "LOCALIDAD": "SAN PEDRO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZDD"
+      },
+      {
+        "LOCALIDAD": "SANTA MARTA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZST"
+      },
+      {
+        "LOCALIDAD": "TRAPICHE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEW"
+      },
+      {
+        "LOCALIDAD": "VALLE ALEGRE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "BAG"
+      },
+      {
+        "LOCALIDAD": "VENTANAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VTA"
+      },
+      {
+        "LOCALIDAD": "ZAPALLAR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZAR"
+      },
+      {
+        "LOCALIDAD": "ARBOLEDA GRANDE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ABG"
+      },
+      {
+        "LOCALIDAD": "CAIMANES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ANS"
+      },
+      {
+        "LOCALIDAD": "CANELA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CNE"
+      },
+      {
+        "LOCALIDAD": "CANELA BAJA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CNB"
+      },
+      {
+        "LOCALIDAD": "CHINCOLCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OLC"
+      },
+      {
+        "LOCALIDAD": "CHOAPA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CPA"
+      },
+      {
+        "LOCALIDAD": "COCUA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CCY"
+      },
+      {
+        "LOCALIDAD": "EL TAMBO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZET"
+      },
+      {
+        "LOCALIDAD": "HUINTIL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZHN"
+      },
+      {
+        "LOCALIDAD": "JORQUERA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZJO"
+      },
+      {
+        "LOCALIDAD": "LAS CANAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LZC"
+      },
+      {
+        "LOCALIDAD": "LAS PIRCAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZKZ"
+      },
+      {
+        "LOCALIDAD": "LIMAHUIDA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZVH"
+      },
+      {
+        "LOCALIDAD": "MATANCILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZMC"
+      },
+      {
+        "LOCALIDAD": "MINA EL ROSARIO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZMS"
+      },
+      {
+        "LOCALIDAD": "PEDERNAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZDR"
+      },
+      {
+        "LOCALIDAD": "PETORCA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PTK"
+      },
+      {
+        "LOCALIDAD": "SALAMANCA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SCA"
+      },
+      {
+        "LOCALIDAD": "TILAMA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZTI"
+      },
+      {
+        "LOCALIDAD": "TOTORALILLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TTZ"
+      },
+      {
+        "LOCALIDAD": "TUNGA NORTE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZTU"
+      },
+      {
+        "LOCALIDAD": "TUNGA SUR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZTN"
+      },
+      {
+        "LOCALIDAD": "ALMENDRALILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZAM"
+      },
+      {
+        "LOCALIDAD": "BATUCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZBG"
+      },
+      {
+        "LOCALIDAD": "CAREN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZNK"
+      },
+      {
+        "LOCALIDAD": "CHALACO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LOA"
+      },
+      {
+        "LOCALIDAD": "CHELLEPIN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LNI"
+      },
+      {
+        "LOCALIDAD": "COIRON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZNP"
+      },
+      {
+        "LOCALIDAD": "CUZ CUZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AZZ"
+      },
+      {
+        "LOCALIDAD": "FARELLON SANCHEZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZFA"
+      },
+      {
+        "LOCALIDAD": "LLIMPO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LLP"
+      },
+      {
+        "LOCALIDAD": "LOS PELADEROS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LSO"
+      },
+      {
+        "LOCALIDAD": "MAURO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZMR"
+      },
+      {
+        "LOCALIDAD": "PALQUIAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PZC"
+      },
+      {
+        "LOCALIDAD": "POZA HONDA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XZH"
+      },
+      {
+        "LOCALIDAD": "PUERTO OSCURO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "POZ"
+      },
+      {
+        "LOCALIDAD": "QUELON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQO"
+      },
+      {
+        "LOCALIDAD": "SAN AGUSTIN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZSG"
+      }
+     ]
+  },
+  {
+    "id": "5",
+    "BASE": "VIÑA DEL MAR",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "CONCON",
+        "ZONA": "BASE",
+        "CODIGO": "CON"
+      },
+      {
+        "LOCALIDAD": "RENACA",
+        "ZONA": "BASE",
+        "CODIGO": "RCA"
+      },
+      {
+        "LOCALIDAD": "VALPARAISO",
+        "ZONA": "BASE",
+        "CODIGO": "VAP"
+      },
+      {
+        "LOCALIDAD": "VINA DEL MAR",
+        "ZONA": "BASE",
+        "CODIGO": "KNA"
+      },
+      {
+        "LOCALIDAD": "ALGARROBO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ABO"
+      },
+      {
+        "LOCALIDAD": "CALETAS LAS DOCAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KCD"
+      },
+      {
+        "LOCALIDAD": "CARTAGENA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CRT"
+      },
+      {
+        "LOCALIDAD": "CASABLANCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CBC"
+      },
+      {
+        "LOCALIDAD": "COSTA AZUL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AZU"
+      },
+      {
+        "LOCALIDAD": "EL BELLOTO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "EBT"
+      },
+      {
+        "LOCALIDAD": "EL QUISCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "EQO"
+      },
+      {
+        "LOCALIDAD": "EL TABO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ETB"
+      },
+      {
+        "LOCALIDAD": "ISLA NEGRA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "INE"
+      },
+      {
+        "LOCALIDAD": "LAGUNA VERDE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LAV"
+      },
+      {
+        "LOCALIDAD": "LAGUNILLAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KLL"
+      },
+      {
+        "LOCALIDAD": "LAS CRUCES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LCX"
+      },
+      {
+        "LOCALIDAD": "LAS DICHAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KHD"
+      },
+      {
+        "LOCALIDAD": "LAS MERCEDES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KME"
+      },
+      {
+        "LOCALIDAD": "LAS TABLAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KLT"
+      },
+      {
+        "LOCALIDAD": "LIMACHE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LIC"
+      },
+      {
+        "LOCALIDAD": "LLO-LLEO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LLO"
+      },
+      {
+        "LOCALIDAD": "LO ABARCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ABA"
+      },
+      {
+        "LOCALIDAD": "LO GALLARDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KLG"
+      },
+      {
+        "LOCALIDAD": "LO OROZCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KLO"
+      },
+      {
+        "LOCALIDAD": "LO VASQUEZ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KLV"
+      },
+      {
+        "LOCALIDAD": "MIRASOL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MRL"
+      },
+      {
+        "LOCALIDAD": "PENUELAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KPE"
+      },
+      {
+        "LOCALIDAD": "PEÑABLANCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PBA"
+      },
+      {
+        "LOCALIDAD": "PLACILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PLP"
+      },
+      {
+        "LOCALIDAD": "PUNTA BARRANCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KPB"
+      },
+      {
+        "LOCALIDAD": "PUNTA CURAUMILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KPC"
+      },
+      {
+        "LOCALIDAD": "PUNTA DE TRALCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KPT"
+      },
+      {
+        "LOCALIDAD": "QUILPUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QPE"
+      },
+      {
+        "LOCALIDAD": "QUINTAY",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QTY"
+      },
+      {
+        "LOCALIDAD": "QUINTERO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QTO"
+      },
+      {
+        "LOCALIDAD": "RITOQUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZRV"
+      },
+      {
+        "LOCALIDAD": "SAN ANTONIO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SNT"
+      },
+      {
+        "LOCALIDAD": "SAN SEBASTIAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SSB"
+      },
+      {
+        "LOCALIDAD": "SANTO DOMINGO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SDC"
+      },
+      {
+        "LOCALIDAD": "VILLA ALEMANA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VIA"
+      },
+      {
+        "LOCALIDAD": "EL CARPINTERO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "KEC"
+      },
+      {
+        "LOCALIDAD": "EL TURCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "KER"
+      },
+      {
+        "LOCALIDAD": "LA RETUCA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "KLR"
+      },
+      {
+        "LOCALIDAD": "LEYDA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "KLY"
+      },
+      {
+        "LOCALIDAD": "RAPEL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RPL"
+      },
+      {
+        "LOCALIDAD": "SAN GERONIMO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "KSG"
+      },
+      {
+        "LOCALIDAD": "TAPIHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "KTH"
+      },
+      {
+        "LOCALIDAD": "BUCALEMU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BUU"
+      },
+      {
+        "LOCALIDAD": "CORNECHE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KRC"
+      },
+      {
+        "LOCALIDAD": "LA BOCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZRW"
+      },
+      {
+        "LOCALIDAD": "LA ESTRELLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LAE"
+      },
+      {
+        "LOCALIDAD": "LAS DAMAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KLD"
+      },
+      {
+        "LOCALIDAD": "LITUECHE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LTU"
+      },
+      {
+        "LOCALIDAD": "MATANZAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KMT"
+      },
+      {
+        "LOCALIDAD": "NAVIDAD",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "NAV"
+      },
+      {
+        "LOCALIDAD": "PUERTECILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KPU"
+      },
+      {
+        "LOCALIDAD": "PUNTA PERRO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KPP"
+      },
+      {
+        "LOCALIDAD": "PUNTA TORO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KPR"
+      },
+      {
+        "LOCALIDAD": "SAN ENRIQUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KSE"
+      },
+      {
+        "LOCALIDAD": "SAN VICENTE DE PUCALAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KVP"
+      },
+      {
+        "LOCALIDAD": "TOPOCALMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "KTL"
+      }
+     ]
+  },
+  {
+    "id": "6",
+    "region": "Región del Libertador Gral. Bernardo O’Higgins",
+    "BASE": "RANCAGUA",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "RANCAGUA",
+        "ZONA": "BASE",
+        "CODIGO": "RCG"
+      },
+      {
+        "LOCALIDAD": "CERRILLOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CRE"
+      },
+      {
+        "LOCALIDAD": "LA COMPANÍA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RLC"
+      },
+      {
+        "LOCALIDAD": "LA LEONERA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LRW"
+      },
+      {
+        "LOCALIDAD": "LA PUNTA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RLP"
+      },
+      {
+        "LOCALIDAD": "LAS NIEVES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RLS"
+      },
+      {
+        "LOCALIDAD": "LOS MAQUIS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RLM"
+      },
+      {
+        "LOCALIDAD": "OLIVAR ALTO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OAL"
+      },
+      {
+        "LOCALIDAD": "OLIVAR BAJO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ROL"
+      },
+      {
+        "LOCALIDAD": "PANIAHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PHU"
+      },
+      {
+        "LOCALIDAD": "PIMPINELA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RMC"
+      },
+      {
+        "LOCALIDAD": "POPETA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RPO"
+      },
+      {
+        "LOCALIDAD": "PUREN VI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PRN"
+      },
+      {
+        "LOCALIDAD": "AGUA BUENA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "AQB"
+      },
+      {
+        "LOCALIDAD": "CHAPA VERDE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CHV"
+      },
+      {
+        "LOCALIDAD": "CHIMBARONGO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CHB"
+      },
+      {
+        "LOCALIDAD": "COCALAN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CCN"
+      },
+      {
+        "LOCALIDAD": "CODEGUA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZDE"
+      },
+      {
+        "LOCALIDAD": "COINCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CNO"
+      },
+      {
+        "LOCALIDAD": "COLON",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CLN"
+      },
+      {
+        "LOCALIDAD": "COLTAUCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CTO"
+      },
+      {
+        "LOCALIDAD": "COYA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OCY"
+      },
+      {
+        "LOCALIDAD": "CUNACO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZCU"
+      },
+      {
+        "LOCALIDAD": "DOÑIHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "DNE"
+      },
+      {
+        "LOCALIDAD": "EL MANZANO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MZN"
+      },
+      {
+        "LOCALIDAD": "EL TOCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RET"
+      },
+      {
+        "LOCALIDAD": "GRANEROS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "GRA"
+      },
+      {
+        "LOCALIDAD": "HACIENDA LOS LINGUES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "HRQ"
+      },
+      {
+        "LOCALIDAD": "LA CEBADA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RLA"
+      },
+      {
+        "LOCALIDAD": "LARMAHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LQX"
+      },
+      {
+        "LOCALIDAD": "LAS CABRAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LCB"
+      },
+      {
+        "LOCALIDAD": "LIHUEIMO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LHX"
+      },
+      {
+        "LOCALIDAD": "LO MIRANDA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LMI"
+      },
+      {
+        "LOCALIDAD": "MACHALI",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MCH"
+      },
+      {
+        "LOCALIDAD": "MALLOA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZML"
+      },
+      {
+        "LOCALIDAD": "MILLAHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MLX"
+      },
+      {
+        "LOCALIDAD": "MINA LA JUANITA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MJT"
+      },
+      {
+        "LOCALIDAD": "NANCAGUA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "NGA"
+      },
+      {
+        "LOCALIDAD": "PALMILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PLA"
+      },
+      {
+        "LOCALIDAD": "PELEQUEN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PEQ"
+      },
+      {
+        "LOCALIDAD": "PERALILLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZPE"
+      },
+      {
+        "LOCALIDAD": "PEUMO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PEO"
+      },
+      {
+        "LOCALIDAD": "PICHIDEGUA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PHA"
+      },
+      {
+        "LOCALIDAD": "PICHILEMU",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PMU"
+      },
+      {
+        "LOCALIDAD": "PLACILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PLL"
+      },
+      {
+        "LOCALIDAD": "PUENTE NEGRO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RPT"
+      },
+      {
+        "LOCALIDAD": "PUNTA VERDE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RPN"
+      },
+      {
+        "LOCALIDAD": "QUINTA DE TILCOCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QCC"
+      },
+      {
+        "LOCALIDAD": "RENGO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZRG"
+      },
+      {
+        "LOCALIDAD": "REQUINOA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "REQ"
+      },
+      {
+        "LOCALIDAD": "RINCONADA DE YAQUIL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RQY"
+      },
+      {
+        "LOCALIDAD": "ROMA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RMY"
+      },
+      {
+        "LOCALIDAD": "ROSARIO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RSS"
+      },
+      {
+        "LOCALIDAD": "SAN FCO DE MOSTAZAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SFM"
+      },
+      {
+        "LOCALIDAD": "SAN FERNANDO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SFR"
+      },
+      {
+        "LOCALIDAD": "SAN JOSE DE MARCHIHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RSA"
+      },
+      {
+        "LOCALIDAD": "SAN VICENTE DE T.T",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SVT"
+      },
+      {
+        "LOCALIDAD": "SANTA CRUZ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZSC"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE CAUQUENES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RTE"
+      },
+      {
+        "LOCALIDAD": "TROMPETILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TZT"
+      },
+      {
+        "LOCALIDAD": "TUNCA ARRIBA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TZV"
+      },
+      {
+        "LOCALIDAD": "ZUNIGA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RZU"
+      },
+      {
+        "LOCALIDAD": "ALCONES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LNE"
+      },
+      {
+        "LOCALIDAD": "ALTO COLORADO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RAC"
+      },
+      {
+        "LOCALIDAD": "BOYERUCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BYY"
+      },
+      {
+        "LOCALIDAD": "BUCALEMU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PRM"
+      },
+      {
+        "LOCALIDAD": "CAHUIL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RHL"
+      },
+      {
+        "LOCALIDAD": "CALETONES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CTS"
+      },
+      {
+        "LOCALIDAD": "CIRUELOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RJC"
+      },
+      {
+        "LOCALIDAD": "EL CARMEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CAR"
+      },
+      {
+        "LOCALIDAD": "EL GUAICO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "EGQ"
+      },
+      {
+        "LOCALIDAD": "EL PUESTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RPS"
+      },
+      {
+        "LOCALIDAD": "ESPERANZA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RZE"
+      },
+      {
+        "LOCALIDAD": "LA LAJUELA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LLW"
+      },
+      {
+        "LOCALIDAD": "LA QUEBRADA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RQE"
+      },
+      {
+        "LOCALIDAD": "LA RUFINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LRF"
+      },
+      {
+        "LOCALIDAD": "LAS PATAGUAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LPG"
+      },
+      {
+        "LOCALIDAD": "LO VALDIVIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LVQ"
+      },
+      {
+        "LOCALIDAD": "LOLOL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LOL"
+      },
+      {
+        "LOCALIDAD": "MARCHANT",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RMT"
+      },
+      {
+        "LOCALIDAD": "MARCHIHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MRH"
+      },
+      {
+        "LOCALIDAD": "NERQUIHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RNH"
+      },
+      {
+        "LOCALIDAD": "NILAHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RNI"
+      },
+      {
+        "LOCALIDAD": "PAREDONES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PDS"
+      },
+      {
+        "LOCALIDAD": "POBLACION",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RQT"
+      },
+      {
+        "LOCALIDAD": "PUMANQUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PMQ"
+      },
+      {
+        "LOCALIDAD": "PUNTA DE CORTES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TPC"
+      },
+      {
+        "LOCALIDAD": "SANTA GRACIELA DE ALCONES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RGQ"
+      },
+      {
+        "LOCALIDAD": "SEWELL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SEW"
+      },
+      {
+        "LOCALIDAD": "SIERRA BELLAVISTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZSB"
+      },
+      {
+        "LOCALIDAD": "TERMAS DEL FLACO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TZF"
+      },
+      {
+        "LOCALIDAD": "TINGUIRIRICA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TGR"
+      }
+     ]
+  },
+  {
+    "id": "7",
+    "region": "Región del Maule",
+    "BASE": "TALCA",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "TALCA",
+        "ZONA": "BASE",
+        "CODIGO": "ZCA"
+      },
+      {
+        "LOCALIDAD": "ASTILLERO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZAS"
+      },
+      {
+        "LOCALIDAD": "AURORA ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZAU"
+      },
+      {
+        "LOCALIDAD": "BATUCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZBA"
+      },
+      {
+        "LOCALIDAD": "BOBADILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "BOB"
+      },
+      {
+        "LOCALIDAD": "BOTALCURA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZBO"
+      },
+      {
+        "LOCALIDAD": "CAUQUENES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CQE"
+      },
+      {
+        "LOCALIDAD": "COIPUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZCP"
+      },
+      {
+        "LOCALIDAD": "COLBUN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CLB"
+      },
+      {
+        "LOCALIDAD": "COLIN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZCL"
+      },
+      {
+        "LOCALIDAD": "CONSTITUCION",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CTT"
+      },
+      {
+        "LOCALIDAD": "CORINTO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZNM"
+      },
+      {
+        "LOCALIDAD": "CORRALONES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZCS"
+      },
+      {
+        "LOCALIDAD": "CUMPEO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CUM"
+      },
+      {
+        "LOCALIDAD": "CURICO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CCO"
+      },
+      {
+        "LOCALIDAD": "CURTIDURIA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZCE"
+      },
+      {
+        "LOCALIDAD": "EL COLORADO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEL"
+      },
+      {
+        "LOCALIDAD": "GUALLECO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZGU"
+      },
+      {
+        "LOCALIDAD": "ITAHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZIK"
+      },
+      {
+        "LOCALIDAD": "LINARES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LNR"
+      },
+      {
+        "LOCALIDAD": "LITU",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CUT"
+      },
+      {
+        "LOCALIDAD": "LONGAVI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LGV"
+      },
+      {
+        "LOCALIDAD": "LONTUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LTE"
+      },
+      {
+        "LOCALIDAD": "LOS NICHES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LNH"
+      },
+      {
+        "LOCALIDAD": "MAULE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZMA"
+      },
+      {
+        "LOCALIDAD": "MOLINA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZMO"
+      },
+      {
+        "LOCALIDAD": "PANIMAVIDA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PNV"
+      },
+      {
+        "LOCALIDAD": "PARRAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PRR"
+      },
+      {
+        "LOCALIDAD": "PELARCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PLC"
+      },
+      {
+        "LOCALIDAD": "PENCAHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PEH"
+      },
+      {
+        "LOCALIDAD": "RAUCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RAU"
+      },
+      {
+        "LOCALIDAD": "RIO CLARO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RCL"
+      },
+      {
+        "LOCALIDAD": "ROMERAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RML"
+      },
+      {
+        "LOCALIDAD": "SAGRADA FAMILIA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SFA"
+      },
+      {
+        "LOCALIDAD": "SAN CLEMENTE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "STE"
+      },
+      {
+        "LOCALIDAD": "SAN JAVIER",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SJA"
+      },
+      {
+        "LOCALIDAD": "SAN RAFAEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SRF"
+      },
+      {
+        "LOCALIDAD": "SANTA ANA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZSN"
+      },
+      {
+        "LOCALIDAD": "TENO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TEN"
+      },
+      {
+        "LOCALIDAD": "VILLA ALEGRE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VGE"
+      },
+      {
+        "LOCALIDAD": "YERBAS BUENAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YBB"
+      },
+      {
+        "LOCALIDAD": "AJIAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "JJZ"
+      },
+      {
+        "LOCALIDAD": "ARBOLILLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ARB"
+      },
+      {
+        "LOCALIDAD": "CHEPICA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CHE"
+      },
+      {
+        "LOCALIDAD": "CONVENTO VIEJO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CVQ"
+      },
+      {
+        "LOCALIDAD": "EL PENON",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PXQ"
+      },
+      {
+        "LOCALIDAD": "LA MONTANA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LMN"
+      },
+      {
+        "LOCALIDAD": "LAS CAMPANAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZLJ"
+      },
+      {
+        "LOCALIDAD": "MELOZAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "XMD"
+      },
+      {
+        "LOCALIDAD": "NIRIVILO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZNI"
+      },
+      {
+        "LOCALIDAD": "PALMILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "XPE"
+      },
+      {
+        "LOCALIDAD": "PASO NEVADO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "XPS"
+      },
+      {
+        "LOCALIDAD": "PERQUILAUQUEN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PQQ"
+      },
+      {
+        "LOCALIDAD": "QUINAHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QQW"
+      },
+      {
+        "LOCALIDAD": "QUINTA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QPX"
+      },
+      {
+        "LOCALIDAD": "RETIRO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RTR"
+      },
+      {
+        "LOCALIDAD": "ADUANA  ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ADW"
+      },
+      {
+        "LOCALIDAD": "ADUANA PEJERREY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ADJ"
+      },
+      {
+        "LOCALIDAD": "ARMERILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BWP"
+      },
+      {
+        "LOCALIDAD": "AUQUINCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AQQ"
+      },
+      {
+        "LOCALIDAD": "BARRERA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BYQ"
+      },
+      {
+        "LOCALIDAD": "BULLILLEO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LLZ"
+      },
+      {
+        "LOCALIDAD": "CAMPAMENTO ANCOA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CPQ"
+      },
+      {
+        "LOCALIDAD": "CHANCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CNC"
+      },
+      {
+        "LOCALIDAD": "CULENAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XQP"
+      },
+      {
+        "LOCALIDAD": "CURANIPE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CNP"
+      },
+      {
+        "LOCALIDAD": "CUREPTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CUR"
+      },
+      {
+        "LOCALIDAD": "DUAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "UAO"
+      },
+      {
+        "LOCALIDAD": "EL MANZANO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XMM"
+      },
+      {
+        "LOCALIDAD": "EL PLANCHON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XPO"
+      },
+      {
+        "LOCALIDAD": "EL SALTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XSE"
+      },
+      {
+        "LOCALIDAD": "EL TRANSITO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XTD"
+      },
+      {
+        "LOCALIDAD": "EMPEDRADO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "EMP"
+      },
+      {
+        "LOCALIDAD": "ENDESA ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZED"
+      },
+      {
+        "LOCALIDAD": "HUALANE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "HNE"
+      },
+      {
+        "LOCALIDAD": "HUALVE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XHR"
+      },
+      {
+        "LOCALIDAD": "HUEMUL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "HXO"
+      },
+      {
+        "LOCALIDAD": "ILOCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ILO"
+      },
+      {
+        "LOCALIDAD": "JUNQUILLAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZJU"
+      },
+      {
+        "LOCALIDAD": "LA LORA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XLA"
+      },
+      {
+        "LOCALIDAD": "LA MINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZLM"
+      },
+      {
+        "LOCALIDAD": "LA TRINCHERA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZLT"
+      },
+      {
+        "LOCALIDAD": "LAS GARZAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZLG"
+      },
+      {
+        "LOCALIDAD": "LICANTEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LCT"
+      },
+      {
+        "LOCALIDAD": "LIPIMAVIDA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZVU"
+      },
+      {
+        "LOCALIDAD": "LLEPO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XBL"
+      },
+      {
+        "LOCALIDAD": "LLICO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZYC"
+      },
+      {
+        "LOCALIDAD": "LOS CRISTALES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XLY"
+      },
+      {
+        "LOCALIDAD": "LOS NABOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XNY"
+      },
+      {
+        "LOCALIDAD": "LOS PERALES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZHH"
+      },
+      {
+        "LOCALIDAD": "LOS QUENES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQX"
+      },
+      {
+        "LOCALIDAD": "LOS RABONES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XRX"
+      },
+      {
+        "LOCALIDAD": "MELADO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XMK"
+      },
+      {
+        "LOCALIDAD": "MELAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZMG"
+      },
+      {
+        "LOCALIDAD": "MESAMAVIDA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XME"
+      },
+      {
+        "LOCALIDAD": "MIRAFLORES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZMI"
+      },
+      {
+        "LOCALIDAD": "MONTE OSCURO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZPA"
+      },
+      {
+        "LOCALIDAD": "MORZA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MOX"
+      },
+      {
+        "LOCALIDAD": "PALQUIBUDA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XQB"
+      },
+      {
+        "LOCALIDAD": "PASO HONDO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XEI"
+      },
+      {
+        "LOCALIDAD": "PELLUHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PEL"
+      },
+      {
+        "LOCALIDAD": "PICHAMAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZKQ"
+      },
+      {
+        "LOCALIDAD": "PICHIBUDI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BCH"
+      },
+      {
+        "LOCALIDAD": "POTRERO GRANDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PTG"
+      },
+      {
+        "LOCALIDAD": "POTRERO GRANDE CHICO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XPC"
+      },
+      {
+        "LOCALIDAD": "PUTU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PUU"
+      },
+      {
+        "LOCALIDAD": "QUEBRADA HONDA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQH"
+      },
+      {
+        "LOCALIDAD": "QUELLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XQL"
+      },
+      {
+        "LOCALIDAD": "QUINCHIMAVIDA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QQH"
+      },
+      {
+        "LOCALIDAD": "QUINMAVIDA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQV"
+      },
+      {
+        "LOCALIDAD": "QUIVOLGO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQI"
+      },
+      {
+        "LOCALIDAD": "RADAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XXR"
+      },
+      {
+        "LOCALIDAD": "RANGUIL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RQQ"
+      },
+      {
+        "LOCALIDAD": "REBECA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZRB"
+      },
+      {
+        "LOCALIDAD": "ROBLERIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XRI"
+      },
+      {
+        "LOCALIDAD": "SAN PABLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SZS"
+      },
+      {
+        "LOCALIDAD": "SAN PEDRO DE ALCANTARA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SPW"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE CATILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TQC"
+      },
+      {
+        "LOCALIDAD": "TRINCAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SAR"
+      },
+      {
+        "LOCALIDAD": "UNICAVEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZUV"
+      },
+      {
+        "LOCALIDAD": "UPEO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZUO"
+      },
+      {
+        "LOCALIDAD": "VICHUQUEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VCH"
+      },
+      {
+        "LOCALIDAD": "VILLA PRAT",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZVO"
+      },
+      {
+        "LOCALIDAD": "VILLA ROSAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VZQ"
+      },
+      {
+        "LOCALIDAD": "VILLA SECA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZVS"
+      },
+      {
+        "LOCALIDAD": "YACEL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XYY"
+      }
+     ]
+  },
+  {
+    "id": "8",
+    "region": "Región del Biobío",
+    "BASE": "CHILLAN",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "CHILLAN",
+        "ZONA": "BASE",
+        "CODIGO": "YAI"
+      },
+      {
+        "LOCALIDAD": "CHILLAN VIEJO",
+        "ZONA": "BASE",
+        "CODIGO": "YAV"
+      },
+      {
+        "LOCALIDAD": "CACHAPOAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YCA"
+      },
+      {
+        "LOCALIDAD": "COIPIN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YCO"
+      },
+      {
+        "LOCALIDAD": "EL CARMEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YCX"
+      },
+      {
+        "LOCALIDAD": "EL SAUCE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YES"
+      },
+      {
+        "LOCALIDAD": "GENERAL CRUZ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YGE"
+      },
+      {
+        "LOCALIDAD": "LA CAPILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LQP"
+      },
+      {
+        "LOCALIDAD": "LAS TRANCAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YLS"
+      },
+      {
+        "LOCALIDAD": "LIUCURA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YCU"
+      },
+      {
+        "LOCALIDAD": "MINAS DEL PRADO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MPD"
+      },
+      {
+        "LOCALIDAD": "NAHUELTORO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YNA"
+      },
+      {
+        "LOCALIDAD": "NIPAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZNY"
+      },
+      {
+        "LOCALIDAD": "NIQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "NYY"
+      },
+      {
+        "LOCALIDAD": "NUEVA ALDEA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZNA"
+      },
+      {
+        "LOCALIDAD": "POCILLAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YPO"
+      },
+      {
+        "LOCALIDAD": "PUEBLO SECO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YPU"
+      },
+      {
+        "LOCALIDAD": "QUINCHAMALI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QML"
+      },
+      {
+        "LOCALIDAD": "QUIRIQUINA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QNA"
+      },
+      {
+        "LOCALIDAD": "RANQUIL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RNQ"
+      },
+      {
+        "LOCALIDAD": "RUCAPEQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YRU"
+      },
+      {
+        "LOCALIDAD": "SAN GREGORIO NIQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YSN"
+      },
+      {
+        "LOCALIDAD": "SAN MIGUEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SMW"
+      },
+      {
+        "LOCALIDAD": "SAN PEDRO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SQZ"
+      },
+      {
+        "LOCALIDAD": "SANTA CLARA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CLA"
+      },
+      {
+        "LOCALIDAD": "TANILVORO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YTA"
+      },
+      {
+        "LOCALIDAD": "TORRECILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YTR"
+      },
+      {
+        "LOCALIDAD": "ZEMITA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "YZE"
+      },
+      {
+        "LOCALIDAD": "CAMPANARIO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YCM"
+      },
+      {
+        "LOCALIDAD": "CANCHA ALEGRE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YCN"
+      },
+      {
+        "LOCALIDAD": "CHOLGUAN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YCH"
+      },
+      {
+        "LOCALIDAD": "COBQUECURA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CQU"
+      },
+      {
+        "LOCALIDAD": "CONFLUENCIA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YCF"
+      },
+      {
+        "LOCALIDAD": "EL PARRON",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YEL"
+      },
+      {
+        "LOCALIDAD": "EL SALTILLO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YEY"
+      },
+      {
+        "LOCALIDAD": "FUNDO LOS ROBLES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "FRQ"
+      },
+      {
+        "LOCALIDAD": "LA PUNTILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YLA"
+      },
+      {
+        "LOCALIDAD": "LOS CASTANOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YLO"
+      },
+      {
+        "LOCALIDAD": "LOS PUQUIOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YLP"
+      },
+      {
+        "LOCALIDAD": "PASO HONDO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YCR"
+      },
+      {
+        "LOCALIDAD": "RECINTO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YRE"
+      },
+      {
+        "LOCALIDAD": "SAN FABIAN DE ALICO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SFB"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE CHILLAN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YTE"
+      },
+      {
+        "LOCALIDAD": "TOMECO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TMK"
+      },
+      {
+        "LOCALIDAD": "TREGUALEMU",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YTU"
+      },
+      {
+        "LOCALIDAD": "YUNGAY",
+        "ZONA": "EXTREMA",
+        "CODIGO": "YGY"
+      },
+      {
+        "LOCALIDAD": "BUCHUPUREO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "YBU"
+      },
+      {
+        "LOCALIDAD": "BULNES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BLN"
+      },
+      {
+        "LOCALIDAD": "COIHUECO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CUH"
+      },
+      {
+        "LOCALIDAD": "COLMUYAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "YCL"
+      },
+      {
+        "LOCALIDAD": "MELA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "YME"
+      },
+      {
+        "LOCALIDAD": "NINHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "NIN"
+      },
+      {
+        "LOCALIDAD": "PEMUCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZPC"
+      },
+      {
+        "LOCALIDAD": "PINTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PNO"
+      },
+      {
+        "LOCALIDAD": "PORTEZUELO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "49H"
+      },
+      {
+        "LOCALIDAD": "PULLAY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "YPL"
+      },
+      {
+        "LOCALIDAD": "QUILLON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QLL"
+      },
+      {
+        "LOCALIDAD": "QUIRIHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QIH"
+      },
+      {
+        "LOCALIDAD": "SAN CARLOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SCS"
+      },
+      {
+        "LOCALIDAD": "SAN IGNACIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SIG"
+      },
+      {
+        "LOCALIDAD": "SAN NICOLAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SNL"
+      },
+      {
+        "LOCALIDAD": "ZAPALLAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZAY"
+      }
+     ]
+  },
+  {
+    "id": "8",
+    "region": "Región del Biobío",
+    "BASE": "CONCEPCION",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "CONCEPCION",
+        "ZONA": "BASE",
+        "CODIGO": "CCP"
+      },
+      {
+        "LOCALIDAD": "RANCHO TALCAHUANO",
+        "ZONA": "BASE",
+        "CODIGO": "RTH"
+      },
+      {
+        "LOCALIDAD": "SAN PEDRO DE LA PAZ",
+        "ZONA": "BASE",
+        "CODIGO": "SPP"
+      },
+      {
+        "LOCALIDAD": "TALCAHUANO",
+        "ZONA": "BASE",
+        "CODIGO": "ZTO"
+      },
+      {
+        "LOCALIDAD": "AGUAS DE LA GLORIA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZGG"
+      },
+      {
+        "LOCALIDAD": "ARAUCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ARA"
+      },
+      {
+        "LOCALIDAD": "CARAMPANGUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PAN"
+      },
+      {
+        "LOCALIDAD": "CHIGUAYANTE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CYE"
+      },
+      {
+        "LOCALIDAD": "COELEMU",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZOU"
+      },
+      {
+        "LOCALIDAD": "COPIULEMU",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZUM"
+      },
+      {
+        "LOCALIDAD": "CORONEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CRN"
+      },
+      {
+        "LOCALIDAD": "DICHATO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "DTO"
+      },
+      {
+        "LOCALIDAD": "EL BOLDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZBC"
+      },
+      {
+        "LOCALIDAD": "HUALPEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "HLP"
+      },
+      {
+        "LOCALIDAD": "HUALQUI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "HLQ"
+      },
+      {
+        "LOCALIDAD": "LA BOCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZBB"
+      },
+      {
+        "LOCALIDAD": "LARAQUETE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LAQ"
+      },
+      {
+        "LOCALIDAD": "LIRQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LIR"
+      },
+      {
+        "LOCALIDAD": "LOTA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LOT"
+      },
+      {
+        "LOCALIDAD": "MENQUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZQW"
+      },
+      {
+        "LOCALIDAD": "PENCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PCO"
+      },
+      {
+        "LOCALIDAD": "QUILACOYA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZIQ"
+      },
+      {
+        "LOCALIDAD": "RAFAEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZRA"
+      },
+      {
+        "LOCALIDAD": "RAMADILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZMD"
+      },
+      {
+        "LOCALIDAD": "RANGUELMO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "GUO"
+      },
+      {
+        "LOCALIDAD": "RAQUI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZUQ"
+      },
+      {
+        "LOCALIDAD": "RAQUIL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZER"
+      },
+      {
+        "LOCALIDAD": "ROA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZRO"
+      },
+      {
+        "LOCALIDAD": "SAN VICENTE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SVC"
+      },
+      {
+        "LOCALIDAD": "TALCAMAVIDA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CTV"
+      },
+      {
+        "LOCALIDAD": "TOME",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TMC"
+      },
+      {
+        "LOCALIDAD": "VILLA ALEGRE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VAG"
+      },
+      {
+        "LOCALIDAD": "ANTIGUALA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZNT"
+      },
+      {
+        "LOCALIDAD": "CANETE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CTE"
+      },
+      {
+        "LOCALIDAD": "CONAIR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZIR"
+      },
+      {
+        "LOCALIDAD": "CONTULMO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CTU"
+      },
+      {
+        "LOCALIDAD": "CURANILAHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZHE"
+      },
+      {
+        "LOCALIDAD": "FLORIDA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "FLO"
+      },
+      {
+        "LOCALIDAD": "ISLA QUIRIQUINA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "IQR"
+      },
+      {
+        "LOCALIDAD": "LEBU",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZLB"
+      },
+      {
+        "LOCALIDAD": "LLICO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZCF"
+      },
+      {
+        "LOCALIDAD": "LOS ALAMOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LAL"
+      },
+      {
+        "LOCALIDAD": "PILPILCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZWP"
+      },
+      {
+        "LOCALIDAD": "SAN IGNACIO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZCG"
+      },
+      {
+        "LOCALIDAD": "SAN JOSE DE COLICO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SJL"
+      },
+      {
+        "LOCALIDAD": "SANTA JUANA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SJN"
+      },
+      {
+        "LOCALIDAD": "VEGAS DE ITATA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZTT"
+      },
+      {
+        "LOCALIDAD": "CAYUCUPIL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZZW"
+      },
+      {
+        "LOCALIDAD": "CURACO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MLC"
+      },
+      {
+        "LOCALIDAD": "MILLONHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZNG"
+      },
+      {
+        "LOCALIDAD": "PEHUEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZPQ"
+      },
+      {
+        "LOCALIDAD": "QUIDICO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQR"
+      },
+      {
+        "LOCALIDAD": "QUINAHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQA"
+      },
+      {
+        "LOCALIDAD": "RANQUILCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZRQ"
+      },
+      {
+        "LOCALIDAD": "RUCARAQUIL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZYR"
+      },
+      {
+        "LOCALIDAD": "SAN ALFONSO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CFF"
+      },
+      {
+        "LOCALIDAD": "SARA DE LEBU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZBL"
+      },
+      {
+        "LOCALIDAD": "TREHUACO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "YTG"
+      },
+      {
+        "LOCALIDAD": "TRES PINOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTP"
+      },
+      {
+        "LOCALIDAD": "YENECO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZYY"
+      }
+     ]
+  },
+  {
+    "id": "8",
+    "region": "Región del Biobío",
+    "BASE": "LOS ANGELES",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "LOS ANGELES",
+        "ZONA": "BASE",
+        "CODIGO": "LSQ"
+      },
+      {
+        "LOCALIDAD": "ANGOL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZOL"
+      },
+      {
+        "LOCALIDAD": "ANTUCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ANT"
+      },
+      {
+        "LOCALIDAD": "CABRERO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CRO"
+      },
+      {
+        "LOCALIDAD": "CANICURA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CRA"
+      },
+      {
+        "LOCALIDAD": "CANTERAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CNT"
+      },
+      {
+        "LOCALIDAD": "CHOROICO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CIO"
+      },
+      {
+        "LOCALIDAD": "COIHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LCE"
+      },
+      {
+        "LOCALIDAD": "COLLIPULLI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CPI"
+      },
+      {
+        "LOCALIDAD": "COLONIA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LCI"
+      },
+      {
+        "LOCALIDAD": "DIUQUIN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LDQ"
+      },
+      {
+        "LOCALIDAD": "EL ALAMO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LEL"
+      },
+      {
+        "LOCALIDAD": "EL AVELLANO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LEV"
+      },
+      {
+        "LOCALIDAD": "EL GUACHI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LGH"
+      },
+      {
+        "LOCALIDAD": "EL MORRO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LMR"
+      },
+      {
+        "LOCALIDAD": "ESTACION YUMBEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "EYY"
+      },
+      {
+        "LOCALIDAD": "HUEPIL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "HUP"
+      },
+      {
+        "LOCALIDAD": "LAJA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LLJ"
+      },
+      {
+        "LOCALIDAD": "LAS NIEVES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LNV"
+      },
+      {
+        "LOCALIDAD": "LONCOPANGUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LGE"
+      },
+      {
+        "LOCALIDAD": "LOS BRUJOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LBS"
+      },
+      {
+        "LOCALIDAD": "LOS MAICAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LZX"
+      },
+      {
+        "LOCALIDAD": "MAITENREHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LLH"
+      },
+      {
+        "LOCALIDAD": "MELICA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MEA"
+      },
+      {
+        "LOCALIDAD": "MININCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MNC"
+      },
+      {
+        "LOCALIDAD": "MONTE AGUILA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZLA"
+      },
+      {
+        "LOCALIDAD": "MULCHEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MUL"
+      },
+      {
+        "LOCALIDAD": "NACIMIENTO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "NAC"
+      },
+      {
+        "LOCALIDAD": "NEGRETE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "NRE"
+      },
+      {
+        "LOCALIDAD": "PANGAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPP"
+      },
+      {
+        "LOCALIDAD": "PASO HONDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PHY"
+      },
+      {
+        "LOCALIDAD": "PROGRESO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PGS"
+      },
+      {
+        "LOCALIDAD": "QUILACO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QCO"
+      },
+      {
+        "LOCALIDAD": "QUILLECO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QLO"
+      },
+      {
+        "LOCALIDAD": "RENAICO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RNA"
+      },
+      {
+        "LOCALIDAD": "RIHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RIE"
+      },
+      {
+        "LOCALIDAD": "RIO CLARO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LRC"
+      },
+      {
+        "LOCALIDAD": "RUCALHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LRH"
+      },
+      {
+        "LOCALIDAD": "SAN CARLOS PUREN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SCW"
+      },
+      {
+        "LOCALIDAD": "SAN MIGUEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LSM"
+      },
+      {
+        "LOCALIDAD": "SAN ROSENDO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SRO"
+      },
+      {
+        "LOCALIDAD": "SANTA BARBARA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SBB"
+      },
+      {
+        "LOCALIDAD": "SANTA FE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LSF"
+      },
+      {
+        "LOCALIDAD": "TIJERAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LTJ"
+      },
+      {
+        "LOCALIDAD": "TRUPAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LTP"
+      },
+      {
+        "LOCALIDAD": "TUCAPEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TCP"
+      },
+      {
+        "LOCALIDAD": "VILLA MERCEDES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LVM"
+      },
+      {
+        "LOCALIDAD": "VILLUCURA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LVU"
+      },
+      {
+        "LOCALIDAD": "YUMBEL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZYU"
+      },
+      {
+        "LOCALIDAD": "ALTO CALEDONIA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ANI"
+      },
+      {
+        "LOCALIDAD": "BUENURAQUI",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LBQ"
+      },
+      {
+        "LOCALIDAD": "CANADA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CDA"
+      },
+      {
+        "LOCALIDAD": "CERRO DEL PADRE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LCP"
+      },
+      {
+        "LOCALIDAD": "CURACO ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "HDF"
+      },
+      {
+        "LOCALIDAD": "EL ABANICO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LEA"
+      },
+      {
+        "LOCALIDAD": "EL TORO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LTW"
+      },
+      {
+        "LOCALIDAD": "LOLCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "COC"
+      },
+      {
+        "LOCALIDAD": "LOLENCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LLE"
+      },
+      {
+        "LOCALIDAD": "LOS PLACERES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LBO"
+      },
+      {
+        "LOCALIDAD": "NANCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LYY"
+      },
+      {
+        "LOCALIDAD": "PIEDRA DEL AGUILA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PDA"
+      },
+      {
+        "LOCALIDAD": "RALCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RCO"
+      },
+      {
+        "LOCALIDAD": "VEGAS BLANCAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LVB"
+      },
+      {
+        "LOCALIDAD": "ALTO BIO BIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AOO"
+      },
+      {
+        "LOCALIDAD": "CASA LOLCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZOT"
+      },
+      {
+        "LOCALIDAD": "COMUNIDAD CANICU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZRI"
+      },
+      {
+        "LOCALIDAD": "EL AMARGO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "EAG"
+      },
+      {
+        "LOCALIDAD": "LOS BARROS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LLB"
+      },
+      {
+        "LOCALIDAD": "MAITENES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LLM"
+      },
+      {
+        "LOCALIDAD": "PANGUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZLL"
+      },
+      {
+        "LOCALIDAD": "POLCURA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LPO"
+      },
+      {
+        "LOCALIDAD": "RALCO LEPOY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZLN"
+      },
+      {
+        "LOCALIDAD": "SANTA CLARA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LST"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE PEMEHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MTW"
+      },
+      {
+        "LOCALIDAD": "TERMAS DEL AVELLANO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTV"
+      },
+      {
+        "LOCALIDAD": "TRINTRE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TTE"
+      }
+     ]
+  },
+  {
+    "id": "9",
+    "region": "Región de la Araucanía",
+    "BASE": "TEMUCO",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "TEMUCO",
+        "ZONA": "BASE",
+        "CODIGO": "ZCO"
+      },
+      {
+        "LOCALIDAD": "AGUA SANTA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AST"
+      },
+      {
+        "LOCALIDAD": "ALMAGRO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZGV"
+      },
+      {
+        "LOCALIDAD": "BOROA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "BOA"
+      },
+      {
+        "LOCALIDAD": "CAJON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CJN"
+      },
+      {
+        "LOCALIDAD": "CARAHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CRH"
+      },
+      {
+        "LOCALIDAD": "CHERQUENCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZCC"
+      },
+      {
+        "LOCALIDAD": "COLONIA LAUTARO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CLU"
+      },
+      {
+        "LOCALIDAD": "CUNCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "NCO"
+      },
+      {
+        "LOCALIDAD": "EL ALAMBRADO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEA"
+      },
+      {
+        "LOCALIDAD": "ERCILLA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ERL"
+      },
+      {
+        "LOCALIDAD": "FREIRE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "FIE"
+      },
+      {
+        "LOCALIDAD": "GALVARINO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "GAL"
+      },
+      {
+        "LOCALIDAD": "GENERAL LOPEZ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZGE"
+      },
+      {
+        "LOCALIDAD": "GORBEA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "GEA"
+      },
+      {
+        "LOCALIDAD": "LABRANZA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LZA"
+      },
+      {
+        "LOCALIDAD": "LANCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LNC"
+      },
+      {
+        "LOCALIDAD": "LAS HORTENCIAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZLH"
+      },
+      {
+        "LOCALIDAD": "LAS MARIPOSAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZJM"
+      },
+      {
+        "LOCALIDAD": "LAUTARO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LTR"
+      },
+      {
+        "LOCALIDAD": "LONCOCHE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LOC"
+      },
+      {
+        "LOCALIDAD": "LOS PRADOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZLD"
+      },
+      {
+        "LOCALIDAD": "METRENCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MTR"
+      },
+      {
+        "LOCALIDAD": "MISION BOROA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MBA"
+      },
+      {
+        "LOCALIDAD": "NUEVA IMPERIAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "NIP"
+      },
+      {
+        "LOCALIDAD": "PADRE LAS CASAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PCS"
+      },
+      {
+        "LOCALIDAD": "PAILACO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PLO"
+      },
+      {
+        "LOCALIDAD": "PEDREGOSO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPD"
+      },
+      {
+        "LOCALIDAD": "PERQUENCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PQO"
+      },
+      {
+        "LOCALIDAD": "PILLANLELBUN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZUN"
+      },
+      {
+        "LOCALIDAD": "PITRUFQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PQN"
+      },
+      {
+        "LOCALIDAD": "PUA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CAU"
+      },
+      {
+        "LOCALIDAD": "PUCON",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPU"
+      },
+      {
+        "LOCALIDAD": "PUERTO SAAVEDRA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPS"
+      },
+      {
+        "LOCALIDAD": "QUEPE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "QUP"
+      },
+      {
+        "LOCALIDAD": "QUINQUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZQN"
+      },
+      {
+        "LOCALIDAD": "QUITRATUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZQT"
+      },
+      {
+        "LOCALIDAD": "RADAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZLK"
+      },
+      {
+        "LOCALIDAD": "RETEN DOLLINCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZRT"
+      },
+      {
+        "LOCALIDAD": "SAN PATRICIO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZSP"
+      },
+      {
+        "LOCALIDAD": "SAN PEDRO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SSP"
+      },
+      {
+        "LOCALIDAD": "TEODORO SCHMIDT",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TEO"
+      },
+      {
+        "LOCALIDAD": "TOLTEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TOL"
+      },
+      {
+        "LOCALIDAD": "TRAIGUEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEN"
+      },
+      {
+        "LOCALIDAD": "VICTORIA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VIC"
+      },
+      {
+        "LOCALIDAD": "VILCUN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VIL"
+      },
+      {
+        "LOCALIDAD": "VILLARRICA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "VRR"
+      },
+      {
+        "LOCALIDAD": "BARROS ARANA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZBR"
+      },
+      {
+        "LOCALIDAD": "BOCA BUDI",
+        "ZONA": "EXTREMA",
+        "CODIGO": "BBD"
+      },
+      {
+        "LOCALIDAD": "CAMARONES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VAC"
+      },
+      {
+        "LOCALIDAD": "CAPITAN PASTENE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CPP"
+      },
+      {
+        "LOCALIDAD": "CHOLCHOL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CHL"
+      },
+      {
+        "LOCALIDAD": "CHOSHUENCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CHS"
+      },
+      {
+        "LOCALIDAD": "COMUY",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZCM"
+      },
+      {
+        "LOCALIDAD": "CURACAUTIN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CCC"
+      },
+      {
+        "LOCALIDAD": "HELO SUR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZHL"
+      },
+      {
+        "LOCALIDAD": "HUALPIN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "UAL"
+      },
+      {
+        "LOCALIDAD": "HUISCAPI",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZHS"
+      },
+      {
+        "LOCALIDAD": "LA SOMBRA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZBN"
+      },
+      {
+        "LOCALIDAD": "LASTARRIA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZLR"
+      },
+      {
+        "LOCALIDAD": "LICAN RAY",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LCY"
+      },
+      {
+        "LOCALIDAD": "LOLEN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LLN"
+      },
+      {
+        "LOCALIDAD": "LOMACURA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZLV"
+      },
+      {
+        "LOCALIDAD": "LOS LAURELES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZSO"
+      },
+      {
+        "LOCALIDAD": "LOS SAUCES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SUS"
+      },
+      {
+        "LOCALIDAD": "LOS TALLOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZLS"
+      },
+      {
+        "LOCALIDAD": "LUMACO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LUM"
+      },
+      {
+        "LOCALIDAD": "MALALCAHUELO ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZOH"
+      },
+      {
+        "LOCALIDAD": "MANZANAR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZMN"
+      },
+      {
+        "LOCALIDAD": "MAQUEHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MQH"
+      },
+      {
+        "LOCALIDAD": "MELIPEUCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MLP"
+      },
+      {
+        "LOCALIDAD": "NANCUL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "NCU"
+      },
+      {
+        "LOCALIDAD": "NEHUENTUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZNH"
+      },
+      {
+        "LOCALIDAD": "PAILAHUENQUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZPH"
+      },
+      {
+        "LOCALIDAD": "PANGUIPULLI",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PGP"
+      },
+      {
+        "LOCALIDAD": "PELECO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PEC"
+      },
+      {
+        "LOCALIDAD": "PICHIPELLAHUEN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZNN"
+      },
+      {
+        "LOCALIDAD": "PUERTO DOMINGUEZ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZPM"
+      },
+      {
+        "LOCALIDAD": "PUERTO PUMA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PPM"
+      },
+      {
+        "LOCALIDAD": "PUREN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PUR"
+      },
+      {
+        "LOCALIDAD": "QUIDICO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZDQ"
+      },
+      {
+        "LOCALIDAD": "QUILQUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZQL"
+      },
+      {
+        "LOCALIDAD": "RELUN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZRL"
+      },
+      {
+        "LOCALIDAD": "RUCATRARO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZXR"
+      },
+      {
+        "LOCALIDAD": "SELVA OSCURA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "SSO"
+      },
+      {
+        "LOCALIDAD": "SIERRA NEVADA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZSI"
+      },
+      {
+        "LOCALIDAD": "TIRUA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "TUA"
+      },
+      {
+        "LOCALIDAD": "TRES ESQUINAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZTQ"
+      },
+      {
+        "LOCALIDAD": "TROVOLHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZTK"
+      },
+      {
+        "LOCALIDAD": "VILLA ARAUCANIA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "VZA"
+      },
+      {
+        "LOCALIDAD": "ANTIQUINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQG"
+      },
+      {
+        "LOCALIDAD": "CABURGUA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZCB"
+      },
+      {
+        "LOCALIDAD": "CALAFQUEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZCZ"
+      },
+      {
+        "LOCALIDAD": "CARIRRINGUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZZQ"
+      },
+      {
+        "LOCALIDAD": "CENTENARIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZCT"
+      },
+      {
+        "LOCALIDAD": "COÑARIPE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CPE"
+      },
+      {
+        "LOCALIDAD": "CURARREHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RRH"
+      },
+      {
+        "LOCALIDAD": "ENCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZNC"
+      },
+      {
+        "LOCALIDAD": "HUIFE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTZ"
+      },
+      {
+        "LOCALIDAD": "ICALMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZIC"
+      },
+      {
+        "LOCALIDAD": "LIQUINE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZVC"
+      },
+      {
+        "LOCALIDAD": "LIUCURA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IRA"
+      },
+      {
+        "LOCALIDAD": "LOBERIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZLE"
+      },
+      {
+        "LOCALIDAD": "LONQUIMAY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LQY"
+      },
+      {
+        "LOCALIDAD": "NAHUELVE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "NNH"
+      },
+      {
+        "LOCALIDAD": "NELTUME",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "NTM"
+      },
+      {
+        "LOCALIDAD": "PLAYA NEGRA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MFN"
+      },
+      {
+        "LOCALIDAD": "PUERTO FUY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZFQ"
+      },
+      {
+        "LOCALIDAD": "PUERTO PIRIHUEICO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZPT"
+      },
+      {
+        "LOCALIDAD": "PUESCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PUE"
+      },
+      {
+        "LOCALIDAD": "PULLINGUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PGE"
+      },
+      {
+        "LOCALIDAD": "QUECHEREGUAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZQE"
+      },
+      {
+        "LOCALIDAD": "REFUGIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZRE"
+      },
+      {
+        "LOCALIDAD": "REFUGIO LLAIMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZRF"
+      },
+      {
+        "LOCALIDAD": "REIGOLIL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZGO"
+      },
+      {
+        "LOCALIDAD": "RINCONADA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZWE"
+      },
+      {
+        "LOCALIDAD": "SANTA ROSA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SZZ"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE CONARIPE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TRC"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE HUIFE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTR"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE MENETUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZMT"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE MOLULCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZMY"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE PALGUIN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTM"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE PANGUI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GAR"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE RIO BLANCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTS"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE SAN LUIS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TSL"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE SAN SEBASTIAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTB"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE TOLHUACA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTD"
+      },
+      {
+        "LOCALIDAD": "TROYO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTY"
+      }
+     ]
+  },
+  {
+    "id": "10",
+    "region": "Región de Los Lagos",
+    "BASE": "OSORNO",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "OSORNO",
+        "ZONA": "BASE",
+        "CODIGO": "ZOS"
+      },
+      {
+        "LOCALIDAD": "BAHIA MANSA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZBH"
+      },
+      {
+        "LOCALIDAD": "CANCURA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OAR"
+      },
+      {
+        "LOCALIDAD": "CARACOL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OLO"
+      },
+      {
+        "LOCALIDAD": "CASMA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OAM"
+      },
+      {
+        "LOCALIDAD": "CAYURRUCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZCY"
+      },
+      {
+        "LOCALIDAD": "CENTRAL RUPANCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OOC"
+      },
+      {
+        "LOCALIDAD": "CHAHUILCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OOL"
+      },
+      {
+        "LOCALIDAD": "CHANCHAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZNX"
+      },
+      {
+        "LOCALIDAD": "CHIRRE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OER"
+      },
+      {
+        "LOCALIDAD": "CONTACO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OOA"
+      },
+      {
+        "LOCALIDAD": "CORTE ALTO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OOT"
+      },
+      {
+        "LOCALIDAD": "CRUCERO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OOR"
+      },
+      {
+        "LOCALIDAD": "EL ENCANTO ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEE"
+      },
+      {
+        "LOCALIDAD": "EL MIRADOR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ORO"
+      },
+      {
+        "LOCALIDAD": "ENTRE LAGOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ENL"
+      },
+      {
+        "LOCALIDAD": "FILUCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZFI"
+      },
+      {
+        "LOCALIDAD": "FRUTILLAR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "FRT"
+      },
+      {
+        "LOCALIDAD": "HUILMA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZHM"
+      },
+      {
+        "LOCALIDAD": "IGNAO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZIG"
+      },
+      {
+        "LOCALIDAD": "LA UNION",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZLU"
+      },
+      {
+        "LOCALIDAD": "LAS LUMAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OSM"
+      },
+      {
+        "LOCALIDAD": "LOS CONALES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OSE"
+      },
+      {
+        "LOCALIDAD": "LOS CORRALES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZEU"
+      },
+      {
+        "LOCALIDAD": "MAICOLPUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZWQ"
+      },
+      {
+        "LOCALIDAD": "MONTE VERDE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZMV"
+      },
+      {
+        "LOCALIDAD": "PARAGUAY",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPY"
+      },
+      {
+        "LOCALIDAD": "PICHI DAMAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OSD"
+      },
+      {
+        "LOCALIDAD": "PUAUCHO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OOH"
+      },
+      {
+        "LOCALIDAD": "PUCATRIHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OEH"
+      },
+      {
+        "LOCALIDAD": "PUERTO NUEVO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZXN"
+      },
+      {
+        "LOCALIDAD": "PUERTO OCTAY",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PCY"
+      },
+      {
+        "LOCALIDAD": "PURRANQUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PRE"
+      },
+      {
+        "LOCALIDAD": "PUYEHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PYH"
+      },
+      {
+        "LOCALIDAD": "RAPACO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZRP"
+      },
+      {
+        "LOCALIDAD": "REMEHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZRM"
+      },
+      {
+        "LOCALIDAD": "RIO BUENO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RBN"
+      },
+      {
+        "LOCALIDAD": "RIO NEGRO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RNC"
+      },
+      {
+        "LOCALIDAD": "SAN JUAN DE LA COSTA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SJD"
+      },
+      {
+        "LOCALIDAD": "SAN PABLO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "SPL"
+      },
+      {
+        "LOCALIDAD": "SANTA ROSA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZSR"
+      },
+      {
+        "LOCALIDAD": "TRAPI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "OIP"
+      },
+      {
+        "LOCALIDAD": "TRUMAO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "TMA"
+      },
+      {
+        "LOCALIDAD": "VIVANCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZVV"
+      },
+      {
+        "LOCALIDAD": "AGUAS CALIENTES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZAA"
+      },
+      {
+        "LOCALIDAD": "ANTICURA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZAC"
+      },
+      {
+        "LOCALIDAD": "CONCORDIA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZIX"
+      },
+      {
+        "LOCALIDAD": "EL BOLSON",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZEB"
+      },
+      {
+        "LOCALIDAD": "EL ISLOTE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZEO"
+      },
+      {
+        "LOCALIDAD": "HUEYUSCA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZHY"
+      },
+      {
+        "LOCALIDAD": "ILIHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZEQ"
+      },
+      {
+        "LOCALIDAD": "LA BARRA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OAA"
+      },
+      {
+        "LOCALIDAD": "LAGO RANCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LRO"
+      },
+      {
+        "LOCALIDAD": "LAS CASCADAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LDS"
+      },
+      {
+        "LOCALIDAD": "LLIHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OEU"
+      },
+      {
+        "LOCALIDAD": "LOS BAJOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZEP"
+      },
+      {
+        "LOCALIDAD": "LOS CHILCOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LCL"
+      },
+      {
+        "LOCALIDAD": "MILLANTUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OET"
+      },
+      {
+        "LOCALIDAD": "NILQUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZLY"
+      },
+      {
+        "LOCALIDAD": "PIEDRAS NEGRAS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PNG"
+      },
+      {
+        "LOCALIDAD": "PUERTO CLOCKER",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZPK"
+      },
+      {
+        "LOCALIDAD": "PUERTO FONCK",
+        "ZONA": "EXTREMA",
+        "CODIGO": "XPF"
+      },
+      {
+        "LOCALIDAD": "PUERTO RICO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OOI"
+      },
+      {
+        "LOCALIDAD": "PURRAPEL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OLE"
+      },
+      {
+        "LOCALIDAD": "REFUGIO LA PICADA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZRD"
+      },
+      {
+        "LOCALIDAD": "RININAHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZZR"
+      },
+      {
+        "LOCALIDAD": "TEGUALDA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZTG"
+      },
+      {
+        "LOCALIDAD": "TRINIDAD",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ODA"
+      },
+      {
+        "LOCALIDAD": "HUEICOLLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZHC"
+      },
+      {
+        "LOCALIDAD": "PAJARITOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZPJ"
+      },
+      {
+        "LOCALIDAD": "REFUGIO ANTILLANCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZRN"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE PUYEHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZTH"
+      }
+     ]
+  }, 
+  {
+    "id": "10",
+    "region": "Región de Los Lagos",
+    "BASE": "PUERTO MONTT",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "PUERTO MONTT",
+        "ZONA": "BASE",
+        "CODIGO": "PMC"
+      },
+      {
+        "LOCALIDAD": "RANCHO PUERTO MONTT",
+        "ZONA": "BASE",
+        "CODIGO": "RPM"
+      },
+      {
+        "LOCALIDAD": "ALERCE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ALE"
+      },
+      {
+        "LOCALIDAD": "CALBUCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CBU"
+      },
+      {
+        "LOCALIDAD": "CALETA LA ARENA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PCA"
+      },
+      {
+        "LOCALIDAD": "CHAMIZA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PZH"
+      },
+      {
+        "LOCALIDAD": "COLEGUAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PCL"
+      },
+      {
+        "LOCALIDAD": "CORRENTOSO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PCT"
+      },
+      {
+        "LOCALIDAD": "EL TEPUAL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ETL"
+      },
+      {
+        "LOCALIDAD": "FRESIA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "FSA"
+      },
+      {
+        "LOCALIDAD": "HUELMO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PXY"
+      },
+      {
+        "LOCALIDAD": "LA POSA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PWP"
+      },
+      {
+        "LOCALIDAD": "LAS QUEMAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PLS"
+      },
+      {
+        "LOCALIDAD": "LENCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PLW"
+      },
+      {
+        "LOCALIDAD": "LLANQUIHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LLQ"
+      },
+      {
+        "LOCALIDAD": "LOLCURA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LLA"
+      },
+      {
+        "LOCALIDAD": "LONCOTORO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LNT"
+      },
+      {
+        "LOCALIDAD": "LOS MUERMOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LMU"
+      },
+      {
+        "LOCALIDAD": "LOS PELLINES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PWT"
+      },
+      {
+        "LOCALIDAD": "MAULLIN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MAU"
+      },
+      {
+        "LOCALIDAD": "MISQUIHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MSQ"
+      },
+      {
+        "LOCALIDAD": "NUEVA BRAUNAU",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "NBR"
+      },
+      {
+        "LOCALIDAD": "PARGA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PPD"
+      },
+      {
+        "LOCALIDAD": "PARGUA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZGA"
+      },
+      {
+        "LOCALIDAD": "PUELPUN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PPP"
+      },
+      {
+        "LOCALIDAD": "PUERTO VARAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPV"
+      },
+      {
+        "LOCALIDAD": "QUILLAIPE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PTE"
+      },
+      {
+        "LOCALIDAD": "RIO SUR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RIS"
+      },
+      {
+        "LOCALIDAD": "ABTAO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PAB"
+      },
+      {
+        "LOCALIDAD": "ANCUD",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ACD"
+      },
+      {
+        "LOCALIDAD": "CARELMAPU",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CRU"
+      },
+      {
+        "LOCALIDAD": "CASTRO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CTR"
+      },
+      {
+        "LOCALIDAD": "CAULIN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CHG"
+      },
+      {
+        "LOCALIDAD": "CHACAO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CAO"
+      },
+      {
+        "LOCALIDAD": "ENSENADA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ENS"
+      },
+      {
+        "LOCALIDAD": "LINAO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PLI"
+      },
+      {
+        "LOCALIDAD": "LLIUCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PLU"
+      },
+      {
+        "LOCALIDAD": "LOS RISCOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "OSC"
+      },
+      {
+        "LOCALIDAD": "MAICHIHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PMA"
+      },
+      {
+        "LOCALIDAD": "MANAO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PMN"
+      },
+      {
+        "LOCALIDAD": "PANGAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PPA"
+      },
+      {
+        "LOCALIDAD": "PETROHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PTH"
+      },
+      {
+        "LOCALIDAD": "QUELLON",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QLN"
+      },
+      {
+        "LOCALIDAD": "QUEMCHI",
+        "ZONA": "EXTREMA",
+        "CODIGO": "QUE"
+      },
+      {
+        "LOCALIDAD": "RANCHO QUELLON",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RQL"
+      },
+      {
+        "LOCALIDAD": "RIO FRIO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PWF"
+      },
+      {
+        "LOCALIDAD": "ACHAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZAO"
+      },
+      {
+        "LOCALIDAD": "AGUAS  BUENAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PZG"
+      },
+      {
+        "LOCALIDAD": "AHONI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AHI"
+      },
+      {
+        "LOCALIDAD": "AITUI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWU"
+      },
+      {
+        "LOCALIDAD": "ALDACHILDO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ADO"
+      },
+      {
+        "LOCALIDAD": "ALTO BUTALCURA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PAT"
+      },
+      {
+        "LOCALIDAD": "APIAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "APO"
+      },
+      {
+        "LOCALIDAD": "AUCAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PAU"
+      },
+      {
+        "LOCALIDAD": "AULEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ALN"
+      },
+      {
+        "LOCALIDAD": "AYACARA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PAY"
+      },
+      {
+        "LOCALIDAD": "BANOS DE SOTOMO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PBS"
+      },
+      {
+        "LOCALIDAD": "BELBEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PZB"
+      },
+      {
+        "LOCALIDAD": "BUILL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PBX"
+      },
+      {
+        "LOCALIDAD": "CALETA GONZALO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PCG"
+      },
+      {
+        "LOCALIDAD": "CALETA HUALAIHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWX"
+      },
+      {
+        "LOCALIDAD": "CALETA SANTA BARBARA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PBB"
+      },
+      {
+        "LOCALIDAD": "CANUTILLAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWC"
+      },
+      {
+        "LOCALIDAD": "CHADMO CENTRAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PDN"
+      },
+      {
+        "LOCALIDAD": "CHAITEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZCN"
+      },
+      {
+        "LOCALIDAD": "CHAPARANO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWQ"
+      },
+      {
+        "LOCALIDAD": "CHAULINEC",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PHC"
+      },
+      {
+        "LOCALIDAD": "CHOLGO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWS"
+      },
+      {
+        "LOCALIDAD": "CHONCHI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZCH"
+      },
+      {
+        "LOCALIDAD": "COCHAMO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CMO"
+      },
+      {
+        "LOCALIDAD": "COINCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWI"
+      },
+      {
+        "LOCALIDAD": "CONTAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PCM"
+      },
+      {
+        "LOCALIDAD": "CONTAY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PCN"
+      },
+      {
+        "LOCALIDAD": "CUCAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CUO"
+      },
+      {
+        "LOCALIDAD": "CURACO DE VELEZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CVL"
+      },
+      {
+        "LOCALIDAD": "CURAHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CGE"
+      },
+      {
+        "LOCALIDAD": "DALCAHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "DLE"
+      },
+      {
+        "LOCALIDAD": "DEGAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PDG"
+      },
+      {
+        "LOCALIDAD": "EL BARRACO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWA"
+      },
+      {
+        "LOCALIDAD": "FUTALEUFU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "FTF"
+      },
+      {
+        "LOCALIDAD": "GUALBUN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GBN"
+      },
+      {
+        "LOCALIDAD": "HORNOPIREN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "HRP"
+      },
+      {
+        "LOCALIDAD": "HUALAIHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "HLH"
+      },
+      {
+        "LOCALIDAD": "HUILDAD",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PHI"
+      },
+      {
+        "LOCALIDAD": "HUILLINCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "HNO"
+      },
+      {
+        "LOCALIDAD": "HUINAY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PHN"
+      },
+      {
+        "LOCALIDAD": "LAGO YELCHO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PLG"
+      },
+      {
+        "LOCALIDAD": "LLANADA GRANDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PGX"
+      },
+      {
+        "LOCALIDAD": "MECHUQUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PME"
+      },
+      {
+        "LOCALIDAD": "PAILDAD",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPU"
+      },
+      {
+        "LOCALIDAD": "PALENA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PLE"
+      },
+      {
+        "LOCALIDAD": "PICHANCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPI"
+      },
+      {
+        "LOCALIDAD": "POYO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWY"
+      },
+      {
+        "LOCALIDAD": "PRIMER CORRAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPR"
+      },
+      {
+        "LOCALIDAD": "PUELO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPL"
+      },
+      {
+        "LOCALIDAD": "PUERTO CARDENAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TCD"
+      },
+      {
+        "LOCALIDAD": "PUERTO PIEDRA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PIE"
+      },
+      {
+        "LOCALIDAD": "PUERTO RAMIREZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PRZ"
+      },
+      {
+        "LOCALIDAD": "PUQUELDON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PQE"
+      },
+      {
+        "LOCALIDAD": "QUEILEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QLE"
+      },
+      {
+        "LOCALIDAD": "QUELLON VIEJO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QUV"
+      },
+      {
+        "LOCALIDAD": "QUETELMAHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PQT"
+      },
+      {
+        "LOCALIDAD": "QUICAVI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QIA"
+      },
+      {
+        "LOCALIDAD": "QUINCHAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QCH"
+      },
+      {
+        "LOCALIDAD": "RALUN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PRA"
+      },
+      {
+        "LOCALIDAD": "ROLLIZO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWZ"
+      },
+      {
+        "LOCALIDAD": "SAN JUAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "JJN"
+      },
+      {
+        "LOCALIDAD": "SEGUNDO CORRAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PSE"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE LLANCATUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TLE"
+      },
+      {
+        "LOCALIDAD": "TERMAS EL AMARILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PTM"
+      },
+      {
+        "LOCALIDAD": "TEUPA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PTU"
+      },
+      {
+        "LOCALIDAD": "TRINCAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWD"
+      },
+      {
+        "LOCALIDAD": "VILLA SANTA LUCIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PVI"
+      },
+      {
+        "LOCALIDAD": "VILLA VANGUARDIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PVL"
+      },
+      {
+        "LOCALIDAD": "YALDAD",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PYA"
+      }
+     ]
+  },
+  {
+    "id": "11",
+    "region": "Región Aisén del Gral. Carlos Ibáñez del Campo",
+    "BASE": "COYHAIQUE",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "COYHAIQUE",
+        "ZONA": "BASE",
+        "CODIGO": "GXQ"
+      },
+      {
+        "LOCALIDAD": "BALMACEDA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "BBA"
+      },
+      {
+        "LOCALIDAD": "PUERTO AYSEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "WPA"
+      },
+      {
+        "LOCALIDAD": "COYHAIQUE ALTO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "GAX"
+      },
+      {
+        "LOCALIDAD": "MANIHUALES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "GMH"
+      },
+      {
+        "LOCALIDAD": "PUERTO CHACABUCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PCC"
+      },
+      {
+        "LOCALIDAD": "RIO IBAÑEZ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "RIB"
+      },
+      {
+        "LOCALIDAD": "VILLA MANIHUALES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MHS"
+      },
+      {
+        "LOCALIDAD": "BANO NUEVO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BNO"
+      },
+      {
+        "LOCALIDAD": "CALETA TORTEL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TOR"
+      },
+      {
+        "LOCALIDAD": "CHILE CHICO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CCH"
+      },
+      {
+        "LOCALIDAD": "CISNES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CNS"
+      },
+      {
+        "LOCALIDAD": "COCHRANE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CCL"
+      },
+      {
+        "LOCALIDAD": "EL GATO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IAU"
+      },
+      {
+        "LOCALIDAD": "GUAITECAS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GCA"
+      },
+      {
+        "LOCALIDAD": "ISLA ANGAMOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIA"
+      },
+      {
+        "LOCALIDAD": "ISLA BENJAMIN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIB"
+      },
+      {
+        "LOCALIDAD": "ISLA CAMPANA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIC"
+      },
+      {
+        "LOCALIDAD": "ISLA CUPTANA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIP"
+      },
+      {
+        "LOCALIDAD": "ISLA IPUN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GII"
+      },
+      {
+        "LOCALIDAD": "ISLA IZAZO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIZ"
+      },
+      {
+        "LOCALIDAD": "ISLA LEVEL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIL"
+      },
+      {
+        "LOCALIDAD": "ISLA MELCHOR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIM"
+      },
+      {
+        "LOCALIDAD": "ISLA MERINO JARPA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GMJ"
+      },
+      {
+        "LOCALIDAD": "ISLA NALCAYEC",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIN"
+      },
+      {
+        "LOCALIDAD": "ISLA PATRICIO LYNCH",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIY"
+      },
+      {
+        "LOCALIDAD": "ISLA VICTORIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIV"
+      },
+      {
+        "LOCALIDAD": "LA JUNTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "JUN"
+      },
+      {
+        "LOCALIDAD": "LA TAPERA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GLT"
+      },
+      {
+        "LOCALIDAD": "LAGO COCHRANE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ANE"
+      },
+      {
+        "LOCALIDAD": "LAGO VERDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LVE"
+      },
+      {
+        "LOCALIDAD": "LAGUNA SAN RAFAEL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GLS"
+      },
+      {
+        "LOCALIDAD": "LEVICAN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GLV"
+      },
+      {
+        "LOCALIDAD": "MELINKA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "NKA"
+      },
+      {
+        "LOCALIDAD": "MINA EL TOQUI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GMT"
+      },
+      {
+        "LOCALIDAD": "NIREGUAO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GNG"
+      },
+      {
+        "LOCALIDAD": "O HIGGINS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OHG"
+      },
+      {
+        "LOCALIDAD": "PUERTO AGUIRRE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AGR"
+      },
+      {
+        "LOCALIDAD": "PUERTO BERTRAND",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PBI"
+      },
+      {
+        "LOCALIDAD": "PUERTO CISNES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PCI"
+      },
+      {
+        "LOCALIDAD": "PUERTO FACHINAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GPF"
+      },
+      {
+        "LOCALIDAD": "PUERTO GAVIOTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GVH"
+      },
+      {
+        "LOCALIDAD": "PUERTO GUADAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PGU"
+      },
+      {
+        "LOCALIDAD": "PUERTO HERRADURA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GXP"
+      },
+      {
+        "LOCALIDAD": "PUERTO ING.IBANEZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GIQ"
+      },
+      {
+        "LOCALIDAD": "PUERTO MURTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GPX"
+      },
+      {
+        "LOCALIDAD": "PUERTO SANCHEZ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GPZ"
+      },
+      {
+        "LOCALIDAD": "PUERTO TRANQUILO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TGL"
+      },
+      {
+        "LOCALIDAD": "PUERTO YUNGAY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GPY"
+      },
+      {
+        "LOCALIDAD": "PUYUHUAPI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "YUH"
+      },
+      {
+        "LOCALIDAD": "RIO CISNES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GRC"
+      },
+      {
+        "LOCALIDAD": "SANTA MARIA DEL MAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GSM"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE PUYUHUAPI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GTP"
+      },
+      {
+        "LOCALIDAD": "TORTEL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TRT"
+      },
+      {
+        "LOCALIDAD": "VILLA AMENGUAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VGL"
+      },
+      {
+        "LOCALIDAD": "VILLA CERRO CASTILLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VCC"
+      },
+      {
+        "LOCALIDAD": "VILLA CHACABUCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GVC"
+      },
+      {
+        "LOCALIDAD": "VILLA OHIGGINS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VOH"
+      },
+      {
+        "LOCALIDAD": "VILLA ORTEGA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GVZ"
+      }
+     ]
+  },
+  {
+    "id": "12",
+    "region": "Región de Magallanes y de la Antártica Chilena",
+    "BASE": "PUNTA ARENAS",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "PUNTA ARENAS",
+        "ZONA": "BASE",
+        "CODIGO": "PUQ"
+      },
+      {
+        "LOCALIDAD": "RANCHO PUNTA ARENAS",
+        "ZONA": "BASE",
+        "CODIGO": "RPU"
+      },
+      {
+        "LOCALIDAD": "MINA PECKET",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MPK"
+      },
+      {
+        "LOCALIDAD": "SAN SEBASTIAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "KSB"
+      },
+      {
+        "LOCALIDAD": "CABEZA DE MAR",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CAB"
+      },
+      {
+        "LOCALIDAD": "ENTRE VIENTOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "EVT"
+      },
+      {
+        "LOCALIDAD": "ESTANCIA SAN JUAN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ESJ"
+      },
+      {
+        "LOCALIDAD": "FUERTE BULNES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "FBL"
+      },
+      {
+        "LOCALIDAD": "ANTARTICA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ATC"
+      },
+      {
+        "LOCALIDAD": "ARMONIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ARM"
+      },
+      {
+        "LOCALIDAD": "CABO DE HORNOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "HOR"
+      },
+      {
+        "LOCALIDAD": "CALETA EUGENIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CEU"
+      },
+      {
+        "LOCALIDAD": "CAMERON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PCX"
+      },
+      {
+        "LOCALIDAD": "CERRO CASTILLO ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CEC"
+      },
+      {
+        "LOCALIDAD": "CERRO SOMBRERO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CSM"
+      },
+      {
+        "LOCALIDAD": "CULLEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QEN"
+      },
+      {
+        "LOCALIDAD": "ESTANCIA CHINA CR.",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ECH"
+      },
+      {
+        "LOCALIDAD": "ESTANCIA LOS OLIVOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ELO"
+      },
+      {
+        "LOCALIDAD": "ESTANCIA SN GREGORIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PES"
+      },
+      {
+        "LOCALIDAD": "ESTANCIA VICTORINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ESV"
+      },
+      {
+        "LOCALIDAD": "GAIKE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GKE"
+      },
+      {
+        "LOCALIDAD": "GALLEGOS CHICOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PGL"
+      },
+      {
+        "LOCALIDAD": "ISLA DAWSON",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "IDW"
+      },
+      {
+        "LOCALIDAD": "ISLA NAVARINO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "INV"
+      },
+      {
+        "LOCALIDAD": "LA JUNTA  ",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PLJ"
+      },
+      {
+        "LOCALIDAD": "LAGUNA BLANCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LBL"
+      },
+      {
+        "LOCALIDAD": "LAPATAIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LTA"
+      },
+      {
+        "LOCALIDAD": "MANANTIALES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MTS"
+      },
+      {
+        "LOCALIDAD": "MONTE AYMOND",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MAY"
+      },
+      {
+        "LOCALIDAD": "MORRO CHICO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MRC"
+      },
+      {
+        "LOCALIDAD": "ONAISIN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ONA"
+      },
+      {
+        "LOCALIDAD": "PAMPA GUANACOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPG"
+      },
+      {
+        "LOCALIDAD": "PEHOE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PHE"
+      },
+      {
+        "LOCALIDAD": "PORVENIR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZPR"
+      },
+      {
+        "LOCALIDAD": "PRIMAVERA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PRI"
+      },
+      {
+        "LOCALIDAD": "PUERTO ALTAMIRANO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPN"
+      },
+      {
+        "LOCALIDAD": "PUERTO ARTURO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "UOR"
+      },
+      {
+        "LOCALIDAD": "PUERTO BORIES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPB"
+      },
+      {
+        "LOCALIDAD": "PUERTO CONDOR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPC"
+      },
+      {
+        "LOCALIDAD": "PUERTO NATALES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PNT"
+      },
+      {
+        "LOCALIDAD": "PUERTO PERCY",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PZP"
+      },
+      {
+        "LOCALIDAD": "PUERTO TORO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PTO"
+      },
+      {
+        "LOCALIDAD": "PUERTO WILLIAMS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PWL"
+      },
+      {
+        "LOCALIDAD": "PUERTO YARTAU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PPY"
+      },
+      {
+        "LOCALIDAD": "PUNTA DELGADA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PDU"
+      },
+      {
+        "LOCALIDAD": "RIO GRANDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RGG"
+      },
+      {
+        "LOCALIDAD": "RIO TURBIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RTT"
+      },
+      {
+        "LOCALIDAD": "RIO VERDE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RVE"
+      },
+      {
+        "LOCALIDAD": "RUBENS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "RBS"
+      },
+      {
+        "LOCALIDAD": "SAN GREGORIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SGG"
+      },
+      {
+        "LOCALIDAD": "SECCION RUSSFIN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SRU"
+      },
+      {
+        "LOCALIDAD": "TERMINAL CABO NEGRO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TCN"
+      },
+      {
+        "LOCALIDAD": "TERMINAL SAN GREGORIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PZA"
+      },
+      {
+        "LOCALIDAD": "TIMAUKEL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PTI"
+      },
+      {
+        "LOCALIDAD": "TORRES DEL PAINE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TRP"
+      },
+      {
+        "LOCALIDAD": "VILLA TEHUELCHES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VTT"
+      },
+      {
+        "LOCALIDAD": "YENDEGAIA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "YEN"
+      }
+     ]
+  },
+  {
+    "id": "14",
+    "BASE": "VALDIVIA",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "LOS MOLINOS",
+        "ZONA": "BASE",
+        "CODIGO": "LML"
+      },
+      {
+        "LOCALIDAD": "NIEBLA",
+        "ZONA": "BASE",
+        "CODIGO": "NBL"
+      },
+      {
+        "LOCALIDAD": "VALDIVIA",
+        "ZONA": "BASE",
+        "CODIGO": "ZAL"
+      },
+      {
+        "LOCALIDAD": "ANTILHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ANH"
+      },
+      {
+        "LOCALIDAD": "CHANCOYAN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZAX"
+      },
+      {
+        "LOCALIDAD": "CIRUELOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZCI"
+      },
+      {
+        "LOCALIDAD": "CURINANCO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CNA"
+      },
+      {
+        "LOCALIDAD": "HUEYELHUE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZYH"
+      },
+      {
+        "LOCALIDAD": "LA PENA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZLP"
+      },
+      {
+        "LOCALIDAD": "LAS VENTANAS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LVS"
+      },
+      {
+        "LOCALIDAD": "LOS LAGOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LAG"
+      },
+      {
+        "LOCALIDAD": "LOS PELLINES",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "LPS"
+      },
+      {
+        "LOCALIDAD": "LOS ULMOS",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZLX"
+      },
+      {
+        "LOCALIDAD": "MAFIL",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MFL"
+      },
+      {
+        "LOCALIDAD": "PAILLACO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "PAI"
+      },
+      {
+        "LOCALIDAD": "PICHIRROPULLI",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZPI"
+      },
+      {
+        "LOCALIDAD": "PICHOY",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "CHY"
+      },
+      {
+        "LOCALIDAD": "PUERTO PAICO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZAE"
+      },
+      {
+        "LOCALIDAD": "REUMEN",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "RMN"
+      },
+      {
+        "LOCALIDAD": "RUNCA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZRU"
+      },
+      {
+        "LOCALIDAD": "S.J. DE LA MARIQUINA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "MQA"
+      },
+      {
+        "LOCALIDAD": "SANTA ELISA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZSS"
+      },
+      {
+        "LOCALIDAD": "TRALCAO",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ZAP"
+      },
+      {
+        "LOCALIDAD": "COIQUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "COI"
+      },
+      {
+        "LOCALIDAD": "COLEGUAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "COA"
+      },
+      {
+        "LOCALIDAD": "CORRAL",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZCR"
+      },
+      {
+        "LOCALIDAD": "CRUCES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CRS"
+      },
+      {
+        "LOCALIDAD": "DOLLINCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZDO"
+      },
+      {
+        "LOCALIDAD": "FOLILCO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZFO"
+      },
+      {
+        "LOCALIDAD": "FUERTE SAN LUIS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZFF"
+      },
+      {
+        "LOCALIDAD": "FUNDO ALTUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "FAE"
+      },
+      {
+        "LOCALIDAD": "FUTRONO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "FTR"
+      },
+      {
+        "LOCALIDAD": "HUICHACO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "HIC"
+      },
+      {
+        "LOCALIDAD": "HUITE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZHI"
+      },
+      {
+        "LOCALIDAD": "LA CAPILLA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZLW"
+      },
+      {
+        "LOCALIDAD": "LA LEONERA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LRA"
+      },
+      {
+        "LOCALIDAD": "LLIFEN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "LLI"
+      },
+      {
+        "LOCALIDAD": "LOS CONALES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZAQ"
+      },
+      {
+        "LOCALIDAD": "MALALHUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MAL"
+      },
+      {
+        "LOCALIDAD": "MANAO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MMO"
+      },
+      {
+        "LOCALIDAD": "MEHUIN",
+        "ZONA": "EXTREMA",
+        "CODIGO": "MEH"
+      },
+      {
+        "LOCALIDAD": "MONTUELA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZMB"
+      },
+      {
+        "LOCALIDAD": "PUCARA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZPX"
+      },
+      {
+        "LOCALIDAD": "PUCONO",
+        "ZONA": "EXTREMA",
+        "CODIGO": "PUC"
+      },
+      {
+        "LOCALIDAD": "PUNUCAPA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "NUC"
+      },
+      {
+        "LOCALIDAD": "PURINGUE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZPG"
+      },
+      {
+        "LOCALIDAD": "PURULON",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZPO"
+      },
+      {
+        "LOCALIDAD": "QUEULE",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZQU"
+      },
+      {
+        "LOCALIDAD": "SALTO DEL AGUA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZSA"
+      },
+      {
+        "LOCALIDAD": "BANOS DE CHIHUIO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZBZ"
+      },
+      {
+        "LOCALIDAD": "CHABRANCO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZXB"
+      },
+      {
+        "LOCALIDAD": "EL MUNDIAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "EMN"
+      },
+      {
+        "LOCALIDAD": "HUEQUECURA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZHU"
+      },
+      {
+        "LOCALIDAD": "LIPINGUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "OSN"
+      },
+      {
+        "LOCALIDAD": "LOS LLOLLES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ZLO"
+      },
+      {
+        "LOCALIDAD": "MAIHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MLE"
+      },
+      {
+        "LOCALIDAD": "PUNTA CHAIHUIN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PTC"
+      },
+      {
+        "LOCALIDAD": "RINIHUE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "XGR"
+      },
+      {
+        "LOCALIDAD": "TRAITRACO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TRR"
+      }
+     ]
+  },
+  {
+    "id": "15",
+    "BASE": "ARICA",
+    "LOCALIDADES": [
+      {
+        "LOCALIDAD": "ARICA",
+        "ZONA": "BASE",
+        "CODIGO": "ARI"
+      },
+      {
+        "LOCALIDAD": "RANCHO ARICA",
+        "ZONA": "BASE",
+        "CODIGO": "RAR"
+      },
+      {
+        "LOCALIDAD": "ALTO RAMIREZ",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "ARZ"
+      },
+      {
+        "LOCALIDAD": "AUSIPAR",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "APR"
+      },
+      {
+        "LOCALIDAD": "AZAPA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AZA"
+      },
+      {
+        "LOCALIDAD": "POCONCHILE",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "POC"
+      },
+      {
+        "LOCALIDAD": "SOBRAYA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AYA"
+      },
+      {
+        "LOCALIDAD": "VILLA FRONTERA",
+        "ZONA": "INFLUENCIA",
+        "CODIGO": "AVF"
+      },
+      {
+        "LOCALIDAD": "CAMARONES",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CAM"
+      },
+      {
+        "LOCALIDAD": "CUYA",
+        "ZONA": "EXTREMA",
+        "CODIGO": "ZYA"
+      },
+      {
+        "LOCALIDAD": "CUZ CUZ",
+        "ZONA": "EXTREMA",
+        "CODIGO": "CZZ"
+      },
+      {
+        "LOCALIDAD": "MOLINOS",
+        "ZONA": "EXTREMA",
+        "CODIGO": "AMO"
+      },
+      {
+        "LOCALIDAD": "AGUAS CALIENTES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ATS"
+      },
+      {
+        "LOCALIDAD": "AZUFRERA TACORA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AZT"
+      },
+      {
+        "LOCALIDAD": "BELEN",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "BNN"
+      },
+      {
+        "LOCALIDAD": "CALETA CAMARONES",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CTM"
+      },
+      {
+        "LOCALIDAD": "CAQUENA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACQ"
+      },
+      {
+        "LOCALIDAD": "CHACUYO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACC"
+      },
+      {
+        "LOCALIDAD": "CHAPIQUIÑA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACP"
+      },
+      {
+        "LOCALIDAD": "CHICAYA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CYH"
+      },
+      {
+        "LOCALIDAD": "CHOQUELIMPIE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACL"
+      },
+      {
+        "LOCALIDAD": "CODPA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACZ"
+      },
+      {
+        "LOCALIDAD": "COPAQUILLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CQY"
+      },
+      {
+        "LOCALIDAD": "CORONEL ALCERRECA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACN"
+      },
+      {
+        "LOCALIDAD": "COSAPILLA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ACI"
+      },
+      {
+        "LOCALIDAD": "ESQUINA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AQE"
+      },
+      {
+        "LOCALIDAD": "GENERAL LAGOS",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "LGR"
+      },
+      {
+        "LOCALIDAD": "GUACOLLO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "GLL"
+      },
+      {
+        "LOCALIDAD": "GUALLATIRI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ALL"
+      },
+      {
+        "LOCALIDAD": "GUANACAHUA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "AGN"
+      },
+      {
+        "LOCALIDAD": "ITISA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ITT"
+      },
+      {
+        "LOCALIDAD": "JURASI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "JRI"
+      },
+      {
+        "LOCALIDAD": "LAGO CHUNGARA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "CGA"
+      },
+      {
+        "LOCALIDAD": "MAILLKU",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MKU"
+      },
+      {
+        "LOCALIDAD": "MINIMINE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MMN"
+      },
+      {
+        "LOCALIDAD": "MINITA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "MIY"
+      },
+      {
+        "LOCALIDAD": "NASAHUENTO",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "NSH"
+      },
+      {
+        "LOCALIDAD": "PACHAMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "APH"
+      },
+      {
+        "LOCALIDAD": "PARINACOTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "API"
+      },
+      {
+        "LOCALIDAD": "PUQUISA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PQS"
+      },
+      {
+        "LOCALIDAD": "PUTRE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "PTR"
+      },
+      {
+        "LOCALIDAD": "QUIPINTA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "QPT"
+      },
+      {
+        "LOCALIDAD": "SOCOROMA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ASO"
+      },
+      {
+        "LOCALIDAD": "SORA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "SOR"
+      },
+      {
+        "LOCALIDAD": "SUCA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "UCA"
+      },
+      {
+        "LOCALIDAD": "TARUGUIRE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TRG"
+      },
+      {
+        "LOCALIDAD": "TERMAS DE CHITUNE",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ATQ"
+      },
+      {
+        "LOCALIDAD": "TIGNAMAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ATG"
+      },
+      {
+        "LOCALIDAD": "TIMALCHACA",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "TCA"
+      },
+      {
+        "LOCALIDAD": "TIMAR",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "ATI"
+      },
+      {
+        "LOCALIDAD": "VILLA INDUSTRIAL",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VIU"
+      },
+      {
+        "LOCALIDAD": "VISVIRI",
+        "ZONA": "MUY EXTREMA",
+        "CODIGO": "VIV"
+      }
+     ]
+  }
+]
